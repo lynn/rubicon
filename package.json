@@ -1,0 +1,6 @@
+{
+  "name": "rubicon",
+  "private": true,
+  "type": "module",
+  "description": "JS/canvas port of Kevan Davis's Rubicon"
+}

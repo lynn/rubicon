@@ -1,0 +1,7 @@
+# compiled helpers
+tools/*.class
+
+# background job logs
+*.log
+
+node_modules/

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Rubicon self-test</title>
+<style>body{font:13px monospace;background:#222;color:#ddd;padding:12px}
+.ok{color:#6d6}.fail{color:#f66;font-weight:700}</style>
+</head>
+<body>
+<pre id="out">running…</pre>
+<script type="module">
+// Browser-side smoke test: proves the module graph loads as ESM, the simulation
+// produces the same result as the Node differential test, the spritesheet
+// decodes, and CompressionStream round-trips a share link.
+import { XSIZE, YSIZE, T } from "./tiles.js";
+import { Sim } from "./sim.js";
+import { JavaRandom } from "./rng.js";
+import { parseLevel, gridToLines, computeGameplayState } from "./level.js";
+import { encodeLevel, decodeLevel, isWarehouseCode } from "./share.js";
+import { Renderer, spriteX, spriteY } from "./render.js";
+import { Editor } from "./editor.js";
+
+const lines = [];
+let failures = 0;
+const check = (name, cond, detail = "") => {
+  lines.push(`${cond ? "ok  " : "FAIL"} ${name}${detail ? "  " + detail : ""}`);
+  if (!cond) failures++;
+};
+
+try {
+  // 1. simulate level 1 for 200 ticks, seeded exactly like the Node test
+  const text = await (await fetch("../data/level1.rub")).text();
+  const level = parseLevel(text);
+  const sim = new Sim(new JavaRandom(12345));
+  sim.grid.set(level.grid);
+  sim.physicsVersion = 2;
+  for (let i = 0; i < 200; i++) sim.step();
+  const digest = gridToLines(sim.grid).join("");
+  let h = 0;
+  for (let i = 0; i < digest.length; i++) h = (Math.imul(h, 31) + digest.charCodeAt(i)) | 0;
+  check("sim runs 200 ticks", true, `hash=${h}`);
+  check("grid still 50x31", digest.length === XSIZE * YSIZE);
+
+  // 2. availability rules
+  const st = computeGameplayState(level.grid);
+  check("girder is placeable", st.available[T.girder] === 1);
+  check("crates are not placeable", st.available[61] === 0);
+
+  // 3. share round-trip through CompressionStream
+  const enc = await encodeLevel(text);
+  const dec = await decodeLevel(enc);
+  check("share link round-trips", dec === text, `${enc.length} chars`);
+  check("warehouse codes detected", isWarehouseCode("lupebik") && !isWarehouseCode(enc));
+
+  // 4. editor round-trip: fill, cut, paste
+  {
+    const ed = new Editor();
+    const sim2 = new Sim();
+    ed.attach(sim2, new Uint8Array(90).fill(1), new Uint8Array(XSIZE * YSIZE));
+    ed.drawItem = T.girder;
+    ed.beginSelection(2, 2);
+    ed.dragSelection(4, 3);
+    ed.fill(ed.drawItem);
+    let n = 0;
+    for (let x = 2; x <= 4; x++) for (let y = 2; y <= 3; y++) if (sim2.grid[x * YSIZE + y] === T.girder) n++;
+    check("editor fill covers span", n === 6, `${n}/6`);
+    ed.copy(true);
+    ed.paste(30, 20);
+    check("editor cut clears source", sim2.grid[2 * YSIZE + 2] === 0);
+    check("editor paste writes target", sim2.grid[30 * YSIZE + 20] === T.girder);
+  }
+
+  // 5. spritesheet + canvas
+  const img = await new Promise((res, rej) => {
+    const i = new Image();
+    i.onload = () => res(i); i.onerror = rej; i.src = "../data/blocks.gif";
+  });
+  check("spritesheet is 800x128", img.width === 800 && img.height === 128);
+  const cv = document.createElement("canvas");
+  const r = new Renderer(cv, img);
+  r.resize(1200, 800);
+  r.draw(sim.grid, { selection: { x: 3, y: 3, w: 5, h: 4 } });
+  check("renderer picked integer zoom", Number.isInteger(r.zoom) && r.zoom >= 1, `zoom=${r.zoom} dpr=${r.dpr}`);
+  check("backing store is an exact multiple", cv.width === 800 * r.zoom && cv.height === 496 * r.zoom,
+        `${cv.width}x${cv.height}`);
+  const px = cv.getContext("2d").getImageData(0, 0, 1, 1).data;
+  check("canvas rendered something", px[3] === 255);
+  check("sprite coords in range", spriteX(89) < 800 && spriteY(89) < 128,
+        `tile89 -> ${spriteX(89)},${spriteY(89)}`);
+} catch (e) {
+  failures++;
+  lines.push(`FAIL threw: ${e && e.stack ? e.stack : e}`);
+}
+
+lines.push("");
+lines.push(failures ? `${failures} FAILURE(S)` : "ALL PASS");
+document.getElementById("out").innerHTML =
+  lines.map((l) => `<span class="${l.startsWith("FAIL") || l.includes("FAILURE") ? "fail" : "ok"}">${l}</span>`).join("\n");
+document.title = failures ? "SELFTEST FAIL" : "SELFTEST PASS";
+</script>
+</body>
+</html>

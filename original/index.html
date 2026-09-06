@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ 
+<html>
+<head>
+<title>Rubicon : A Machine-Building Puzzle Game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="rubicon.css">
+<link rel="icon" type="image/x-icon" href="http://kevan.org/rubicon/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="http://kevan.org/rubicon/favicon.ico" />
+</head>
+
+<body>
+
+<div id="content">
+
+<div class="scrn">
+
+<script type="text/javascript">
+function popup()
+{ window.open("game.html","Rubicon",'width=950,height=650,toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0'); }
+</script>
+
+<a href="javascript:popup();"><img src="rubicon.gif" style="border:2px 
+solid #000"
+width=265 height=294 alt="Rubicon screenshot"></a>	
+<p><a href="javascript:popup();" class="play">&nbsp;Play&nbsp;Rubicon&nbsp;</a></p>
+
+
+<div class="wh"><a href="warehouse.php"><img src="crate7.gif" style="float:left; border:2px #000 solid"
+width=30 height=30 alt="Crate" border=0></a>Designed a level? You can name it and archive it
+permanently.<br> <a href="warehouse.php">Enter the 
+Warehouse</a></div>
+
+<div class="wh"><a href="forums"><img src="dozer.gif" style="float:left; border:2px #000 solid"
+width=32 height=32 alt="Dozer" border=0></a>Want further levels, or to share your designs
+with other players?<br>
+<a href="http://www.stardrifter.org/rubisearch/">Explore the 
+Warehouse</a><br>
+or <a href="forums">Visit the Forum</a></div>
+
+<div class="ad">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5716051263111352";
+google_alternate_color = "444444";
+google_ad_width = 250;
+google_ad_height = 250;
+google_ad_format = "250x250_as";
+google_ad_type = "text_image";
+//2006-10-04: rubiconfront
+google_ad_channel ="5719755079";
+google_color_border = "555555";
+google_color_bg = "555555";
+google_color_link = "3399CC";
+google_color_text = "FFFFFF";
+google_color_url = "3399CC";
+//--></script>
+<script type="text/javascript"
+  src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+
+</div>
+
+<div class="main">
+<h1>Rubicon</h1>
+<h2>A Machine-Building Puzzle Game</h2>
+
+<p style="font-size:1.2em"><b>Rubicon</b> is a machine-building puzzle game, based on Chris Pressey's
+<a href="http://catseye.tc/projects/rube/">RUBE</a> programming
+language. Using a selection of bulldozers, pipes, conveyor belts and other
+mechanisms, you must build machines to transport numbered crates to 
+their
+destinations.</p>
+
+<p>Each playable game level has one or more <b>targets</b> - if a target
+has the same crate above and below it, it lights up green (if the crates
+are different, it lights up red). To complete a puzzle
+level, you must make all of its targets light up green.</p>
+
+<p>Rubicon comes with twelve pre-built puzzle levels. To play levels 
+that
+other Rubicon users have designed, or to design and share your own, <a href="forums">the Rubicon
+Forum</a>
+has threads for sharing and discussing both puzzle-style levels and abstract design challenges.</p>
+
+<h3>How to Play</h3>
+
+<p>When playing the basic levels, or a level designed by another user, you'll
+be presented with a partially built machine (including at least one <b>target</b>),
+and must build further components in order to move crates to their correct
+destinations. Use the left button to select and place components, 
+and the right button to erase them.</p>
+
+<p>Some levels have restrictions on the components you're allowed to use
+in solving them - disabled components are blanked out and cannot be
+selected (nor can they be deleted from the starting machine). If the
+starting setup of a puzzle level uses any components that are available
+to the player, those initial components will be undeletable, and marked as such
+with a blue tint.</p>
+
+<p>When you've built a machine, press <b>play</b> to start it running, and <b>stop</b>
+to stop it (and reset it to the state it was in immediately before pressing 'play').
+If you want to start a level from scratch, or blank the sandbox, press 
+<b>clear</b>.</p>
+
+<h3>Advanced Editing</h3>
+
+<p>By holding down shift, you can drag out a selection of an area of the
+screen. You can then press <b>F</b> to fill that area with the currently-selected
+tile, <b>Delete</b> to clear it, or <b>C</b> to make a copy of that area which can then be placed by clicking
+on the new location.</p>
+
+<h3>Loading and Saving</h3>
+
+<p>To load a level, press <b>load</b>, and type in the seven-letter filename you want
+to load.</p>
+
+<p>To save a level, make sure the machine has been stopped, and click <b>save</b>.
+The level will then be saved with a random seven-letter filename - note this down.</p>
+
+<p>Saved levels can be personalised using <a href="warehouse.php">the Warehouse interface</a> -
+enter the seven-letter filename, your title for the level and your name, and your level
+will be stored with those details in perpetuity, with your details being displayed to
+anyone who plays that level. Levels which aren't claimed in this
+manner <b>will be deleted</b> when the server gets too full.</p>
+
+<p>If you want to link friends directly to your level, you can use the URL
+<i>http://kevan.org/rubicon/game.php?level=filename</i>, where 'filename' is your
+level's seven-letter filename.</p>
+
+
+<h3>News</h3>
+
+<h4>Version Update - 28th April 2010</h4>
+
+<p><a href="http://kevan.org/rubicon/forums/index.php?action=profile;u=53">jnz</a> 
+has done some sterling work optimising and improving Rubicon to make it run more
+smoothly and effectively; the official version of the game has now been upgraded
+to use his code. There's a
+<a href="http://kevan.org/rubicon/forums/index.php/topic,335.0.html">full list
+of changes</a> in the forum.</p>
+
+<h4>Warehouse Search - 8th January 2007</h4>
+
+<p>Forum user <a 
+href="http://kevan.org/rubicon/forums/index.php?action=profile;u=53">jnz</a> 
+has created a useful and officially-endorsed
+<a href="http://www.stardrifter.org/rubisearch/">Warehouse 
+Search Tool</a>, which allows players to explore the archived levels for
+puzzles of a particular difficulty, or by a certain designer.</p>
+
+<h4>Physics Update - 6th November 2006</h4>
+
+<p>A few game components were found to be running a little too quickly -
+<i>Copiers</i>, <i>Packers</i> and <i>Unpackers</i> were all processing
+their inputs immediately, rather than waiting a click in the same way
+that other components do. Given that machine operation is a lot clearer
+to follow if everything waits a click before processing, and for the
+sake of consistency, the Copiers,
+Packers and Unpackers have now all been slowed down slightly.</p>
+
+<p>Any levels or puzzles that were designed under the old system will
+automatically shift Rubicon back into its old physics mode (and alert
+the user to this), signified by the Copiers, Packers and Unpackers being
+tinted green. Most old levels are likely to be just as solvable under
+the new physics model, but there's no way to determine this
+automatically.</p>
+
+<p>The user can toggle between old and new physics models by pressing
+"P".</p>
+
+<h3>Credits</h3>
+
+<p>Rubicon was implemented by <a href="http://kevan.org">Kevan Davis</a> using
+<a href="http://processing.org/">Processing</a>, in October 2006. It's 
+an expanded version of
+Chris Pressey's ASCII-based <a href="http://catseye.tc/projects/rube/">RUBE</a>,
+and appears online with his permission.
+</p>
+</div>
+
+</body>
+</html>

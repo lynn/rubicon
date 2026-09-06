@@ -1,0 +1,542 @@
+[
+ {
+  "id": 0,
+  "char": " ",
+  "name": "",
+  "desc": "Empty Space."
+ },
+ {
+  "id": 1,
+  "char": "=",
+  "name": "girder",
+  "desc": "Girder. Stationary object on which cargo may be piled."
+ },
+ {
+  "id": 2,
+  "char": "|",
+  "name": "vertgirder",
+  "desc": "Vertical Girder. Stationary object on which cargo may be piled."
+ },
+ {
+  "id": 3,
+  "char": ">",
+  "name": "conveyorright",
+  "desc": "Right Conveyor. Moves cargo to the right."
+ },
+ {
+  "id": 4,
+  "char": "<",
+  "name": "conveyorleft",
+  "desc": "Left Conveyor. Moves cargo to the left."
+ },
+ {
+  "id": 5,
+  "char": "M",
+  "name": "pipeup",
+  "desc": "Upward Pipe. Sucks cargo from the bottom to the top."
+ },
+ {
+  "id": 6,
+  "char": "W",
+  "name": "pipedown",
+  "desc": "Downward Pipe. Sucks cargo from the top to the bottom."
+ },
+ {
+  "id": 7,
+  "char": "(",
+  "name": "dozerright",
+  "desc": "Right Dozer. Pushes cargo to the right, is also affected by gravity."
+ },
+ {
+  "id": 8,
+  "char": ")",
+  "name": "dozerleft",
+  "desc": "Left Dozer. Pushes cargo to the left, is also affected by gravity."
+ },
+ {
+  "id": 9,
+  "char": "/",
+  "name": "rampright",
+  "desc": "Left Ramp. Dozers climb up and down ramps, cargo slides down them."
+ },
+ {
+  "id": 10,
+  "char": "\\",
+  "name": "rampleft",
+  "desc": "Right Ramp. Dozers climb up and down ramps, cargo slides down them."
+ },
+ {
+  "id": 11,
+  "char": ",",
+  "name": "flipsign",
+  "desc": "Turn Signal. Place a turn signal above a dozer's path to make it reverse."
+ },
+ {
+  "id": 12,
+  "char": ".",
+  "name": "copierup",
+  "desc": "Upward Copier. An item of cargo placed below it is copied above."
+ },
+ {
+  "id": 13,
+  "char": ":",
+  "name": "copier",
+  "desc": "Downward Copier. An item of cargo placed on top of it is copied below."
+ },
+ {
+  "id": 14,
+  "char": "A",
+  "name": "winchup",
+  "desc": "Upward Winch. Lifts an item of cargo from directly below it to directly above, and thenbecomes a Downward Winch."
+ },
+ {
+  "id": 15,
+  "char": "V",
+  "name": "winchdown",
+  "desc": "Downward Winch. Lowers an item of cargo from directly above it to directly below, and thenbecomes an Upward Winch."
+ },
+ {
+  "id": 16,
+  "char": "K",
+  "name": "gate",
+  "desc": "Gate. Compares the number value of the cargo on top to that of the cargo below. If the top cargo is larger,it rolls off to the right. If it's smaller or equal, it rolls off to the left."
+ },
+ {
+  "id": 17,
+  "char": "+",
+  "name": "packer",
+  "desc": "Packer. The value of the cargo on the green input wires are added together (in hex, modulo 16)to create a new cargo on the red output wire. (The input cargoes are destroyed.)"
+ },
+ {
+  "id": 18,
+  "char": "-",
+  "name": "unpacker",
+  "desc": "Unpacker. The value of the right green-input cargo is subtracted from the value of the left (in hex,modulo 16) to create a new cargo on the red output wire. (The input cargoes are destroyed.)"
+ },
+ {
+  "id": 19,
+  "char": "~",
+  "name": "antisign",
+  "desc": "Anti Sign. Any blocks touching this block (including diagonally adjacent) may not be used by theplayer when solving the level."
+ },
+ {
+  "id": 20,
+  "char": "E",
+  "name": "",
+  "desc": "Plating. Decorative obstacle."
+ },
+ {
+  "id": 21,
+  "char": "Q",
+  "name": "",
+  "desc": "Wire Fence. Decorative obstacle"
+ },
+ {
+  "id": 22,
+  "char": "Z",
+  "name": "",
+  "desc": "Hazard Stencil. Decorative obstacle."
+ },
+ {
+  "id": 23,
+  "char": "D",
+  "name": "",
+  "desc": "Checkerboard. Decorative obstacle."
+ },
+ {
+  "id": 24,
+  "char": "H",
+  "name": "",
+  "desc": "Brick Wall Top. Decorative obstacle."
+ },
+ {
+  "id": 25,
+  "char": "S",
+  "name": "",
+  "desc": "Cobweb. Decorative obstacle."
+ },
+ {
+  "id": 26,
+  "char": "O",
+  "name": "",
+  "desc": "Glass Panel. Decorative obstacle."
+ },
+ {
+  "id": 27,
+  "char": "Y",
+  "name": "",
+  "desc": "Pillar. Decorative obstacle."
+ },
+ {
+  "id": 28,
+  "char": "X",
+  "name": "",
+  "desc": ""
+ },
+ {
+  "id": 29,
+  "char": "X",
+  "name": "",
+  "desc": ""
+ },
+ {
+  "id": 30,
+  "char": "g",
+  "name": "barrel",
+  "desc": "'0' Barrel. Cargo carrying value 0."
+ },
+ {
+  "id": 31,
+  "char": "h",
+  "name": "",
+  "desc": "'1' Barrel. Cargo carrying value 1."
+ },
+ {
+  "id": 32,
+  "char": "i",
+  "name": "",
+  "desc": "'2' Barrel. Cargo carrying value 2."
+ },
+ {
+  "id": 33,
+  "char": "j",
+  "name": "",
+  "desc": "'3' Barrel. Cargo carrying value 3."
+ },
+ {
+  "id": 34,
+  "char": "k",
+  "name": "",
+  "desc": "'4' Barrel. Cargo carrying value 4."
+ },
+ {
+  "id": 35,
+  "char": "l",
+  "name": "",
+  "desc": "'5' Barrel. Cargo carrying value 5."
+ },
+ {
+  "id": 36,
+  "char": "m",
+  "name": "",
+  "desc": "'6' Barrel. Cargo carrying value 6."
+ },
+ {
+  "id": 37,
+  "char": "n",
+  "name": "",
+  "desc": "'7' Barrel. Cargo carrying value 7."
+ },
+ {
+  "id": 38,
+  "char": "o",
+  "name": "",
+  "desc": "'8' Barrel. Cargo carrying value 8."
+ },
+ {
+  "id": 39,
+  "char": "p",
+  "name": "",
+  "desc": "'9' Barrel. Cargo carrying value 9."
+ },
+ {
+  "id": 40,
+  "char": "q",
+  "name": "",
+  "desc": "'A' Barrel. (A is equal to '10' in hexadecimal.)"
+ },
+ {
+  "id": 41,
+  "char": "r",
+  "name": "",
+  "desc": "'B' Barrel. (B is equal to '11' in hexadecimal.)"
+ },
+ {
+  "id": 42,
+  "char": "s",
+  "name": "",
+  "desc": "'C' Barrel. (C is equal to '12' in hexadecimal.)"
+ },
+ {
+  "id": 43,
+  "char": "t",
+  "name": "",
+  "desc": "'D' Barrel. (D is equal to '13' in hexadecimal.)"
+ },
+ {
+  "id": 44,
+  "char": "u",
+  "name": "",
+  "desc": "'E' Barrel. (E is equal to '14' in hexadecimal.)"
+ },
+ {
+  "id": 45,
+  "char": "v",
+  "name": "",
+  "desc": "'F' Barrel. (F is equal to '15' in hexadecimal.)"
+ },
+ {
+  "id": 46,
+  "char": "!",
+  "name": "randombarrel",
+  "desc": "Random Barrel. Is assigned a random value when the program starts. (If placed on acopier, the Barrel remains random and the copier generates random Barrels.)"
+ },
+ {
+  "id": 47,
+  "char": "x",
+  "name": "doorkey",
+  "desc": "Door Key. If one side of the Key is covered and the other is empty (vertically or horizontally), a Dooror Trapdoor appears on the empty side, until the other side becomes empty again."
+ },
+ {
+  "id": 48,
+  "char": "F",
+  "name": "furnace",
+  "desc": "Furnace. Destroys all cargo that touches it."
+ },
+ {
+  "id": 49,
+  "char": "y",
+  "name": "trapdoor",
+  "desc": "Trapdoor. Generated and destroyed by Door Keys, can be used independently as barriers."
+ },
+ {
+  "id": 50,
+  "char": "z",
+  "name": "door",
+  "desc": "Door. Generated and destroyed by Door Keys, can be used independently as barriers."
+ },
+ {
+  "id": 51,
+  "char": "N",
+  "name": "",
+  "desc": "Noduled Surface. Decorative obstacle."
+ },
+ {
+  "id": 52,
+  "char": "%",
+  "name": "",
+  "desc": "Grille. Decorative obstacle"
+ },
+ {
+  "id": 53,
+  "char": "R",
+  "name": "",
+  "desc": "Indentation. Decorative obstacle"
+ },
+ {
+  "id": 54,
+  "char": "B",
+  "name": "",
+  "desc": "Brick Wall. Decorative obstacle."
+ },
+ {
+  "id": 55,
+  "char": "w",
+  "name": "",
+  "desc": "Crenellation. Decorative obstacle."
+ },
+ {
+  "id": 56,
+  "char": "^",
+  "name": "",
+  "desc": "Glass Dome. Decorative obstacle."
+ },
+ {
+  "id": 57,
+  "char": "P",
+  "name": "",
+  "desc": "Duct. Decorative obstacle."
+ },
+ {
+  "id": 58,
+  "char": "X",
+  "name": "",
+  "desc": ""
+ },
+ {
+  "id": 59,
+  "char": "X",
+  "name": "",
+  "desc": ""
+ },
+ {
+  "id": 60,
+  "char": "0",
+  "name": "crate",
+  "desc": "'0' Crate. Cargo carrying value 0."
+ },
+ {
+  "id": 61,
+  "char": "1",
+  "name": "",
+  "desc": "'1' Crate. Cargo carrying value 1."
+ },
+ {
+  "id": 62,
+  "char": "2",
+  "name": "",
+  "desc": "'2' Crate. Cargo carrying value 2."
+ },
+ {
+  "id": 63,
+  "char": "3",
+  "name": "",
+  "desc": "'3' Crate. Cargo carrying value 3."
+ },
+ {
+  "id": 64,
+  "char": "4",
+  "name": "",
+  "desc": "'4' Crate. Cargo carrying value 4."
+ },
+ {
+  "id": 65,
+  "char": "5",
+  "name": "",
+  "desc": "'5' Crate. Cargo carrying value 5."
+ },
+ {
+  "id": 66,
+  "char": "6",
+  "name": "",
+  "desc": "'6' Crate. Cargo carrying value 6."
+ },
+ {
+  "id": 67,
+  "char": "7",
+  "name": "",
+  "desc": "'7' Crate. Cargo carrying value 7."
+ },
+ {
+  "id": 68,
+  "char": "8",
+  "name": "",
+  "desc": "'8' Crate. Cargo carrying value 8."
+ },
+ {
+  "id": 69,
+  "char": "9",
+  "name": "",
+  "desc": "'9' Crate. Cargo carrying value 9."
+ },
+ {
+  "id": 70,
+  "char": "a",
+  "name": "",
+  "desc": "'A' Crate. (A is equal to '10' in hexadecimal.)"
+ },
+ {
+  "id": 71,
+  "char": "b",
+  "name": "",
+  "desc": "'B' Crate. (B is equal to '11' in hexadecimal.)"
+ },
+ {
+  "id": 72,
+  "char": "c",
+  "name": "",
+  "desc": "'C' Crate. (C is equal to '12' in hexadecimal.)"
+ },
+ {
+  "id": 73,
+  "char": "d",
+  "name": "",
+  "desc": "'D' Crate. (D is equal to '13' in hexadecimal.)"
+ },
+ {
+  "id": 74,
+  "char": "e",
+  "name": "",
+  "desc": "'E' Crate. (E is equal to '14' in hexadecimal.)"
+ },
+ {
+  "id": 75,
+  "char": "f",
+  "name": "",
+  "desc": "'F' Crate. (F is equal to '15' in hexadecimal.)"
+ },
+ {
+  "id": 76,
+  "char": "?",
+  "name": "randomcrate",
+  "desc": "Random Crate. Is assigned a random value when the program starts. (If placed on acopier, the crate remains random and the copier generates random crates.)"
+ },
+ {
+  "id": 77,
+  "char": "T",
+  "name": "matchoff",
+  "desc": "Target Matcher. Turns green if the crates above and below it match, red if not."
+ },
+ {
+  "id": 78,
+  "char": "T",
+  "name": "matchgreen",
+  "desc": "Target Matcher. Turns green if the crates above and below it match, red if not."
+ },
+ {
+  "id": 79,
+  "char": "T",
+  "name": "matchred",
+  "desc": "Target Matcher. Turns green if the crates above and below it match, red if not."
+ },
+ {
+  "id": 80,
+  "char": "#",
+  "name": "",
+  "desc": "Bulkhead. Decorative obstacle."
+ },
+ {
+  "id": 81,
+  "char": "C",
+  "name": "",
+  "desc": "Chain. Decorative obstacle."
+ },
+ {
+  "id": 82,
+  "char": "L",
+  "name": "",
+  "desc": "I-Beam. Decorative obstacle"
+ },
+ {
+  "id": 83,
+  "char": "G",
+  "name": "",
+  "desc": "Ventilation Panel. Decorative obstacle."
+ },
+ {
+  "id": 84,
+  "char": "_",
+  "name": "",
+  "desc": "Fluorostrip. Decorative obstacle."
+ },
+ {
+  "id": 85,
+  "char": "I",
+  "name": "",
+  "desc": "Left Ceiling Ramp. Decorative obstacle."
+ },
+ {
+  "id": 86,
+  "char": "J",
+  "name": "",
+  "desc": "Right Ceiling Ramp. Decorative obstacle."
+ },
+ {
+  "id": 87,
+  "char": "U",
+  "name": "",
+  "desc": "Storage Tank. Decorative obstacle."
+ },
+ {
+  "id": 88,
+  "char": "$",
+  "name": "fixedblank",
+  "desc": "Locked Space. Becomes normal empty space when the level starts - can be used to mark off areas where youdon't want the player to build."
+ },
+ {
+  "id": 89,
+  "char": "X",
+  "name": "",
+  "desc": ""
+ }
+]
