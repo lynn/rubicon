@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rubicon — Warehouse</title>
+<style>
+  :root { color-scheme: dark; --bg:#333; --panel:#2a2a2a; --edge:#555; --ink:#eee; --accent:#3399cc; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 13px/1.45 verdana, geneva, arial, helvetica, sans-serif; padding: 12px;
+  }
+  header { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; margin-bottom: 4px; }
+  h1 { font-size: 15px; margin: 0 8px 0 0; letter-spacing: .12em; text-transform: uppercase; color: #999; font-weight: 600; }
+  h1 b { color: var(--accent); }
+  a { color: var(--accent); }
+
+  input, select, button {
+    font: inherit; color: var(--ink); background: var(--panel);
+    border: 1px solid var(--edge); border-radius: 3px; padding: 4px 8px;
+  }
+  button { cursor: pointer; }
+  input:focus, select:focus, button:hover { border-color: var(--accent); outline: none; }
+  #q { min-width: 220px; }
+
+  #count { text-align: center; color: #999; margin: 8px 0 14px; }
+
+  #grid {
+    display: grid; gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    max-width: 1500px; margin: 0 auto;
+  }
+  .card {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--panel); border: 1px solid var(--edge); border-radius: 4px;
+    overflow: hidden; transition: border-color .12s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .thumb {
+    display: block; width: 100%; height: auto; aspect-ratio: 200/124;
+    background: #000; opacity: 0; transition: opacity .2s;
+  }
+  .thumb.loaded { opacity: 1; }
+  .meta { padding: 7px 9px 9px; }
+  .title { font-weight: 700; font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sub { color: #aaa; font-size: 11.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .stats { color: #777; font-size: 10.5px; margin-top: 3px; }
+
+  #more { display: block; margin: 18px auto; padding: 7px 20px; }
+  footer { text-align: center; color: #777; font-size: 11.5px; margin-top: 22px; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Rub<b>i</b>con Warehouse</h1>
+    <input id="q" type="search" placeholder="title, designer or code" list="designers" autocomplete="off">
+    <datalist id="designers"></datalist>
+    <select id="type">
+      <option value="any">All types</option>
+      <option value="puzzle">Puzzles (any)</option>
+      <option value="Puzzle (1)">Newbie</option>
+      <option value="Puzzle (2)">Easy</option>
+      <option value="Puzzle (3)">Medium</option>
+      <option value="Puzzle (4)">Hard</option>
+      <option value="Puzzle (5)">Expert</option>
+      <option value="Solution">Solutions</option>
+      <option value="Other">Other</option>
+      <option value="unclaimed">Unclaimed</option>
+    </select>
+    <select id="physics">
+      <option value="any">Both physics</option>
+      <option value="2">Physics v2</option>
+      <option value="1">Physics v1</option>
+    </select>
+    <select id="sort">
+      <option value="code">Sort by code</option>
+      <option value="title">Sort by title</option>
+      <option value="designer">Sort by designer</option>
+      <option value="difficulty">Sort by difficulty</option>
+      <option value="size">Sort by size</option>
+    </select>
+    <button id="random">Random</button>
+    <a href="index.html">← Play</a>
+  </header>
+
+  <div id="count">Loading…</div>
+  <div id="grid"></div>
+  <button id="more" hidden>Show more</button>
+
+  <footer>
+    Levels designed by the Rubicon community, 2006–2010, mirrored from
+    <a href="https://kevan.org/rubicon/">kevan.org</a>.
+  </footer>
+
+  <script type="module" src="web/browse.js"></script>
+</body>
+</html>

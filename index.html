@@ -60,6 +60,8 @@
   #keys { color: #777; font-size: 11px; text-align: center; max-width: 940px; line-height: 1.7; }
   #keys b { color: #aaa; font-weight: 600; }
   a { color: var(--accent); }
+  a.wh { text-decoration: none; border: 1px solid var(--edge); border-radius: 3px; padding: 4px 10px; }
+  a.wh:hover { border-color: var(--accent); }
 </style>
 </head>
 <body>
@@ -72,6 +74,7 @@
     <button id="step">Step</button>
     <button id="clear">Reset level</button>
     <button id="share">Copy share link</button>
+    <a class="wh" href="browse.html">Warehouse →</a>
   </div>
 
   <div id="stage"><canvas id="view"></canvas></div>
