@@ -125,6 +125,14 @@ node tools/editor_test.mjs                            # editor unit tests
 node tools/ui_probe.mjs                               # UI, in headless Chromium over CDP
 ```
 
+Last full run (2026-09-06): **all 13 files in `data/` and all 6158 warehouse levels
+identical for 200 ticks**, across both physics models, 0 failures, 0 skipped. The archive
+sweep takes ~6 minutes at `-P 8`:
+
+```sh
+ls warehouse/*.rub | xargs -P 8 -n 40 node tools/difftest.mjs --ticks 200
+```
+
 Random cargo is covered because `web/rng.js` reimplements `java.util.Random` exactly and both
 sides are seeded identically. Processing computes `(int)(60.0f + random(16.0f))` in
 **float32**, and 60 plus a 20-bit fraction needs 26 mantissa bits — the addition genuinely
