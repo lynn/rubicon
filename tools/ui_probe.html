@@ -1,0 +1,147 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Rubicon UI probe</title>
+<!--
+  Drives the real main.js in a real browser with synthetic events, and checks
+  what came out on the canvas. Complements web/selftest.html, which covers the
+  pure modules; this one covers the wiring - the toolbox hit boxes, the pipette,
+  space to run, the sandbox toggle.
+
+    node tools/ui_probe.mjs        # serves the repo, drives chromium, reports
+
+  The runner needs a real (non-virtual) clock: the draw loop is a rAF, and
+  under --virtual-time-budget it is starved by the probe's own polling.
+-->
+<style>body { background: #222; color: #eee; font: 13px monospace; white-space: pre; }</style>
+<div id="stage"><canvas id="view"></canvas></div>
+<select id="levelPick"></select>
+<div id="status"></div>
+<div id="out">running…</div>
+
+<script type="module">
+import "../web/main.js";
+import { BOX, slotX, slotY, PANEL_Y } from "../web/layout.js";
+import { T } from "../web/tiles.js";
+
+const canvas = document.getElementById("view");
+const status = () => document.getElementById("status").textContent;
+const lines = [];
+let failures = 0;
+const check = (name, cond, detail = "") => {
+  if (!cond) failures++;
+  lines.push(`${cond ? "ok  " : "FAIL"} ${name}${detail && !cond ? "  " + detail : ""}`);
+};
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// Checks read the canvas back, and the draw loop is a requestAnimationFrame the
+// browser paces however it likes, so every positive check polls for its state
+// instead of assuming the next frame has already landed.
+async function waitFor(pred, ms = 4000) {
+  const deadline = performance.now() + ms;
+  for (;;) {
+    let ok = false;
+    try { ok = pred(); } catch { ok = false; }
+    if (ok) return true;
+    if (performance.now() > deadline) return false;
+    await sleep(30);
+  }
+}
+
+// Screen pixels -> client coordinates, whatever zoom the canvas settled on.
+function clientAt(sx, sy) {
+  const r = canvas.getBoundingClientRect();
+  return {
+    clientX: r.left + (sx + 0.5) * (r.width / 800),
+    clientY: r.top + (sy + 0.5) * (r.height / 600),
+  };
+}
+function click(sx, sy, init = {}) {
+  const p = clientAt(sx, sy);
+  canvas.dispatchEvent(new PointerEvent("pointerdown", { ...p, button: 0, buttons: 1, bubbles: true, ...init }));
+  canvas.dispatchEvent(new PointerEvent("pointerup", { ...p, button: 0, buttons: 0, bubbles: true }));
+}
+const key = (k, init = {}) => {
+  dispatchEvent(new KeyboardEvent("keydown", { key: k, bubbles: true, ...init }));
+  dispatchEvent(new KeyboardEvent("keyup", { key: k, bubbles: true }));
+};
+
+/** Read one screen pixel back off the canvas. */
+function pixel(sx, sy) {
+  const z = canvas.width / 800;
+  const d = canvas.getContext("2d").getImageData(Math.floor(sx * z), Math.floor(sy * z), 1, 1).data;
+  return [d[0], d[1], d[2]];
+}
+const isWhite = ([r, g, b]) => r > 200 && g > 200 && b > 200;
+
+try {
+  // Boot, then load level 1 through the picker.
+  const picker = document.getElementById("levelPick");
+  check("boot filled the level picker", await waitFor(() => picker.options.length === 13),
+        `${picker.options.length}`);
+  picker.value = "0";
+  picker.dispatchEvent(new Event("change"));
+  check("level 1 loaded", await waitFor(() => status().startsWith("Level 1")), status());
+
+  // The toolbox: the Stop button is outlined while stopped.
+  check("design mode outlines Stop", await waitFor(() => isWhite(pixel(BOX.stop.x, BOX.stop.y))));
+  check("design mode does not outline Play", !isWhite(pixel(BOX.play.x, BOX.play.y)));
+
+  // Palette: clicking a slot moves the white selection box onto it.
+  const selected = (id) => isWhite(pixel(slotX(id) - 1, slotY(id) - 1));
+  click(slotX(T.conveyorright) + 8, slotY(T.conveyorright) + 8);
+  check("palette click selects a component", await waitFor(() => selected(T.conveyorright)));
+
+  // Paint one, switch to the girder, then pipette the conveyor back up.
+  click(10 * 16 + 8, 10 * 16 + 8);
+  click(slotX(T.girder) + 8, slotY(T.girder) + 8);
+  check("palette click changes the selection", await waitFor(() => selected(T.girder)));
+  click(10 * 16 + 8, 10 * 16 + 8, { ctrlKey: true });
+  check("ctrl-click picks up the component under the cursor",
+        await waitFor(() => status().startsWith("Right Conveyor")), status());
+  check("...and moves the palette selection with it", await waitFor(() => selected(T.conveyorright)));
+
+  // Space runs the machine; the outline moves from Stop to Play.
+  key(" ");
+  check("space starts the machine", await waitFor(() => isWhite(pixel(BOX.play.x, BOX.play.y))));
+  check("...and unlights Stop", !isWhite(pixel(BOX.stop.x, BOX.stop.y)));
+  key(" ");
+  check("space stops it again", await waitFor(() => isWhite(pixel(BOX.stop.x, BOX.stop.y))));
+
+  // Sandbox unlocks the palette; Game locks it again.
+  const crateLit = () => pixel(slotX(T.crate) + 8, slotY(T.crate) + 8).some((c) => c > 60);
+  click(BOX.sandbox.x + 4, BOX.sandbox.y + 4);
+  check("sandbox mode reports itself", await waitFor(() => status().startsWith("Sandbox")), status());
+  check("sandbox lights the Sandbox button",
+        await waitFor(() => isWhite(pixel(BOX.sandbox.x, BOX.sandbox.y))));
+  check("sandbox un-greys the crates", await waitFor(crateLit));
+  click(BOX.game.x + 4, BOX.game.y + 4);
+  check("game mode lights the Game button", await waitFor(() => isWhite(pixel(BOX.game.x, BOX.game.y))));
+  check("...and greys the crates again", await waitFor(() => !crateLit()));
+
+  // Clear asks first, and honours a no.
+  let asked = 0;
+  window.confirm = () => { asked++; return false; };
+  click(BOX.clear.x + 16, BOX.clear.y + 16);
+  check("Clear asks before wiping the level", await waitFor(() => asked === 1), `asked ${asked}`);
+
+  // Load takes a base-level password.
+  window.prompt = () => "origami";
+  click(BOX.load.x + 20, BOX.load.y + 7);
+  check("Load accepts a level password", await waitFor(() => status().startsWith("Level 2")), status());
+
+  // Quit goes back to the menu, which is black behind an intact toolbox.
+  click(BOX.quit.x + 18, BOX.quit.y + 8);
+  check("Quit returns to the menu", await waitFor(() => pixel(400, 60).every((c) => c === 0)),
+        String(pixel(400, 60)));
+  check("...and the toolbox is still painted", pixel(BOX.play.x + 17, PANEL_Y + 20).some((c) => c > 0));
+} catch (e) {
+  failures++;
+  lines.push(`FAIL threw: ${e && e.stack ? e.stack : e}`);
+}
+
+lines.push(failures ? `PROBE: ${failures} FAILURE(S)` : `PROBE: ALL ${lines.length} PASS`);
+document.getElementById("out").textContent = lines.join("\n");
+document.title = failures ? "PROBE FAIL" : "PROBE PASS";
+window.__probe = { failures, report: lines.join("\n") };
+</script>

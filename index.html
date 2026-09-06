@@ -7,7 +7,7 @@
 <style>
   :root {
     color-scheme: dark;
-    --bg: #333;
+    --bg: #222;
     --panel: #2a2a2a;
     --edge: #555;
     --ink: #eee;
@@ -23,69 +23,42 @@
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    gap: 8px;
-    padding: 10px;
+    gap: 6px;
+    padding: 8px;
   }
-  h1 { font-size: 15px; margin: 0; letter-spacing: .12em; text-transform: uppercase; color: #999; font-weight: 600; }
-  h1 b { color: var(--accent); }
 
-  #stage { line-height: 0; border: 1px solid #000; box-shadow: 0 2px 14px #0008; }
+  /* The toolbox, the palette and every button live inside the canvas, exactly
+     where the applet drew them. Everything out here is chrome around it. */
+  #stage { line-height: 0; box-shadow: 0 2px 14px #0008; }
   canvas { display: block; image-rendering: pixelated; cursor: crosshair; }
 
-  .bar { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; max-width: 1200px; }
-  button, select {
-    font: inherit; color: var(--ink); background: var(--panel);
-    border: 1px solid var(--edge); border-radius: 3px; padding: 4px 10px; cursor: pointer;
+  .bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: center; }
+  select, a.btn {
+    font: inherit; color: var(--ink); background: var(--panel); text-decoration: none;
+    border: 1px solid var(--edge); border-radius: 3px; padding: 3px 9px; cursor: pointer;
   }
-  button:hover:not(:disabled), select:hover { border-color: var(--accent); }
-  button:disabled { opacity: .4; cursor: default; }
-  button.on { background: var(--accent); border-color: var(--accent); color: #08202c; font-weight: 700; }
-
-  /* Palette: each swatch is the spritesheet, offset and scaled by an integer
-     factor so the 16px art stays crisp. */
-  #palette { display: flex; flex-wrap: wrap; gap: 2px; max-width: 1010px; justify-content: center; }
-  .swatch {
-    width: 32px; height: 32px; padding: 0; border: 1px solid #444; background-color: #111;
-    background-image: url(data/blocks.gif);
-    background-size: 1600px 256px;           /* 2x the 800x128 sheet */
-    image-rendering: pixelated;
-    border-radius: 0;
-  }
-  .swatch.sel { border-color: var(--accent); outline: 1px solid var(--accent); }
-  .swatch.eraser { background-image: none; color: #c66; font-size: 18px; line-height: 30px; }
+  select:hover, a.btn:hover { border-color: var(--accent); }
 
   #status { min-height: 1.4em; text-align: center; color: #bbb; }
-  #status.solved { color: #6d6; font-weight: 700; }
-  #hint { min-height: 1.4em; color: #888; font-size: 12px; text-align: center; max-width: 900px; }
   #keys { color: #777; font-size: 11px; text-align: center; max-width: 940px; line-height: 1.7; }
   #keys b { color: #aaa; font-weight: 600; }
   a { color: var(--accent); }
-  a.wh { text-decoration: none; border: 1px solid var(--edge); border-radius: 3px; padding: 4px 10px; }
-  a.wh:hover { border-color: var(--accent); }
 </style>
 </head>
 <body>
-  <h1>Rub<b>i</b>con</h1>
-
-  <div class="bar">
-    <select id="levelPick"></select>
-    <button id="play">Play</button>
-    <button id="stop" disabled>Stop</button>
-    <button id="step">Step</button>
-    <button id="clear">Reset level</button>
-    <button id="share">Copy share link</button>
-    <a class="wh" href="browse.html">Warehouse →</a>
-  </div>
-
   <div id="stage"><canvas id="view"></canvas></div>
 
-  <div id="palette"></div>
+  <div class="bar">
+    <select id="levelPick" title="Jump straight to a base level"></select>
+    <a class="btn" href="browse.html">Warehouse →</a>
+  </div>
+
   <div id="status"></div>
-  <div id="hint">Left click places, right click erases.</div>
   <div id="keys">
-    <b>Shift-drag</b> select area · <b>F</b> fill · <b>Del</b> clear · <b>C</b> copy · <b>X</b> cut · click to place ·
-    <b>Esc</b> / right click deselect · <b>0-9 A-F</b> cargo (again for barrel) · <b>arrows</b> walk palette ·
-    <b>S</b> step · <b>P</b> physics model
+    <b>Click</b> place · <b>right click</b> erase · <b>Ctrl-click</b> pick up the component under the cursor ·
+    <b>Space</b> run / stop · <b>S</b> single step · <b>P</b> physics model<br>
+    <b>Shift-drag</b> select · <b>F</b> fill · <b>Del</b> clear · <b>C</b> / <b>X</b> copy / cut, then click to place ·
+    <b>Esc</b> deselect · <b>0-9 A-F</b> cargo (again for a barrel) · <b>arrows</b> walk the palette
   </div>
 
   <script type="module" src="web/main.js"></script>

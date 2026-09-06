@@ -1,13 +1,28 @@
 // Rubicon - glue between the simulation, the editor, the renderer and the page.
+//
+// The screen is the original's: a menu, then a 50x31 playfield above a toolbox
+// drawn from blocks.gif, with the same buttons in the same places (layout.js).
+// Everything the applet did in a modal alert - loading a level by name, the
+// "are you sure" on Clear, the level password - happens in a prompt/confirm or
+// on the status line below the canvas instead.
 
 import { XSIZE, YSIZE, T } from "./tiles.js";
 import { Sim } from "./sim.js";
-import { Renderer, spriteX, spriteY } from "./render.js";
+import { Renderer } from "./render.js";
 import { parseLevel, gridToLines, computeGameplayState } from "./level.js";
 import { Editor } from "./editor.js";
-import { resolveLevelParam, buildShareURL, copyToClipboard } from "./share.js";
+import { resolveLevelParam, buildShareURL, copyToClipboard, isWarehouseCode } from "./share.js";
+import { BOX, MENU, GRID_H, PANEL_Y, contains, slotAt } from "./layout.js";
+import { VLWFont } from "./vlw.js";
 
-const TICK_MS = 1000 / 12;
+const VERSION = "1.27";
+const TICK_MS = 100;      // the applet's frameRate(10) while running
+const FAST_MS = 1000 / 60; // ...and frameRate(60) when shift-clicking Play
+
+// The original's base-level passwords, in order. Typing one into Load jumps
+// straight to that level, which is how the applet let you resume.
+const PASSWORDS = ["abalone", "origami", "unaware", "anenome", "edifice", "acolyte",
+                   "analogy", "ocarina", "acetate", "oregano", "ukelele", "awesome"];
 
 // Assets are resolved against this module's own URL, not the page's, so the
 // HTML can live at the repo root (for GitHub Pages) or anywhere else.
@@ -21,13 +36,24 @@ let sim = new Sim();
 let renderer = null;
 let editor = new Editor();
 let tileInfo = [];
-let running = false;
+
+let mode = "menu";        // "menu" | "design" | "running"
+let gameplay = true;      // false = sandbox: every component, nothing locked
+let playingLevels = false;
+let level = 0;            // 0-based index into PASSWORDS
+let frames = 0;
+let solvedFrames = -1;
+let singleStepping = false;
+let doSingleStep = false;
+let fastForward = false;
+
+let unstarted = null;     // grid as it was before Play, restored by Stop
+let sourceText = null;    // the level as loaded, for Clear/reload
+let sourcePhysics = null;
+let mouse = null;         // last screen-pixel position, for the paste ghost
+let keyHeld = false;      // the original suppresses painting while a key is down
+let waitForRelease = false; // ...and painting after a click in the toolbox
 let lastTick = 0;
-let designGrid = null;   // grid as it was before pressing Play
-let sourceText = null;   // the level as loaded, for Reset
-let sourcePhysics = null; // its physics override, so Reset doesn't lose it
-let mouseTile = null;    // last hovered tile, for the paste ghost
-let keyHeld = false;     // the original suppresses painting while a key is down
 
 // --- level loading ---------------------------------------------------------
 
@@ -45,37 +71,86 @@ async function fetchWarehouse(code) {
  *   while user levels default to 1. Callers say which they are.
  */
 function applyLevel(text, physicsOverride = null) {
-  const level = parseLevel(text);
-  if (physicsOverride !== null) level.physicsVersion = physicsOverride;
+  const parsed = parseLevel(text);
+  if (physicsOverride !== null) parsed.physicsVersion = physicsOverride;
 
   sim = new Sim();
-  sim.grid.set(level.grid);
-  sim.physicsVersion = level.physicsVersion;
+  sim.grid.set(parsed.grid);
+  sim.physicsVersion = parsed.physicsVersion;
   sourceText = text;
   sourcePhysics = physicsOverride;
 
-  const { available, locked } = computeGameplayState(sim.grid);
-  editor.attach(sim, available, locked);
+  mode = "design";
+  setGameplay(true);
+  unstarted = sim.grid.slice();
+  return parsed;
+}
 
-  designGrid = sim.grid.slice();
-  running = false;
-  syncButtons();
-  buildPalette();
-
-  const bits = [];
-  if (level.title) bits.push(`"${level.title}"`);
-  if (level.designer) bits.push(`by ${level.designer}`);
-  if (level.type) bits.push(level.type);
-  bits.push(`physics v${level.physicsVersion}`);
-  if (level.badChars) bits.push(`${level.badChars} unrecognised characters`);
-  setStatus(bits.join(" · "));
+/** The original's setGameplay(): recompute the palette and the locked cells. */
+function setGameplay(on) {
+  gameplay = on;
+  if (on) {
+    const { available, locked } = computeGameplayState(sim.grid);
+    editor.attach(sim, available, locked);
+  } else {
+    // Sandbox: everything except the two unused sheet slots, nothing locked.
+    const available = new Uint8Array(90).fill(1);
+    available[28] = 0;
+    available[58] = 0;
+    editor.attach(sim, available, new Uint8Array(XSIZE * YSIZE));
+  }
 }
 
 async function loadBase(n) {
-  applyLevel(await (await fetch(asset(`data/level${n}.rub`))).text(), 2);
+  const text = await (await fetch(asset(`data/level${n + 1}.rub`))).text();
+  applyLevel(text, 2);
+  level = n;
+  playingLevels = true;
+  setStatus(`Level ${n + 1} of ${PASSWORDS.length}. Password: ${PASSWORDS[n]}`);
 }
 
-// --- status ----------------------------------------------------------------
+async function loadSandbox() {
+  applyLevel(await (await fetch(asset("data/level0.rub"))).text(), 2);
+  playingLevels = false;
+  setGameplay(false);
+  setStatus("Sandbox: every component unlocked, nothing to solve.");
+}
+
+/** Load by seven-letter name: a base-level password, or a warehouse code. */
+async function loadByName(name) {
+  const code = name.trim().toLowerCase();
+  const pw = PASSWORDS.indexOf(code);
+  if (pw >= 0) return loadBase(pw);
+  if (!isWarehouseCode(code)) {
+    setStatus("Level not found. (Level names are exactly seven letters.)");
+    return;
+  }
+  try {
+    describe(applyLevel(await fetchWarehouse(code)), code);
+    playingLevels = false;
+  } catch (err) {
+    setStatus(err.message);
+  }
+}
+
+/** The applet's post-load alert, on the status line. */
+function describe(parsed, code = null) {
+  const bits = [];
+  if (parsed.title) bits.push(`"${parsed.title}"`);
+  else bits.push("Unarchived level");
+  if (parsed.designer) bits.push(`by ${parsed.designer}`);
+  if (parsed.type) bits.push(parsed.type);
+  if (code) bits.push(code);
+  bits.push(`physics v${parsed.physicsVersion}`);
+  if (parsed.badChars) bits.push(`${parsed.badChars} unrecognised characters`);
+  setStatus(bits.join(" · "));
+}
+
+// --- state -----------------------------------------------------------------
+
+function setStatus(text) {
+  el("status").textContent = text;
+}
 
 /** Solved when at least one target is green and none are red or unlit. */
 function solvedState() {
@@ -87,77 +162,58 @@ function solvedState() {
   return anyGreen && allMatched;
 }
 
-function setStatus(text, solved = false) {
-  const s = el("status");
-  s.textContent = text;
-  s.classList.toggle("solved", solved);
+function startRunning() {
+  mode = "running";
+  frames = -1;
+  solvedFrames = -1;
+  unstarted = sim.grid.slice();
+  editor.clearSelection();
+  lastTick = 0;
 }
 
-function syncButtons() {
-  el("play").disabled = running;
-  el("stop").disabled = !running;
-  el("step").disabled = running;
-  el("play").classList.toggle("on", running);
+function stopRunning() {
+  mode = "design";
+  singleStepping = false;
+  if (unstarted) sim.grid.set(unstarted);
 }
 
-// --- palette ---------------------------------------------------------------
-
-function buildPalette() {
-  const p = el("palette");
-  p.replaceChildren();
-
-  const eraser = document.createElement("button");
-  eraser.className = "swatch eraser" + (editor.drawItem === 0 ? " sel" : "");
-  eraser.textContent = "✕";
-  eraser.title = "Erase";
-  eraser.onclick = () => { editor.drawItem = 0; buildPalette(); };
-  p.appendChild(eraser);
-
-  for (let id = 1; id < 90; id++) {
-    if (!editor.available[id]) continue;
-    const b = document.createElement("button");
-    b.className = "swatch" + (id === editor.drawItem ? " sel" : "");
-    // 2x scale, hence doubled offsets against the 1600x256 background-size
-    b.style.backgroundPosition = `-${spriteX(id) * 2}px -${spriteY(id) * 2}px`;
-    b.title = tileInfo[id]?.desc || `Tile ${id}`;
-    b.onclick = () => { editor.drawItem = id; buildPalette(); };
-    p.appendChild(b);
+function tick() {
+  if (frames >= 0) sim.step();
+  frames++;
+  if (solvedState()) {
+    if (solvedFrames < 0) solvedFrames = frames;
+  } else {
+    solvedFrames = -1;
   }
-}
-
-// --- main loop -------------------------------------------------------------
-
-function frame(now) {
-  if (running && now - lastTick >= TICK_MS) {
-    lastTick = now;
-    sim.step();
-    const solved = solvedState();
-    setStatus(solved ? "Solved!" : "Running…", solved);
-  }
-  renderer.draw(sim.grid, {
-    locked: running ? null : editor.locked,
-    selection: running ? null : editor.selection,
-    clip: { editor, mouse: mouseTile },
-  });
-  requestAnimationFrame(frame);
-}
-
-function fit() {
-  renderer.resize(
-    Math.max(320, Math.min(window.innerWidth - 24, 1600)),
-    Math.max(200, window.innerHeight - 250),
-  );
 }
 
 // --- input -----------------------------------------------------------------
 
 function onPointerDown(e) {
-  if (running) return;
-  const t = renderer.tileFromEvent(e);
-  if (!t) return;
+  const p = renderer.pointFromEvent(e);
+  if (!p) return;
   const right = e.button === 2;
 
-  if (!right && editor.clip && editor.selection) {
+  if (mode === "menu") {
+    if (contains(MENU.play, p.x, p.y)) loadBase(level);
+    else if (contains(MENU.load, p.x, p.y)) doLoad();
+    else if (contains(MENU.sandbox, p.x, p.y)) { mode = "design"; playingLevels = false; setGameplay(false); }
+    waitForRelease = true;
+    return;
+  }
+
+  if (p.y > PANEL_Y) {
+    onPanelClick(p, e);
+    return;
+  }
+  if (p.y >= GRID_H || mode === "running") return;
+
+  const t = renderer.tileFromPoint(p);
+  if (e.ctrlKey && !right) {
+    // Pipette: adopt whatever is under the cursor (empty space picks the eraser).
+    if (editor.pick(t.x, t.y)) setStatus(describeTile(editor.drawItem));
+    else setStatus("That component is not available on this level.");
+  } else if (!right && editor.clip && editor.selection) {
     editor.paste(t.x, t.y);
   } else if (e.shiftKey && !right) {
     editor.beginSelection(t.x, t.y);
@@ -168,49 +224,106 @@ function onPointerDown(e) {
   if (right) editor.clearSelection();
 }
 
-function onPointerMove(e) {
-  const t = renderer.tileFromEvent(e);
-  mouseTile = t;
+function onPanelClick(p, e) {
+  editor.clearSelection();
+  waitForRelease = true;
 
-  if (t && !e.buttons) {
-    const id = sim.grid[t.x * YSIZE + t.y];
-    el("hint").textContent = id ? (tileInfo[id]?.desc || `Tile ${id}`) : `(${t.x}, ${t.y})`;
+  if (contains(BOX.quit, p.x, p.y)) {
+    if (mode === "running") stopRunning();
+    mode = "menu";
+    return;
   }
-  if (running || !t || !e.buttons) return;
+  if (mode === "design") {
+    if (contains(BOX.load, p.x, p.y)) return void doLoad();
+    if (contains(BOX.save, p.x, p.y)) return void doSave();
+    if (contains(BOX.clear, p.x, p.y)) {
+      const msg = gameplay
+        ? "Clearing the level will remove all the machinery you have built. Are you sure?"
+        : "Clearing the level will blank the entire screen. Are you sure?";
+      if (confirm(msg)) {
+        editor.clearAll();
+        setStatus("Cleared.");
+      }
+      return;
+    }
+  }
+  if (contains(BOX.stop, p.x, p.y) && mode === "running") stopRunning();
+  if (contains(BOX.play, p.x, p.y)) {
+    if (mode === "design") startRunning();
+    singleStepping = false;
+    fastForward = e.shiftKey;
+  }
+  if (contains(BOX.game, p.x, p.y) && !gameplay) {
+    setGameplay(true);
+    setStatus("Game mode: only this level's components, starting machine locked.");
+  }
+  if (contains(BOX.sandbox, p.x, p.y) && gameplay) {
+    playingLevels = false;
+    setGameplay(false);
+    setStatus("Sandbox: every component unlocked, nothing locked.");
+  }
+  if (contains(BOX.next, p.x, p.y) && playingLevels && mode === "running" && solvedFrames !== -1) {
+    if (level + 1 < PASSWORDS.length) loadBase(level + 1);
+    else setStatus("All twelve levels solved. The factory floor is yours.");
+  }
+  const slot = slotAt(p.x, p.y);
+  if (slot >= 0 && slot < 90 && editor.available[slot]) {
+    editor.drawItem = slot;
+    setStatus("");
+  }
+}
+
+function onPointerMove(e) {
+  mouse = renderer.pointFromEvent(e);
+  if (mode !== "design" || !mouse || !e.buttons || waitForRelease) return;
+  const t = renderer.tileFromPoint(mouse);
+  if (!t) return;
 
   if (e.shiftKey && editor.selection) {
     editor.dragSelection(t.x, t.y);
-  } else if (!keyHeld) {
+  } else if (!keyHeld && !e.ctrlKey) {
     editor.paint(t.x, t.y, (e.buttons & 2) !== 0);
   }
 }
 
+const describeTile = (id) => tileInfo[id]?.desc || `Tile ${id}`;
+
 function onKeyDown(e) {
-  if (e.target.matches("input, select, textarea")) return;
+  // e.target is the focused node, which is not always an element (and is the
+  // window itself for a synthesised event), so ask before matching.
+  if (e.target instanceof Element && e.target.matches("input, select, textarea")) return;
   keyHeld = true;
   const k = e.key;
 
+  if (k === " ") {
+    // Space starts and stops, the one binding the applet never had and wants.
+    if (mode === "running") stopRunning();
+    else if (mode === "design") { startRunning(); singleStepping = false; }
+    e.preventDefault();
+    return;
+  }
   if (k === "p" || k === "P") {
     sim.physicsVersion = sim.physicsVersion === 2 ? 1 : 2;
     setStatus(`Physics model v${sim.physicsVersion}.`);
     return;
   }
-  if (k === "s" || k === "S") { doStep(); return; }
-  if (k === "Escape") { editor.clearSelection(); setStatus("Selection cleared."); return; }
-  if (running) return;
+  if (k === "s" || k === "S") {
+    // As in the original: S from the editor starts the machine paused.
+    if (mode === "design") startRunning();
+    singleStepping = true;
+    doSingleStep = true;
+    return;
+  }
+  if (k === "Escape") { editor.clearSelection(); return; }
+  if (mode !== "design") return;
 
   if (editor.selection) {
     if (k === "Delete" || k === "Backspace") {
       editor.fill(0);
-      setStatus("Selection cleared.");
       e.preventDefault();
       return;
     }
-    if (k === "f" || k === "F") {
-      editor.fill(editor.drawItem);
-      setStatus("Selection filled.");
-      return;
-    }
+    if (k === "f" || k === "F") { editor.fill(editor.drawItem); return; }
     if (k === "c" || k === "C" || k === "x" || k === "X") {
       const cut = k === "x" || k === "X";
       editor.copy(cut);
@@ -218,28 +331,78 @@ function onKeyDown(e) {
       return;
     }
   } else if (editor.pickCargo(k)) {
-    buildPalette();
     return;
   }
 
   const arrows = { ArrowLeft: [-1, 0], ArrowRight: [1, 0], ArrowUp: [0, -1], ArrowDown: [0, 1] };
   if (arrows[k]) {
-    if (editor.moveDrawItem(...arrows[k])) buildPalette();
+    editor.moveDrawItem(...arrows[k]);
     e.preventDefault();
   }
 }
 
-function doStep() {
-  if (running) return;
-  sim.step();
-  const solved = solvedState();
-  setStatus(solved ? "Solved!" : "Stepped one tick.", solved);
+// --- toolbox actions --------------------------------------------------------
+
+async function doLoad() {
+  const name = prompt("Load an existing level:\n\nSeven letters - a warehouse code, or a base-level password.");
+  if (name) await loadByName(name);
+}
+
+async function doSave() {
+  // The applet posted to kevan.org; we put the whole level in the URL instead.
+  const text = `* Physics:${sim.physicsVersion}\n` + gridToLines(sim.grid).join("\n") + "\n";
+  const url = await buildShareURL(text);
+  const ok = await copyToClipboard(url);
+  setStatus(ok ? `Share link copied (${url.length} characters).`
+               : "Could not reach the clipboard — the link is in the address bar.");
+  if (!ok) history.replaceState(null, "", url);
+}
+
+// --- main loop -------------------------------------------------------------
+
+function frame(now) {
+  if (mode === "running") {
+    if (singleStepping) {
+      if (doSingleStep) { tick(); doSingleStep = false; }
+    } else if (now - lastTick >= (fastForward ? FAST_MS : TICK_MS)) {
+      lastTick = now;
+      tick();
+    }
+  }
+
+  renderer.draw({
+    grid: sim.grid,
+    mode,
+    gameplay,
+    playingLevels,
+    level,
+    version: VERSION,
+    available: editor.available,
+    locked: editor.locked,
+    selection: mode === "design" ? editor.selection : null,
+    editor,
+    mouse,
+    physicsVersion: sim.physicsVersion,
+    desc: describeTile(editor.drawItem),
+    frames: Math.max(frames, 0),
+    solved: solvedFrames !== -1,
+    password: playingLevels ? PASSWORDS[level] : null,
+  });
+  requestAnimationFrame(frame);
+}
+
+function fit() {
+  renderer.resize(
+    Math.max(320, Math.min(window.innerWidth - 24, 1600)),
+    Math.max(240, window.innerHeight - 120),
+  );
 }
 
 // --- boot ------------------------------------------------------------------
 
 async function boot() {
-  const [sheet, tiles] = await Promise.all([
+  const FONT_SIZES = [12, 14, 16, 32];
+  const [sheet, tiles, ...fontList] = await Promise.all([
     new Promise((res, rej) => {
       const img = new Image();
       img.onload = () => res(img);
@@ -247,66 +410,46 @@ async function boot() {
       img.src = asset("data/blocks.gif");
     }),
     fetch(new URL("tiles.json", import.meta.url)).then((r) => r.json()),
+    // The applet's own Palatino bitmaps; a missing one just falls back to CSS.
+    ...FONT_SIZES.map((px) =>
+      VLWFont.load(asset(`data/PalatinoLinotype-Roman-${px}.vlw`)).catch(() => null)),
   ]);
   tileInfo = tiles;
+  const fonts = {};
+  FONT_SIZES.forEach((px, i) => { if (fontList[i]) fonts[px] = fontList[i]; });
 
-  renderer = new Renderer(canvas, sheet);
+  renderer = new Renderer(canvas, sheet, fonts);
   renderer.onDprChange = fit;
   fit();
   addEventListener("resize", fit);
-
-  const picker = el("levelPick");
-  for (let n = 1; n <= 12; n++) picker.add(new Option(`Level ${n}`, String(n)));
-  picker.add(new Option("Sandbox", "0"));
-  picker.onchange = () => loadBase(Number(picker.value));
+  setGameplay(false); // the menu's empty grid, before anything is loaded
 
   canvas.addEventListener("contextmenu", (e) => e.preventDefault());
   canvas.addEventListener("pointerdown", onPointerDown);
   canvas.addEventListener("pointermove", onPointerMove);
-  canvas.addEventListener("pointerleave", () => { mouseTile = null; });
+  canvas.addEventListener("pointerup", () => { waitForRelease = false; });
+  canvas.addEventListener("pointerleave", () => { mouse = null; });
   addEventListener("keydown", onKeyDown);
   addEventListener("keyup", () => { keyHeld = false; });
   addEventListener("blur", () => { keyHeld = false; });
 
-  el("play").onclick = () => {
-    if (running) return;
-    designGrid = sim.grid.slice();
-    editor.clearSelection();
-    running = true;
-    lastTick = 0;
-    syncButtons();
-  };
-  el("stop").onclick = () => {
-    running = false;
-    if (designGrid) sim.grid.set(designGrid);
-    syncButtons();
-    setStatus("Stopped — machine restored to the state before Play.");
-  };
-  el("step").onclick = doStep;
-  el("clear").onclick = () => {
-    if (sourceText) applyLevel(sourceText, sourcePhysics);
-    setStatus("Level reset.");
-  };
-  el("share").onclick = async () => {
-    const text = `* Physics:${sim.physicsVersion}\n` + gridToLines(sim.grid).join("\n") + "\n";
-    const url = await buildShareURL(text);
-    const ok = await copyToClipboard(url);
-    setStatus(ok ? `Link copied (${url.length} characters).`
-                 : "Could not reach the clipboard — link is in the address bar.");
-    if (!ok) history.replaceState(null, "", url);
+  const picker = el("levelPick");
+  for (let n = 0; n < PASSWORDS.length; n++) picker.add(new Option(`Level ${n + 1}`, String(n)));
+  picker.add(new Option("Sandbox", "sandbox"));
+  picker.onchange = () => {
+    if (picker.value === "sandbox") loadSandbox();
+    else loadBase(Number(picker.value));
+    picker.blur();
   };
 
   const param = new URLSearchParams(location.search).get("level");
   if (param) {
     try {
-      applyLevel(await resolveLevelParam(param, fetchWarehouse));
-      picker.value = "";
+      describe(applyLevel(await resolveLevelParam(param, fetchWarehouse)),
+               isWarehouseCode(param) ? param : null);
     } catch (err) {
       setStatus(err.message);
-      await loadBase(1);
     }
-  } else {
-    await loadBase(1);
   }
 
   requestAnimationFrame(frame);

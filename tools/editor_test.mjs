@@ -179,5 +179,44 @@ function sandbox() {
   check("left arrow stops at the edge", ed.moveDrawItem(-1, 0) === false);
 }
 
+// --- pipette ----------------------------------------------------------------
+{
+  const { sim, ed } = sandbox();
+  sim.grid[7 * YSIZE + 8] = T.conveyorleft;
+  ed.drawItem = T.girder;
+  check("ctrl-click picks up the component under the cursor",
+        ed.pick(7, 8) === true && ed.drawItem === T.conveyorleft, `got ${ed.drawItem}`);
+  check("picking empty space selects the eraser", ed.pick(1, 1) === true && ed.drawItem === 0);
+  check("picking outside the grid does nothing", ed.pick(-1, 0) === false);
+
+  // A component the level forbids stays unpickable, or the palette rules could
+  // be walked around by pipetting the level's own locked machinery.
+  const restricted = new Uint8Array(90).fill(1);
+  restricted[T.copier] = 0;
+  ed.attach(sim, restricted, new Uint8Array(XSIZE * YSIZE));
+  sim.grid[9 * YSIZE + 9] = T.copier;
+  ed.drawItem = T.girder;
+  check("unavailable components cannot be picked up",
+        ed.pick(9, 9) === false && ed.drawItem === T.girder);
+}
+
+// --- clear ------------------------------------------------------------------
+{
+  const { sim, ed } = sandbox();
+  sim.grid[3 * YSIZE + 3] = T.girder;
+  sim.grid[4 * YSIZE + 4] = T.girder;
+  ed.clearAll();
+  check("clear blanks the grid", sim.grid.every((v) => v === 0));
+
+  const locked = new Uint8Array(XSIZE * YSIZE);
+  locked[5 * YSIZE + 5] = 1;
+  ed.attach(sim, new Uint8Array(90).fill(1), locked);
+  sim.grid[5 * YSIZE + 5] = T.girder;
+  sim.grid[6 * YSIZE + 6] = T.girder;
+  ed.clearAll();
+  check("clear leaves the locked starting machine alone",
+        at(sim, 5, 5) === T.girder && at(sim, 6, 6) === 0);
+}
+
 console.log(`\n${pass} pass, ${fail} fail`);
 process.exit(fail ? 1 : 0);

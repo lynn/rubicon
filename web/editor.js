@@ -56,6 +56,28 @@ export class Editor {
     this.sim.grid[x * YSIZE + y] = id;
   }
 
+  /**
+   * Pipette (ctrl-click): adopt the component under the cursor. Empty space is
+   * palette slot 0, so ctrl-clicking a gap picks the eraser, which is what you
+   * want when you are about to rub something out.
+   */
+  pick(x, y) {
+    if (!this.inGrid(x, y)) return false;
+    const id = this.sim.grid[x * YSIZE + y];
+    if (!this.available[id]) return false;
+    this.drawItem = id;
+    return true;
+  }
+
+  /** The Clear button: blank everything the level lets you touch. */
+  clearAll() {
+    for (let x = 0; x < XSIZE; x++) {
+      for (let y = 0; y < YSIZE; y++) {
+        if (this.isModifiable(x, y)) this.sim.grid[x * YSIZE + y] = 0;
+      }
+    }
+  }
+
   // --- selection ------------------------------------------------------------
 
   beginSelection(x, y) {

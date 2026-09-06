@@ -79,9 +79,16 @@ try {
   const cv = document.createElement("canvas");
   const r = new Renderer(cv, img);
   r.resize(1200, 800);
-  r.draw(sim.grid, { selection: { x: 3, y: 3, w: 5, h: 4 } });
+  const ed2 = new Editor();
+  ed2.attach(sim, new Uint8Array(90).fill(1), new Uint8Array(XSIZE * YSIZE));
+  r.draw({
+    grid: sim.grid, mode: "design", gameplay: true, playingLevels: false, level: 0,
+    version: "1.27", available: ed2.available, locked: ed2.locked, editor: ed2,
+    selection: { x: 3, y: 3, w: 5, h: 4 }, mouse: null, physicsVersion: 2,
+    desc: "Girder.", frames: 0, solved: false, password: null,
+  });
   check("renderer picked integer zoom", Number.isInteger(r.zoom) && r.zoom >= 1, `zoom=${r.zoom} dpr=${r.dpr}`);
-  check("backing store is an exact multiple", cv.width === 800 * r.zoom && cv.height === 496 * r.zoom,
+  check("backing store is an exact multiple", cv.width === 800 * r.zoom && cv.height === 600 * r.zoom,
         `${cv.width}x${cv.height}`);
   const px = cv.getContext("2d").getImageData(0, 0, 1, 1).data;
   check("canvas rendered something", px[3] === 255);
