@@ -1,0 +1,37 @@
+* Title:Faulty Wiring
+* Designer:ddsdiur
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+ x x x x x  E                                    1
+xgg       x E                                     
+ ::F   +    E                                     
+x         x E                                     
+ >>M>>=.>   E                                     
+x  M?  g >\                                       
+   M?  =  E\                                      
+x   ?     EE                                      
+   .?     EE                                      
+x   ?     EE                                      
+   <<     EE                                      
+x                                                 
+  >>W    <<<<                                     
+x   W     EE                                      
+    W     EE                                      
+x   W   KWEE                                      
+    W  F WEE                                      
+x   W   .WEE                                      
+    W   !WEE                                      
+x   W   =WEE                                      
+         WEE                                      
+TTTT<    WEE                                      
+          EE                                      
+xxxx<<<<<<EE                                      
+    x x x x                                       
+xxx       EE                                      
+   x x x x x                                      
+xx        EE                                      
+  x x x x x                                       
+x         EE                                      
+ x x x x x x                                      
+

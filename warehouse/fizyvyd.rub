@@ -1,0 +1,36 @@
+* Title:Solution to Matching Problem 4 - bucyhin
+* Designer:Rene
+* Type:Solution
+* Physics:2
+ 1                - -  |(((((((|    F  ##+#####F g
+:<                     |(((((((|     g Y   YOY  M:
+        =========MM=M>V|(((((((|    M: YM. YOY  g 
+>,:>>,W              | |(((((((|     g YMh ### <M<
+    )  >VVVVVVVVVVVVV| |(((((((| W<<M< YM# Y    M#
+ <+== :                |======         YMY YW<K MY
+                      :     ==x==W==M  YMY YWF  MY
+>VWK>=F==============W        g  W  M  YMY Y #.fMY
+   s                 WKW     >K+ W  M  YMY Y #!eMY
+ /W=                             W  M  YMY Y ##dMY
+    F g              >>>======== W  M  YMY Y ##cMY
+WFK  M:                          W  M  YMY Y ##bMY
+         <<<<<<<<<<<<<<<<<<<<<<<<W  M  YMY Y ##aMY
+  W<<M<  g F                     WF M  YMY Y ##9MY
+  W- M   :M  F                   W gM  YMY Y ##8MY
+     M     gx                    WM:M  YMY Y ##7MY
+  =.WM   >Mg M                     gM  YMY Y ##6MY
+\   WM     g  ggggggggggggggggggg M<M  YMY Y ##5MY
+,>>=WM    =KWM===================<M,M  YMY Y ##4MY
+                     )              M  YMY Y ##3MY
+,===:MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM,M  YM# Y ##2MY
+                      )             M  YM  Y 01 MY
+=====WMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWM ,YM <Y>>> MY
+===                                    Y!  ####  Y
+=====WMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWM==##K #+##>WY
+                                       ##u  g  x Y
+####TKTKTKTKTKTKTKTKTKTKTKTKTKTKTKTK######>#xOx# Y
+YOOY                                YOOOOOOY x Y Y
+YOO#M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.M.############ Y
+YOOY                                             Y
+####<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<#
+

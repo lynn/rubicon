@@ -1,0 +1,37 @@
+* Title:Pinch - solution
+* Designer:geej66
+* Type:Solution
+* Follows:buvocek
+* Physics:2
+==,=====,      |0123456789abcdef     ,==========, 
+|  (    |    ==|>>>>>>>>>>>>>>>>>>>>WF(          !
+|W<M=====    |  g| !               |W|======M===>!
+|W|M         |W<K| K               |WF      M!!!!!
+|W|                                         M!!!!!
+|W|=<<<<<<<<<<V<V<<<<<<<<<<<<<<<<<<<K|      M!!!!!
+|W+||||||||||| |                |  | |      M!!!!!
+|            + |                |==|M|==,==,M!!!!!
+||M>>>>>>>>> ! |V===============|         )|!!!!!!
+ |M|       |,x<,                   =A====M==x<<<<<
+ |M|       |(                   <<<| |  |M|  )====
+ |M|       |==M=WWWWWWWWWWWWWWWW   |M|  |M| ==,==,
+ |M|            ))))))))))))))))   |M|  |M|     )|
+ |M|       |=FMxWWWWWWWWWWWWWWWW===|M|==|M| W<<M=|
+ |M|       |   !                            W  M|h
+ |M|       | |M=VVVVVVVVVVVVVVVV==F|M|==|M|=W  M|h
+ |M|       | |M|                   |M|  |M|    M|h
+ |M|       | |M|                   |M|  |M| K>WM|h
+ |M|       | |M|                   |M|  |M| g WM|h
+ |M|       | |M|                   |M|  |M| = WM|h
+ |M|       | |M|                   |M|  |M|   WM|h
+ |M|       | |M|                   |M|   M|>>WWM|h
+ |M|       | |M|                  F,M|==MM, +WWM|h
+ |M|       g                       (    g x!  WM|h
+ |M|      #:##.#                ###+M.##:#===<WM|h
+ |M|      #g$#f#                #g?$$0#$g#| l  M|h
+ |M|      #\g#:#TTTTTTTTTTTTTTTT#>#:#:#g/#| -<<M|h
+ |M=======##gx$$$$$$$$$$$$$$$$$$$$$$$$xg##| h  l|h
+:|M!!!!!!!##g#KKKKKKKKKKKKKKKKKKKKKKKK#g##||M>>=|h
+~| !!!!!!!##g#ggghijklmnopqrstuvvvvvvv#g##||hhhhhh
+.|<<<<<<<<##F##########################F##||=<<<<<
+

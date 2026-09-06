@@ -1,0 +1,37 @@
+* Title:Candidate Permutation v2
+* Designer:jf
+* Type:Solution
+* Follows:gorecop
+* Physics:2
+            (   (0123456789abcdef                 
+            =====WWWW=W===W===WWW===M========  ,  
+                                                  
+, WWWW==========W=x=xW==VV===><<<>>>AW=\ \ VV<<<  
+                                                  
+ >====VV===W====>=V=V<          V=VV====<<< /     
+                         \                        
+      <                   \                       
+           >     <<<<   \  \                      
+     \                /                           
+BBBBBBVVBBBBWBBBWBBBBWBBBVBBVBBVVBVVBBBBBBBWBBBBBB
+BK:xBB$$-BB!WBBBW+BB$$$BB$BB$BB$$B$$+B$gBBBWBBBBBB
+B+~-BB$$$$$:$B+B$$$BVKVBBWBB$$B$$B$$$$WKBB,WB,BBBB
+BF.!BB>BBKV$$$$$:MWB$l$BBWB+KW$$<$>BB$W$$g$$)BBBBB
+BBBBBBBBBs$>FK:V$$$BWBW+B$$r$WWKBMBB$$WW<KWBBBBBBB
+BBBBBBBBBBWB$p$$>W<B$$$$$KBBBW$m$$BBWKW$x$$$BBBBBB
+BghiBopqBBWBBB<WB$BB>>BBWpBBBW>B>WBB$jWBBWK$-BBBBB
+Bn~jBv~rBBWBBBBWB:B+B$$$WBBBBWBBBWBBWB$$$$v$$$BBBB
+BmlkButsBBWBBBBWB$$$$$/VWBBBBWBBBWBBWB>>>>B$BWBBBB
+BBBBBBBBBBWBBBBWB>BB>BB$WBBBBWBBBWBBWBBBBBBBBWBBBB
+BBBBBBBBBBWBBBBWBBBBBBBWWBBBBWBBBWBBWBBBBBBBBWBBBB
+                                                  
+          ===============================\)       
+                                          \     , 
+                                            /W\   
+                                          /x   x  
+,       \                             \  /  x x   
+                                     /  /         
+ ========< /==\ /=====\  /==\ /=\ /\   /          
+BBBBBBBBBBTBBBBTBBBBBBBTTBBBBTBBBTBBTBBBBBBBBTBBBB
+BBBBBBBBBB1BBBB6BBBBBBB9aBBBBaBBBdBBeBBBBBBBBfBBBB
+

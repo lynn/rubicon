@@ -1,0 +1,37 @@
+* Title:No Timing Possible - fixed
+* Designer:ais523
+* Type:Solution
+* Follows:kygusih
+* Physics:2
+(               ,                               = 
+    /====,==  g                           /===\ , 
+   /       g /x<<                        /   |    
+  /      >>x=                           /      |  
+=x            x                 M      /   /F| |  
+           x                   g      /   /  | |  
+ x (((|     x  /========   =M==x=W   /   /   | |  
+  ((((((((((((/         ===  |  )   /   /    | |  
+ x============      ,       M| =>> /F  /     | |  
+ (|                 |        |  F     /      | |  
+ g                /W        M,   xK>,=       |)|  
+,KF              /           |   gg          |)|  
+                /  >>>>>>>>>>|=====<<<       |)|  
+Z.Z............ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ$ZZZ
+Z$1$$$$$$$$$$$$$$Q$$$Q?QQQQQQQQQQQQQQQQQQQQQQZ$FQZ
+Z:ZTTTTTTTTTTTT\$$$\$$:QQQQQQQQQQQQQQQQQQ($$$x$FQZ
+Z$$$$$$$$$$$$$$Q\$$$\$$QQQQQQQQQQQQQQQQQQQQQQZ$FQZ
+ZWMMMMMMMMMMMMMZZ<KFZZ<ZZZZZZZZZZZZZZZZZZZZZZZ$ZZZ
+ W               Z1Z   !!           ux x x x x |  
+ W<<<<<<<<<<<<\  ZZZ  F::       ,  ,K        | |  
+ W         F !!\                  (    g     | |  
+ W    |)|   g::F<<<<<<M<<        =M>>  :+    | |  
+ W     g|  \g)))))     x          M    g  +  | |  
+ W, ===K|== g>>M>>>>>=M=x=========M==>>x  g  | |  
+ W          g           g |               x< | |  
+ W=F.=-.|=====WM=== ==M |         M   \) x   | |  
+ W      |          :  M:=F========M====\)))))    |
+ W  MMM=|+===+==\                       ======== ,
+                 <<K, ============M\              
+ >========K>==K\                    ==============
+          t   t >>>>>>>>>>>>>>>>>>>               
+

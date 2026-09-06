@@ -1,0 +1,37 @@
+* Title:Combination Lock 3 Solution
+* Designer:Humbugger
+* Type:Solution
+* Follows:hogudav
+* Physics:2
+=========                                        )
+      vx  ===M======M======M======M========x======
+,  , >K=W<   Mqmjhg/Mqmjhg/Mqmjhg/Mqmjhgx x |     
+  ) onm|W    Mrnki/ Mrnki/ Mrnki/ Mrnki/=====     
+ =M===W|W    Msol/  Msol/  Msol/  Msol/           
+ |Mijkl|W    Mtp/   Mtp/   Mtp/   Mtp/            
+ |MW==<|W    Mu/    Mu/    Mu/    Mu/             
+ |Mhgvu|W     v      v      v      v              
+ |M>==W|W   F<K>>F<<<K>>F<<<K>>F<<<KF             
+ |pqrst|W     ?      ?      ?      ?              
+ |====<|W ,##,T##,##,T##,##,T##,##,T###           
+          #(  fed#(  fed#(  fed#(  fed#           
+      W<< ##M>##W##M>##W##M>##W##M>##W#           
+     (W   ##M9abc##M9abc##M9abc##M9abc#           
+     (W   ##MW##<##MW##<##MW##<##MW##<#           
+     (W   ##M8765##M8765##M8765##M8765#           
+     (W   ##M>##W##M>##W##M>##W##M>##W#           
+          ##01234##01234##01234##01234#           
+     xWW  ##KKKKK##KKKKK##KKKKK##KKKKK#           
+     gWW     vvvv   vvvv   vvvv   vvvv            
+    >K    gv====    ===    ===    ===             
+   F   /  gv    x+     x+     x+     x+           
+,  ,<<K|  gv    g      g      g      g            
+  ) nml|  gv    =M     =M     =M     =M           
+ =M===W|====W===                                  
+ |Mhijk|         A      A      A      A           
+ |MW==<|     gggg gggggg gggggg gggggg            
+ |Mgvut|    >===========================          
+:|M>==W|                                          
+~|opqrs|                                          
+.|====<|                                          
+

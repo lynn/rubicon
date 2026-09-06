@@ -1,0 +1,37 @@
+* Title:Mountain Climber
+* Designer:jwanders
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+ 5                                                
+TBB                                               
+5B                                                
+BB                                                
+ BBB                                              
+  B                                               
+BBBB                                              
+   BBB                                            
+ BBB<B                                            
+ B>B~B                                            
+ B~BBB                                            
+BBBB                                              
+   BBBB                                           
+  BBB B                                           
+  B)B BBB                                         
+  B~B  B                                          
+BBBBBBBB                                          
+B    B B                                          
+BBB  B                                            
+B(B BBBBBB                                        
+B~B B  B                                          
+BBBBB BBBBB                                       
+ B  B B   B                                       
+ B  B    BBB                                      
+ B  B  BBB BB                                     
+BBB BB B B  B                                     
+  B  B B B  B                                     
+  BBBBBB B(                                       
+  B   B  BBB                                      
+ BB   B    B                                      
+ B    B    B                                      
+

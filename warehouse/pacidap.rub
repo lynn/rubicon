@@ -1,0 +1,35 @@
+* Title:maze 1
+* Designer:lazyone
+* Physics:1
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                         1        
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB BBBBBBBB
+                                                  
+   x xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   xxxxxxx
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$ 
+                                                  
+$$                                                
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$
+ $$$x xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxx 
+$$$$                                              
+ $$$xxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ $$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+ xxxxxxxxxx   xxxxxxxxxxx1xxxxxxxxxxxxxxxxxxxxxxxx
+$$$$$$$$$$$$$$$$$$$$$$$$$T$$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$B$$$$$$$$$$$$$$$$$$$$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$ $$$$$$$$$$$$$$$$$$$$$$$$
+ xxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxx
+  $   $       $   $  $                            
+Fxx xxxxxxxxxxxx xxxxxxxxxFxxxxxxxxxxxxxxxxxxxxxxx
+                                                  
+

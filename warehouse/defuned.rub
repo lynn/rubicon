@@ -1,0 +1,37 @@
+* Title:Pinhole Camera 2
+* Designer:jnz
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+#       0000000000       .                       1
+#                        ~                       T
+#                        :                        
+#                        #                       2
+#                        #                       T
+#                        #                        
+a                        #                       3
+#                        #                       T
+9                        #                        
+#                        #                       4
+8                        #                       T
+#                        #                        
+7                        #                       5
+#                        #                       T
+6                                                 
+#                        #                       6
+5                        #                       T
+#                        #                        
+4                        #                       7
+#                        #                       T
+3                        #                        
+#                        #                       8
+2                        #                       T
+#                        #                        
+1                        #                       9
+#                        #                       T
+#                        #                        
+#                        #                       a
+#                        #                       T
+#                        #                        
+#                        #                       #
+

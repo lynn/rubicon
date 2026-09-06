@@ -1,0 +1,37 @@
+* Title:Simultaneous drop
+* Designer:jf
+* Type:Solution
+* Follows:mogutex
+* Physics:2
+ g    F                                           
+ :      / x x x x x x x x x x x x x x             
+   />-.                                           
+ >>    =F                                         
+    M.=  x+\                                      
+   =       )                                      
+    ===::MM=                                      
+          M                                       
+       V>=M /                                     
+          M                                       
+          M                                       
+ <<<<<<<  M                                       
+          M                                       
+>>>>>>>>> M                                       
+          M                                       
+ <<<<<<<<<M                                       
+          M                                       
+>>>>>>>>> M                                       
+          M                                       
+ <<<<<<<<<M                                       
+          M                                       
+>>>>>>>>> M                                       
+          M                                       
+          M                                       
+          M                                       
+          M                                       
+          1                                       
+         >#                           #           
+          | x x x x x x x x x x x x x Y           
+          |TYTYTYTYTYTYTYTYTYTYTYTYTYTY           
+          |0Y0Y0Y0Y0Y0Y0Y0Y0Y0Y0Y0Y0Y0Y           
+

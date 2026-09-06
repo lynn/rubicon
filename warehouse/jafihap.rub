@@ -1,0 +1,36 @@
+* Title:Escape from Through the Dungeon
+* Designer:jf
+* Type:Solution
+* Physics:2
+               NN     N         ,  ,NN  - -1      
+               N,     NT<<<\      ) NN       g   g
+               NN  /\   ?)N <<<<<M= NNM..=.  K + K
+               NNN:NN>NNxNNNNNNNNMNNNN            
+                 N NNNNNNNNNNNNNNMNNN V<<<<<>..:K 
+                 NVN  NNNNNNNNNNNM              u 
+                      NNNNNNNNNNNM    >>>>>>>>= = 
+                      NNNNNNNNNNNM                
+                       NNNNNNNNN M <<<<<<<<<<<<<  
+                       NNNNNNNNN M                
+                       NNNNNNNNN M>>>>>>>>>>>>>>  
+                       NNNNNNNNN M                
+                       NNNNNNNNN M  <<<<<<<<<<<<< 
+                       NNNNNNNNN M\               
+                       NNNNNNNNN     F            
+                       NNNNNgNgNNKKKKKKKKKKKKKKKKN
+                       NNNNNVNVN  v              g
+                       NNNNN$N$N  :M <<<<<<<<<<<<<
+                       N   NxNxN   M              
+                      NN   x$x$x   M>>>>>>>>>>>>> 
+                   NNNNNNNxNxNxN <<M              
+                   N$N$N$x$xg$gN + M <<<<<<<<<<<<<
+                   NANANANxN><VN  hM              
+                   NgNgNgx$x$g$N=WKM>>>>>>>>>>>>> 
+                 + NxNxNxNxN><NN WvM  +           
+                   x$x$x$x$x$gNN  x xg  <<<<<<<<<<
+                .=KNxNxNxNxN><NN W M ==<          
+                h uN$N$N$Ng$NNNN                  
+                = =NANANAN><NNNN >>>              
+                   NgNgNgNNNNNNN                  
+                   NNNNNNNNNNNNN                  
+

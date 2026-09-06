@@ -1,0 +1,37 @@
+* Title:complex level 1 solution
+* Designer:immibis
+* Type:Solution
+* Follows:
+* Physics:2
+                        C   C                     
+ <<<<<<<<<<<<<<\        C   C                     
+    - - - - + + \      #######                    
+>W               \     #EEEEE#                    
+   ..=.=.=M:.=M   \    #E###E#                    
+ K                 \   #E#1#E#                    
+F!>>>>>>>>=>>>=     \  ###:###                    
+ .                   \  ,  ),                     
+ !W<++<<<<<<<<<<      \                           
+ =      g F            V<===|WVF                  
+  >===:F:M                 gx    +                
+              :<<<<<<<<<  >K|                     
+W<++<<< >M>>>                >>>=:<               
+          |  > >>>>>>>>>>>>>F                     
+>===>>>>>:             =#####  <<<                
+                        #ZZZ#           +         
+ <++<<<<<K              #####FK>>   />       />>  
+         !       -            g    / (>=:<  /     
+>===>>>> .                    = FK>  g     /    K 
+         !      MM>              h  FK  >>>     g 
+        <=        |    W<<\      =          \  F= 
+ =======        AA|    W + \                 \    
+                  |         \              KF \   
+>>>>>>>>>>>>>>F>>>|>>>>>==   <<<<<<<<<<<<<<h   <<<
+######################%###T###%###################
+BBBBBBBBBBBBBBBBBBBBB#%#E#1#E#%#BBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBB#%#E###E#%#BBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBB#%#EEEEE#%#BBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBB#%#######%#BBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBB#         #BBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBB#         #BBBBBBBBBBBBBBBBBB
+

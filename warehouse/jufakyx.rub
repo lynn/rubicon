@@ -1,0 +1,37 @@
+* Title:Simon Sampler 2
+* Designer:Rene
+* Type:Solution
+* Follows:ledohit
+* Physics:2
+                    0123456789abcdef    |)        
+                                         g        
+                                    M    K        
+  ghijklmnopq|                       g            
+  >>>>>>>>>>r| ,  , WWWWWWWWWWWWWWWW=x=>>M>>>>>>  
+         g  s|  (                             |   
+         g  t|  =M>>>>>>>>>>>>>>>>>>W>>>>M>>> |   
+         g  u|                        g  M    |   
+         KW<K=====<<<<<<<<<<<<<<<<<<K<K  M    |   
+          v                          F g M    |   
+         =K>>>>>>>>>>>>>>>>>>>>>>>>>>>>K M    |   
+            g                                 |   
+=======>>>M>=V>>>>>>>>>>>>>>>>>>>>>>>>>>>>    |   
+          M                                   |   
+          M                                   |   
+          M                                   ,   
+          M                                   |   
+          M                / VVVVVVVVVVVVVVVV<|   
+          M       ,##,#######                ###W#
+          M       #(01234567#                ##+W#
+          M       ##M>>>>>>8#                #   #
+          M       ##fedcba 9#                #.:<#
+          M       ##<<<<<<W<#                #1 ##
+          M         gx ggx ##TTTTTTTTTTTTTTTT## ##
+          M         K <<<#W##                   ##
+          M          ##+##W##TTTTTTTTTTTTTTTT<<<##
+          M>>>>>>>>>>#  ?#                   #####
+                     #.:<#>>>TTTTTTTTTTTTTTTT#####
+          M          #f                      #.~:#
+          M          ##>V#########################
+                            )                     
+

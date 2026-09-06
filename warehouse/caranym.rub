@@ -1,0 +1,35 @@
+* Title:4 binary RAM registers
+* Designer:Djonn
+* Physics:2
+g1g0 gggg 1010             C Cz                   
+>>>>>>>>>>>>>>>>>>>>>>>>>>WC Cz                   
+g1g1 gggg 1111          C WC Cz                   
+>>>>>>>>>>>>>>>>>>>>>>>W+ W+ +z   -   -   -   - x 
+               z    # x                           
+               z    #xQ:MW#M#M>>>#.W#M.W#M.W#M.Wx 
+3333 0123 3210      # x      Mz   gW MkW MkW MkW  
+>>>>>>>>>>>>>>>>>>>W+##>#>>_ Mz   #W M#W M#W M#Wx 
+yyyyyyyyyyyyyyyZ# x          Mz                   
+               z#xQ:MW       Mz   WK>#WK>#WK>#WK# 
+               z# x  W       Mz    j   j   j   j  
+               zI##>#W+      Mz    -   -   -   -  
+               z  # x         z                   
+               z  #xQ:M>>>>>>_z  WK.WWK.WWK.WWK.W 
+               z  # x         z   hi  hi  hi  hi  
+               z  I##>_       z   ##  ##  ##  ##  
+               ZyyyyyyyyyyyyyyZ                   
+                              z                   
+                              z                   
+                              z                   
+                              Zyy yy  yy  yy  yy y
+                              z                   
+                              z  WF:<WF:<WF:<WF:< 
+                              z  W   W   W   W    
+                              z    0   1   2   3  
+                              z  >>FW>>FW>>FW>>FW 
+                              Zyyyyy yyy yyy yyy y
+                              z                   
+                              z  >>>>>>>>>>>>>>>> 
+                              z                   
+                              z<<<<<<<<<<<<<<<<<<<
+

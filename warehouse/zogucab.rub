@@ -1,0 +1,37 @@
+* Title:Trap solution
+* Designer:immibis
+* Type:Solution
+* Follows:
+* Physics:2
+                      C.~:C                       
+                      C   C                       
+        |(|           C   C                       
+        |)|           C   C                       
+        |)|           C   C                       
+        |)|           C   C                       
+        |)|      (|   C   C                       
+        |)|      v|  ,C   C                       
+        |)|      v g  C   C                       
+        |)|      KW=W C   C                       
+        |)|     u W W C   C                       
+        |)|   , K,W W C   C                       
+        |)|         W C   C                       
+        |)|  W<<MW< W C   C                       
+        |)|  W  M F W C   C                ,  ,   
+        |)|  W +Mx  W C   C                  )    
+        |)|  W   v  W C   C         W<<<<<<<M=    
+        F)|  WMM=K=   C   C                 M     
+         g   WMM    / C   C                 M     
+      ,  K , WMMM,<<, C   C                 M     
+      ,            )  C   C (|              M     
+      , W=<<<<<<<<M=  C   C g               M     
+ g    ,  g        M   C   CWK           ,  ,M     
+      ,  W        M   C 3 C               ) M     
+   gx ,(  -       M   NNNNN>M>>>>>>> <<<<M= M     
+  =K M             xv QQQQQ M      ,   , M  M     
+     M,  MM>>>>W  M K=Q$2$Q M    \          M     
+   M M,  M2    W  M   Q$T$Q M     <<W=.>VV        
+     M    3)   W  M M Q$2yQ   <<K     2    +A     
+ >>> gx  =T\   W  M M NNKNN,A  ,h   >>T=\        |
+     = ==/2\\ g    g          ) =F   /3\ >===    |
+

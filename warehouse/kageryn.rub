@@ -1,0 +1,37 @@
+* Title:Garbage Collector II
+* Designer:Rene
+* Type:Solution
+* Follows:bucycen
+* Physics:2
+                           |                      
+(0123456789abcdef          |                      
+>>>>>>>>>>>>>>>>>>>>>>>>>> |                      
+                           |                      
+                           |                      
+                           |                      
+                           |                      
+LLLLLLLL                   |            LLLLLLLLLL
+$$$$!!V                    |             V!!$$$$$S
+$$$F::C                    |             C::F$$$$$
+$$$$$$C   ,  ,             ,  ,          C$$$$f$7$
+$$$M<<C     (                )           C>>M>e>6$
+$$$M$$Cg   =M> <<<<<<<<<<<<<M=           C$SM$d$5$
+$$$M$$Cg,                  ,M            C$$M$c$4$
+$$$M$$Cg   /M>>>>>>>>>>>>= |M            C$$M$b$3$
+$:$M$$CgW\g                |M            C$$M$a$2$
+$~$M$$CgW=M=M\            g M            C$$M$9$1$
+$.$M$$Cg  ggM =,==x=====,>KWM            C$$$$8$0$
+$$$M$$Cg>>=gM        (  gggWM            C$$:<K<K<
+$$$M$$CgggggM   ==========<WM            C$$$$$F$$
+$$$M$$C>>>>gM              WM            C$$W$.$.$
+$$$M$$C    gM              WM            C$$Wv!v!!
+$$$M$$C  , KM     ,         M            C$$W>>>>W
+!!$M$$C  F      (           M            C$$WHh$$v
+::$M$$C   =WM=====     <<<<<M            C$$WB:+HK
+$$$$$$$                                  C$$WB$v$$
+>>FT<<<<<<<<<<<<<<<<<<K>>>>>=            C$$WBHHK:
+$$F$F$A              F F                 A$$WB$$u$
+LLG.GLLLLLLLLLLLLLLLLG.GLLLLLLLLLLLLLLLLLLL$WB::H<
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+F<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<F<<<<<
+

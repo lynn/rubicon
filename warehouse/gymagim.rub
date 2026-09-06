@@ -1,0 +1,37 @@
+* Title:The Torch
+* Designer:ais523
+* Type:Puzzle (5)
+* Follows:
+* Physics:2
+                        /1\           f           
+                        Y?Y                       
+                       /J?I\                      
+                       Y$$$Y                      
+                       YFK:Y                      
+                       Y$0$Y                      
+                      /J$Y$I\                     
+                      Y$$$$$Y                     
+                      I$<$</J                     
+                       WYTYJ                      
+                        Y                         
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+                        YYY                       
+,__________WWWW_______________________K___________
+F$$$$$$$$$$gggg$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$)
+

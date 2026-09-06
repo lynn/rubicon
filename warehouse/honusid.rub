@@ -1,0 +1,37 @@
+* Title:Solitaire Dealt
+* Designer:jf
+* Type:Solution
+* Follows:fypymor
+* Physics:2
+,  ,        (g,                               ,  ,
+ (     =    =g|                                 ) 
+ =M>>>     ((g| <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<M= 
+  M        ==g|               ,  ,             M  
+  M   K>>>  |g|                (      F        M  
+  M   i     |g|                =M>>>           M  
+  M   =   K |g|   QQQQQQQQQQQQQQM=         =   M  
+  M       j |g|   QDDDDDDDD+DDDQM  <K>>>>>     M  
+  M  K\   = |g|   QD!!DDDD$g$$DQM   q          M  
+  M  g      |g|   QD::FDDD.DK$DQM K =     K    M  
+  M  = K    xg|   QD$$$edcb$uWDQM l       r    M  
+  M    h    |g|   QD>>M>>>a$D$DQM =       =    M  
+  M \  =    |g|   QDDD$DD$98$WDQM              M  
+  M        /|g|   QDDDMDD$K\7$DQM  K       K   M  
+  M  VV VVVF g    QDDD$DDW$FWWDQM  m       s   M  
+  M          K    QDDDMDD$.D6$DQM  =       =   M  
+  M               QDDDfDDW!D5WDQM              M  
+  M, >>>>>>>> <<  QDDDMDD$DD4$DQM   K       K  M  
+  M  g            QDDD$$$0123WDQM   n       t  M  
+  M ==W====WKK    QD.~:<V<<+<$DQM   =       =  M  
+  M         jk    QDD$$x$xg$$$DQM       =      M  
+  M         == ,  QDD$<D$DDD<<DQM    K>      K M  
+  M, \            QDDWDDTDDDDDDQM    o       u M  
+  M    x <<<<<<  FQQQ$QQ$QQQQQQQM    = K     = M  
+  M > =   + ,          FM       M      p       M  
+  M             ==W<<<==M       M      =       M  
+  M, >==>==<  -  g              M              M  
+  M             /=W======       MVVVV V VVVVV VM  
+  M ========>===                M              M  
+ =                K              \              = 
+  <<<<<<<<<<<<<<<<k>>>>>>>>>>>>>> >>>>>>>>>>>>>>  
+

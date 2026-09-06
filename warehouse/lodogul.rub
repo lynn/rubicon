@@ -1,0 +1,37 @@
+* Title:Descent v2
+* Designer:Bucky
+* Type:Puzzle (2)
+* Follows:
+* Physics:2
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+              ^                                   
+              O                                   
+              O   1                               
+          OOOWOOOOO                               
+          O      SO  # #                          
+          O       OOO# #OOOOOOOWOOO               
+          O       x ix x gO       O               
+OOOOOOOOOOO       OK<# #>KO       OOOOOOO   OOOOOO
+LLLLLLLLLLLLLMLLLL h#  #g x       LLLLLLLLTLLLLLLL
+BBBBBBBBBBBBBMBBCBK<#  #>KC       CBBBBBBB BBBBBBB
+BFFFFCFFFFFFFMFFC g#   # gLLLLMLLLLFFFFFFFMFFFFFFB
+BF   C           ><     ><BBBBMBBBB             FB
+BF   C                    FFFFMFFFF             FB
+BF   F                                          FB
+BF                                              FB
+BF                                              FB
+BF   FFFFF                                      FB
+BF   FxxxF         :                            FB
+BF   FxxxF                                FFFF  FB
+BFF  FxxFF                                FxxF  FB
+BBF  FFFF                                 FFFF  FB
+.BF                                             FB
+~BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB
+:BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBFB
+

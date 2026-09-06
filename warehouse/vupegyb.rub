@@ -1,0 +1,37 @@
+* Title:Assembly Line
+* Designer:ais523
+* Type:Solution
+* Follows:nomezit
+* Physics:2
+       ,  ,              B                        
+        (                B        ,  ,            
+       ==M>>>>>>W        B          )  />>WWWW=W  
+    ,  ,=       W        B         =M>           ,
+      )=,M     ,W        B          M|K\  ===,\ ) 
+= <<<M=      )  W        B          M~ ~\       / 
+BTBBB    M===== W        B         ,M=M== ,   ==  
+B$BBB=<<<M      W        B              ( |       
+B.+BB    M      W        B       ,==,=M==W|       
+?$fgB    M               B         (              
+>BW<B    M     W<        B        =M>>>>>         
+,BW,BBBBBMBBBBBWBBBBBBBBBBBBBBBBBBBMBBBBBWBBBBBBBB
+B($$$$$$$$BBBBB$$$$$$$$$$$$$$$$$$$$$BBBBB$$$$$$$$$
+BBM>>>>>>>BBBBB>>>>>>>>>>>>>>>>>>>>>BBBBB>>>>>>>>W
+BBMBBBBB,BB,BBBBBBBBBBBBBBBBBBBBBB,BB,BBBBBBBBBBBW
+BB$$$$$$$$)$$$$$$$$$$$$$$$$$$$$$$$$$)$$$$$$$$$$$$$
+BB<<<<<<<MBBBBBW<<<<<<<<<<<<<<<<<<<MBBBBBW<<<<<<<<
+      F          |       B ,      ,M,  ,      ,   
+        /M<<<<<<W|    )  B      (    )       )    
+       / M       , ======B  ====MM>=<A= =W====    
+, A   /  M               B       M                
+    /=   M        ===== ,B      MM W<<<<<<        
+ =\g  A ,M               B       M W              
+   =\    M  <<<<<, ======B      MM W              
+, A  g/= M,:~.===,       B       M W +~-          
+    /=       )    ===== ,B      MM                
+ =\g  A ,M<W======       B       M >==            
+   =\    M,W=====, ======B      M                 
+, A  g/=     )           B      M=<<<<<           
+    /=   =<============ ,B                        
+ =\g                     B      =<<<<<<<<<<<<<<   
+

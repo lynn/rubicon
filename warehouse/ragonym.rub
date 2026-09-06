@@ -1,0 +1,35 @@
+* Title:inelegant solution to too many trains
+* Designer:20eight
+* Physics:1
+                                                  
+                   (                              
+#####M M          M=x=                       #####
+(012                g            )            789)
+xTTT#=V= ====+==============MMM=x===MMM==== W#TTTx
+#def#   =                       g          = #567#
+##### >:   /=:<             AAA=K   AAA      #####
+          /                            =          
+#####  >>>   >>>VVVVVVVVVVVV:==VVVVV::=     =#####
+(234                                          8ab)
+xTTT#W =\    (   FFFFFWWWWWWV       VV    / W#TTTx
+#bcd# =  \  M=x=                         / = #146#
+#####     \   g               )         /    #####
+          ============VVVV::=x=V:VV:V===          
+#####=                       g              =#####
+(035          (           VV g  V  V          9ac)
+xTTT#W =\    M=x=            g           /= W#TTTx
+#9ac# ===\     g             )    :     /  = #035#
+#####  ===============VV::V<xF         /     #####
+                           =g==:VVVV===           
+#####=        (         VV  g               =#####
+(146         M=x=           g  V              bcd)
+xTTT#W =\      g            )       /====== W#TTTx
+#8ab# ================V:V<<xF==VV:==       = #234#
+#####                      g+                #####
+              (        V   g  g  V                
+#####=       M=x=          x=<K             =#####
+(567           g            )                 def)
+xTTT#W ========================<=========== W#TTTx
+#789#  =                                  =  #012#
+#####> =                                  = <#####
+

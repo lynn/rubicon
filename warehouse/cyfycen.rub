@@ -1,0 +1,37 @@
+* Title:Solution to Cistern - dyxycoh
+* Designer:jnz
+* Type:Solution
+* Follows:dyxycoh
+* Physics:2
+  gggg       g  B                B v          g   
+ <<<<<       g  B                B K>>>>>     g   
+             g  B                B  g ggg     g   
+>VM          KBBBB              BBBBK KKK     g   
+g M             |B              B|     vv     g   
+g           >MBVV                VVBM<===<    g   
+g>M>         MB                    BM         g   
+g M          MB>>>>>>>>>>>>>     <<BM         g   
+> M          MBBBkjihg           BBBM             
+  M          Mv Blmnopqrst|      B gM             
+ <M          MK B>>>>>>>>u       B KM             
+                Bhghgggh v       B                
+>VMM         =M<BghghhhgVKF      B>M=             
+  MM          M B>>>g<<< ?       B M              
+g             M B   h   WT       B M              
+g>MM>>>       M B  FK>>WW        B M              
+g MM          M B   g  WW=<<<<<<<B M  v           
+  MM          M B   =v WW        B M  v           
+  MM          M B    K WW        B M  v           
+  MM          M B       W        B M  K>W         
+  MM          M B   <M< W        B M              
+  MM          M B     x W        B M WMV<  g      
+  MM          M B    M FW        B M WM    K      
+            | M B    M  W        B M              
+>>MMM>M>>>>   M B v            g B M WM<  >M>> gg 
+  MMM Mggg   FM B K  <<<<      K B M           gg 
+  MMM Mggg KA M B                B M <MMMMMM=M<gg 
+  MMc eggg     |B <<>>>>>>>>>>>> B    MMMMM1 3ggg 
+  M 68aggg>M>>> B B            B B =KFMM   579ggg 
+ |  024gg<        BNNNNNNN:.NNNB     |     bdfg<< 
+  ==BBB<<  =<<<<B<BNN(~)NN-~+NNB>B>>> =====BBB<   
+

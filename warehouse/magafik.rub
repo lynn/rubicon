@@ -1,0 +1,37 @@
+* Title:Double grab
+* Designer:Rene
+* Type:Solution
+* Follows:gopimar
+* Physics:2
+                                                  
+            !       !                             
+           F:      F:                             
+            !       !  !                          
+V<<<<<<<<<<M<  W<<<M< F:                          
+                 F                                
+W          :<<<K   :<<M<                          
+W         |           M                           
+W          x  /<<<<<  M                           
+W            /        M                           
+W           /         M                !          
+W F A <<<<<<          M               F:          
+W  xg                 Mv v v v v v v v            
+W M =>>>>>>>>>>>>>>>> M <<<<<<<<<<<<<<M<          
+W                     Mv +            M           
+WWK<<<<<<<<<<<<<<<<<<<M gv v v v v v v            
+               /\     MWM.>>>>>>>>>>>>>           
+>>:>>>W       /gg\     v v                        
+      W       D::FDDDDDKDDD\                      
+V<<   W       Dggg????????gg\                     
+      W       I>>M>>>T>>>?::D                     
+      W        ID????????gggD                     
+>>>   W        ggI<<<W<<<F<<J                     
+      W       F:: IDDWDDDDDJ    ,                 
+ <<<gg        ggg   F x(                          
+    :: <<<<<<<.<<    M==x=======                  
+>>> ggg         ggggg   g                         
+    >>F>>>>>>>>>=====>FFK                         
+ <<<                     F                        
+                        /                         
+>>>>>>>>>>>>>>>>>>>>>>>>                          
+

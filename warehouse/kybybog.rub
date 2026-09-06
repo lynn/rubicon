@@ -1,0 +1,37 @@
+* Title:Sea of Fire 4
+* Designer:hatkirby
+* Type:Puzzle (3)
+* Follows:jisodex
+* Physics:1
+                %            %                    
+ 0123f56789abcde%            %                    
+          <<<<<<%           <%                    
+          %                 %                     
+          %                 %W<                   
+         <%                   %                   
+         %                   <%                   
+         %W<                 %%                   
+           %                 %                    
+          <%                 %                    
+          %%                 %                    
+FFF       %                FFFFFF                 
+FFFFF     %             FWFFFFFFFF                
+FFFFFWFFF %     FFFFFFFFFWFFFFFFFFFF              
+FFFFFWFFFFF    FFFFFFFFFFWFFFFFFFFFFMFF           
+FFFFFWFFFFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFF    
+FFFFFWFFFFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFFWFF
+FFFFFWFFFFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFFWFF
+FFFFFWFFFFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFFWFF
+FFFFFWFFFFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFFWFF
+FFFFFWFFFFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFZWZF
+FFFFFWF~KFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFZ$ZF
+FFFFZW+ZZFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFZTZF
+FFFFZ$f$ZFFFFMFFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFF$FF
+FFFFZ>:<ZZZZZMZFFFFFFFFFFWFFFFFFFFFFMFFFFFFFFFZ.ZF
+FFFFZZ$$$$$$$$ZFFFFFFFFFFWF~VFFFFFFFMFFFFFFFFFZ4ZF
+FFFFFZ>>>>>>>ZZFFFFFFFFFZW-ZZFFFFFFFMFFFFFFFFFZZZF
+FFFFFFFFFFFFFFFFFFFFFFFFZ$f$ZFFFFFFFMFFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFZ>:<ZZZZZZZZMZFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFZZ$$$$$$$$$$$ZFFFFFFFFFFFF
+FFFFFFFFFFFFFFFFFFFFFFFFFZ>>>>>>>>>>ZZFFFFFFFFFFFF
+

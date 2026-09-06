@@ -1,0 +1,35 @@
+* Title:Solution to Jack-o-Lantern
+* Designer:jboymicro
+* Physics:1
+      C    SC     C     C           C     C       
+      C     C     C     C           C     C       
+      C     C     C     C           C     C       
+      C     C     C     C           C M~W C       
+      C     C     C     C           BBBBBBB       
+      C  ~  C     C     C                         
+      C ),( C     C     C                         
+      BBBBBBB     C     C                         
+                  C     C                  F      
+                  C     C                  V      
+                  C     C                  Y      
+                  C     C                  Y      
+                  C     C                  Y      
+                  C     C                  A      
+         +        C     C              BBBBBBB    
+                  C     C              YQQQQQY    
+        ..        C     C              YQQQQQY    
+                  C     C              YQQQQQY    
+        ..        C \~/ C              YQQQQQY    
+                  BBBBBBB              BBBBBBB    
+        ..                                        
+          >>>>>>>>#############                   
+        ..        #############                   
+                  ###F#####F###                   
+        ..        #############  F                
+                  ###1##^##0###  V                
+        ..        ###T#####G###  ~                
+                  ###1$####0###  ~                
+        ..        ###K#####T###  ~                
+$$$$$$$$$$$$$$$$0$$$$$$$$$$$$$$$$~$$$$$$$$$$$$$$$$
+   <<<<<<<<<<<<<< #############<<A                
+

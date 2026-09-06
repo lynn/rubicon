@@ -1,0 +1,37 @@
+* Title:Sort reversal
+* Designer:Rene
+* Type:Solution
+* Follows:gitabyh
+* Physics:2
+BBBBBBBBBBBBBBBBBBBBBBBB??BBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBOBBBBBBBBBBBBBBBBBB::BBBBBBBBBBBBBBBBBBOBBBBB
+BBBBBB                  =                   BBBBBB
+BBBBBB                                      BBBBBB
+BBBBBB             <<<<<<K>>>>>>>>          BBBBBB
+BBBBBB                   n                  BBBBBB
+BBBBBB         <<<K>>>   =     <<<K>>>      BBBBBB
+BBBBBB            j               r         BBBBBB
+BBBBBB       <K>  =  <K>     <K>  =  <K>    BBBBBB
+BBBBBB        h       l       p       t     BBBBBB
+BBBBBB     FWF=FWF FWF=FWF FWF=FWF FWF=FWF  BBBBBB
+BBBBBB      W   W   W   W   W   W   W   W   BBBBBB
+BBBBBB     MWM MWM MWM MWM MWM MWM MWM MWM  BBBBBB
+BBBBBB                                      BBBBBB
+BBBBBB      K   K   K   K   K   K   K   K   BBBBBB
+BBBBBB   (  g h i j k l m n o p q r s t u   BBBBBB
+BBBBBB(===xA=A=A=A=A=A=A=A=A=A=A=A=A=A=A=A=WBBBBBB
+BBBBBB |  gg g g g g g g g g g g g g g g g WBBBBBB
+BBBBBB x =K>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> WBBBBBB
+BBBBBB  x                                  WBBBBBB
+BBBBBB |h ================<<<<<<<<<<<<<<<<<WBBBBBB
+BBBBBB  K=                                  BBBBBB
+BBBBBB                                      BBBBBB
+BBBBBB <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<BBBBBB
+BBBBBB                                      BBBBBB
+BBBBBB>                >>>>>                BBBBBB
+BBBBBOBTBTBTBTBTBTBTBTBBFFBBTBTBTBTBTBTBTBTBOBBBBB
+BBBBBBBfBeBdBcBbBaB9B8BBHHBB7B6B5B4B3B2B1B0BBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB~::~BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB+..-BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+

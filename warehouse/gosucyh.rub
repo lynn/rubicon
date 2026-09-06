@@ -1,0 +1,37 @@
+* Title:Two Gates solution
+* Designer:jf
+* Type:Solution
+* Follows:lozabur
+* Physics:2
+    g             z                           |)g 
+ 1  K             z                           |)1 
+                  z                            )  
+   >M>>>>>>>>>>   z==W======W=====W=========M=x   
+    M             z                         M !   
+    M      HHHHTHHHHHTHHHHHHTHHHHHTHHHH     M !   
+    M      B(?$$BB(?$$BBBBBB$$?)BB$$?)B     M !   
+    M    BBBBB:BBBBB:BBBBBBBB:BBBBB:BBBBB   M !   
+    M    B      )  (                    B   M !   
+    M    B                              B   M !   
+    M!   B                              B   M !   
+    M!   B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   M !   
+    M    B                              B   MF    
+    M BBBBBBB                        BBBBBBBM x   
+    M B$x$x$B                        B$x$x$B xh   
+    M BxBxBxB       \                BxBBBxBM KxW 
+      $$$$$$$!                       $$$$$$       
+     >BxBxBxB========================BxB:BxB<<<<<<
+      B$x$x$B                        B$x$x$B      
+      BBBxBBB                        BBBBBBB      
+    !  Bgg$B                            B         
+    !  B>>FB                            B         
+

@@ -1,0 +1,37 @@
+* Title:The Blasted Furnaces of ----
+* Designer:hatkirby
+* Type:Puzzle (3)
+* Follows:
+* Physics:1
+      ZZZZZZZZZZZZZZZZZ                           
+ ?    ZF F FF F  F(   Z                         ? 
+      ZF F F  F  F (  Z                           
+      ZFFF FF F  F (  Z                           
+      ZFFF F  F  F(   Z                           
+      ZF F FF F  F    Z                           
+      ZF F FF FF F    Z                           
+      ZZZZZZZZZZZZZZZZZ                           
+                                                  
+                                                  
+                                                  
+                      F F                         
+                     FF FF                        
+                     F   FF                       
+                    FF    FF                      
+                  FFF      FF                     
+                  FF        FF                    
+                  F          FF                   
+                FFFFFFF       FF                  
+               FFFF    F       FF                 
+              FF         F      FFFF              
+             FF      F            FF              
+            FF     F               FFFF           
+           FF     FFF   F      F     FFFF         
+          FF   FFFFFFF                  FF        
+        FFFFF/\ FF   FF F F              FFF      
+        FFFF-~xFF    F    FF F            FFF     
+      FFFF  |F=FF          FFFF    F        FF    
+    FFFFFFF  |3|F            FFFFFF          FF   
+FFFFFFFFFFFF FT              FFFFFFF  TF      FFFF
+FFFFFFF                        FFFFFF|3|        FF
+

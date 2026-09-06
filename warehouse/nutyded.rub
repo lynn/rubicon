@@ -1,0 +1,37 @@
+* Title:Pharoah's tomb solved
+* Designer:Gameman
+* Type:Solution
+* Follows:
+* Physics:2
+   |                                              
+    T========M==========================\         
+             M                           \        
+    M        M                            \       
+    M        M                             \      
+    M        M                              \     
+    M        M          /\                   \    
+    M        M         /HH\   )               \   
+    M        M        /HBBH\                   \  
+    M        M       /HBBBBH\                   \)
+    M        M      /HBBBBBBH\                   =
+    M              /HBBBBBBBBH\                   
+    M        =M===/HBBBBBBBBBBH\                  
+   |              IBB   SBBBBBBH\                 
+    ===========\   IB    BBBBBBBH\                
+               /H\  I    BBBBBBBBH\               
+              /HBH\      IBBBBBBBBH\              
+             /HBBBH\      IBBBBBBBBH\             
+            /HBBBBBH\ 00   IBBBBBBBBH\            
+           /HBBBBBBBHHHHH\  IBBBBBBBBH\           
+          /HBBBBBBBBBBBBBH\  IBBBBBBBBH\          
+         /HBBBBBBBBBBBBBBBH\  IBBBBBBBBH\         
+        /HBBBBBBBBBBBBBBBBBH\  IBBBBBBBBH\        
+       /HBBBBBBBBBBBBBB   SBH\  IBBBBBBBBH\       
+      /HBBBBBBBBBBBBBBB    BBH\  IBBBBBBBBH\      
+     /HBBBBBBBBBBBBBBBB        \ )                
+    /HBBBBBBBBBBBBBBBBB    HHHHHHHHHHHHHHHHHH\    
+   /HBBBBBBBBBBBBBBBBBBHHHHBBBBBBBBBBBBBBBBBBH\   
+  /HBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBH\  
+ /HBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBH\ 
+/HBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBH\
+

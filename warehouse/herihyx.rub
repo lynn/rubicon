@@ -1,0 +1,37 @@
+* Title:Slot Machine 2 Fixed
+* Designer:jf
+* Type:Solution
+* Follows:takybyd
+* Physics:2
+$??###,  ,                                        
+$?/-## (         =                                
+$?$$$# =M>>>>>>>                                  
+$K#.W#  M      ,                            ,     
+$n#8W#  M                     (                   
+$###W#  M       ============W\n /===========      
+$$$$$$   =                    M=             |)   
+>>>>>>>>>     <K                             |)   
+               mW           >>>              |)   
+            <K =W                            |)   
+             l                                    
+          <K =W < ====== ====== ====== =======x   
+           k  W ,x#,#K#,x#,#K#,x#,#K#,x#,#K###v   
+        <K =W W #(4567$#(4567$#(4567$#(4567$##K<  
+         j  W W #,M>#,W#,M>#,W#,M>#,W#,M>#,W#, F  
+      <K =W W   ##3210 )#3210 )#3210 )#3210 )#M   
+       i  W W   ###T<<####T<<####T<<####T<<###M   
+    <K =W W                                   M   
+     h  W W        M      M      M      M     M   
+   K =W W          M      M      M      M     M   
+  Wg  W W      W)  M      M      M      M     M   
+  W=W W        W)  M      M      M      M     M   
+    W W        W)  M      M      M      M     M   
+    W          W)  M      M      M      M     M   
+    W              M      M      M      M     M   
+                x  M      M      M      M     M   
+                v  M v    M      M      M     M   
+  >             K< M v    M v    M      M    gM   
+:                   xv F   xv F   xv F  M    gM   
+~, >>>>>>>>>>>>>   M K    M K    M K    M    gM   
+.                                            g    
+

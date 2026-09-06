@@ -1,0 +1,37 @@
+* Title:Solution to Long Descent
+* Designer:jf
+* Type:Solution
+* Follows:dikaned
+* Physics:2
+                                  g               
+                                  g               
+                                  g               
+                                gx                
+                               =K                 
+                                0                 
+              <<<<<<<<<<<<<<<<<#V#<               
+                               # #                
+                               #V#                
+                              #l #                
+                              #KV#                
+       //////T///////////////#kl #//////////\     
+      /////// ///////////////#KKV#//////////\\    
+     ////////M//////////////#jkl #/////////BB\\   
+    /////////M//////////////#KKKV#////////BBBB\\  
+   //        M             #ijkl #             \\ 
+  //         M ggghijkl    #KKKKV#              \\
+ //          M >>>>>>>>x> #hijkl #                
+//           M         g  #KKKKKV#                
+             M         g         =                
+             M         K >>>>>>>V   g             
+             M                   =  K             
+             M       >>M>>>>>>>>V                 
+             M         M           >M             
+             M         M                          
+             M         M        >>>>:             
+             M         M                          
+                                                  
+             <<<<<<<<<<<<<<<<<<<<<<<<<            
+.|                                                
+~:                                                
+

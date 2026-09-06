@@ -1,0 +1,37 @@
+* Title:Slithering Snake
+* Designer:Rene
+* Type:Solution
+* Follows:tavirok
+* Physics:2
+                                                  
+                                                  
+                                                  
+                                                  
+                                                 )
+                                                  
+                                                  
+                                                  
+====W======:====================================M=
+                                                M 
+             g   g   g   g   g                  M 
+             :+  :+  :+  :+  :+                 M 
+                                                M 
+             hMW hMW hMW hMW hMW h              M 
+             :MW :MW :MW :MW :MW :              M 
+            |h  hh  hh  hh  hh  hh hhhhh        M 
+           :+K+>+K+>+K+>+K+>+K+>+K>=====W       M 
+                                        W       M 
+           =M=.WM=.WM=.WM=.WM=.WMF      W       M 
+            MggWMggWMggWMggWMggWM       W       M 
+       A    MV=WMV=WMV=WMV=WMV=WM       W      -M 
+       gv   M x M x M x M x M x M       W     g   
+       ::   M==FM==FM==FM==FM==FM       W #####.##
+      F  x x x x x x x x x x x x        W #$0$$$?#
+    : F.<  +M+ +M+ +M+ +M+ +M+ +M       W ##:+#T<#
+###                                     W #$$$$$$#
+#?# >>M>>>=.=.=.=.=.=.=.=.=.=.=.>F   ###W###+.>#F#
+#:#        g g g g g g g g g g g     F$x$##0$$$$$#
+$$$###.###############################M#####M<####
+FK$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+>g>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>F
+

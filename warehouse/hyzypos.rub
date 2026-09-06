@@ -1,0 +1,37 @@
+* Title:Happy Period III
+* Designer:Rene
+* Type:Solution
+* Follows:hivifig
+* Physics:2
+                              ,  ,   |            
+ |       0123456789abcdef       )    |vvvvvvvvvvv 
+ | <<<<<<<<<<<<<<<<<<<<<<<<<<<<M|    |vvvvvvvvvvv 
+,| ,                           M|    |vvvvvvvvvvv 
+ (                                   |vvvvvvvvvvv 
+ ==>>>>>>>>>>>>>>>>>>>>>>>>>>>> xv   |vvvvvvvvvvv 
+              v  vutsrqponmlkjiW K<  |vvvvvvvvvvv 
+              h  >>>>>>>>>>>>>h   g  |vvvvvvvvvvv 
+ <<<<<<<<<<<<<K<              KW >K  |vvvvvvvvvvv)
+             |                     F |vvvvvvvvvvv 
+K>>          |W<===============<  M  |vvvvvvvvvvv 
+u    (       |                       |vvvvvvvvvvv 
+=,   /==\(   |>>>>>>>>>>>>>>>>    M  |vvvvvvvvvvv 
+  ) /,  ( ( ( ( ( ((,                |vvvvvvvvvvv 
+  \)    /==========),             M  |vvvvvvvvvvv 
+   \) \ ) ) ) ) ) )                  |vvvvvvvvvvv 
+    \)))/=WW==WWMM==              M  |vvvvvvvvvvv 
+     ===   W  WWM                    |vvvvvvvvvvv 
+       |   W  WWM<<<<<<<<<<<<<<   M  |vvvvvvvvvvv 
+       |   W  WWM                    |vvvvvvvvvvv 
+       | <<W  WWM                 M  |vvvvvvvvvvv 
+               WM     -              |vvvvvvvvvvv 
+>>>>>>>>>>>>>>   |   g            M  |vvvvvvvvvvv 
+              >>T|   =M>>>           |vvvvvvvvvvv 
+              ## F####M###        M  |v<<<<<<<<<< 
+              ##.##? # #0#           |v           
+              #   #>:+A# #        M +,v ,=========
+              #F\  # g   #            v           
+              #:#\  #:<<<#        =K=<==          
+              #~##\   ####                        
+              #.#####<####>>>>>>>>>=              
+

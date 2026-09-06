@@ -1,0 +1,37 @@
+* Title:Boxes
+* Designer:hatkirby
+* Type:Puzzle (2)
+* Follows:
+* Physics:1
+    C                  C        C                 
+    C                  C        C                 
+    C                  C        C                 
+   ###.##              C        C                 
+   #(? ##              C        C                 
+   ##+T##              C        C                 
+   #   ##              C        C                 
+   #M.?x#              C        C                 
+   #M  ##              C        C                 
+   #MW<##              C        C                 
+        Y              C        C                 
+        Y              C        C                 
+        Y              C        C                 
+        Y         ###.##        C                 
+        Y         #(? ##        C                 
+        Y         ##+T##        C                 
+        Y         #   ##        C                 
+        Y         #M.?x#        C                 
+        x         #M  ##                          
+        g         #MW<##                          
+        x         Y                               
+        g         Y                               
+        x         Y              C                
+        Y         Y              C   g            
+        Y         x              C   x            
+        Y         g              C   Y            
+        Y         x             \C   Y            
+        Y         g           /.##   Y            
+        Y         x          T# ?)+  Y            
+        Y         Y         /   x?   Y     Y      
+        Y         Y        /#MW< #:<\Y    xgx     
+

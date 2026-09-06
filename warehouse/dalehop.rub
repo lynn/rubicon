@@ -1,0 +1,37 @@
+* Title:Combination Lock 3 Solution
+* Designer:Humbugger
+* Type:Solution
+* Follows:hogudav
+* Physics:2
+         )                                |       
+  ========  /M======M======M======M====\  |       
+           / Mqmjhg/Mqmjhg/Mqmjhg/Mqmjhg\ |       
+          /  Mrnki/ Mrnki/ Mrnki/ Mrnki/  |       
+         /   Msol/  Msol/  Msol/  Msol/   |       
+        /v   Mtp/   Mtp/   Mtp/   Mtp/    |       
+       / u   Mu/    Mu/    Mu/    Mu/     |       
+      /  t    v      v      v      v      |       
+     /   s   =K>F   =K>F   =K>F   =K>F    |       
+    /    r    ?      ?      ?      ?      |       
+,  /     q,##,T##,##,T##,##,T##,##,T###   |       
+  /      p#(  fed#(  fed#(  fed#(  fed#   |       
+==       o##M>##W##M>##W##M>##W##M>##W#   |       
+         n##M9abc##M9abc##M9abc##M9abc#   |       
+         m##MW##<##MW##<##MW##<##MW##<#   |       
+         l##M8765##M8765##M8765##M8765#   |       
+         k##M>##W##M>##W##M>##W##M>##W#   |       
+         j##01234##01234##01234##01234#   |       
+         i##KKKKK##KKKKK##KKKKK##KKKKK#   |       
+        ,h                              , |       
+         g  v/==\  v/==\  v/==\  v/==\    |       
+        /=W=M    W=M    W=M    W=M    Wx= |       
+ /,   /W  W                               |       
+ |   / W  W=x<<<<<=x<<<<<=x<<<<<=x<<<<<x= ,       
+ | \i                                     |       
+ |  M==W==W=xW=====xW=====xW=====xW====x=<|       
+ |  i  W  W   |      |      |      |      |       
+ |>>===W==W==K======K======K======K====x==|       
+:|                                        |       
+~|     >>>>>>>>>>>>>>>>>>>>>>>>>>>     ===|       
+.|                                        |       
+

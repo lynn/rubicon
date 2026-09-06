@@ -1,0 +1,37 @@
+* Title:Solution for Pinhole Camera 2
+* Designer:Timbo
+* Type:Solution
+* Follows:defuned
+* Physics:2
+#       0000000000g g g g.     (F                1
+# W<<<<<<<<<<<<<<<>>>>>> ~    |i                 T
+# W       g g g g g g g g:,  , K                  
+# W <<<<<<<<<<<<<<<<<<<<<# (                    /2
+# W                      # =M>>>>>>>>>>VVVVVVVVV T
+#+W>>>>>>>>>>>>>>>>>>>>> #  M                     
+a                 g      #             WWWWWWWW>>3
+#+W<<<<<<<<<<<<<<<< <<<<<#  M          WWWWWWWW  T
+9                 g      #             WWWWWWW    
+#+W<<<<<<<<<<<<<<<<>>>>> #  M          WWWWWWW>>>4
+8                 g      #             WWWWWWW   T
+#+W<<<<<<<<<<<<<<<< <<<<<#  M          WWWWWW     
+7                 g      #             WWWWWW>>>>5
+#+W<<<<<<<<<<<<<<<<     F#  M          WWWWWW    T
+6                 g          |         WWWWW      
+#+W<<<<<<<<<<<<<<<<>>>>>M#>>>          WWWWW>>>>>6
+5                 g     M#             WWWWW     T
+#+W<<<<<<<<<<<<<<<<     M#             WWWW       
+4                 g     M#             WWWW>>>>>>7
+#+W<<<<<<<<<<<<<<<<     M#             WWWW      T
+3                 g     M#             WWW        
+#+W<<<<<<<<<<<<<<<<     M#             WWW>>>>>>>8
+2                 g     M#             WWW       T
+#+W<<<<<<<<<<<<<<<<     M#             WW         
+1                 g     M#             WW>>>>>>>>9
+#=W<<<<<<<<<<<<<<<<     M#             WW        T
+# W          |i         M#             W          
+# WMMMMMMMMMM K         M#             W>>>>>>>>>a
+#                        #             W         T
+# >>>>>>>>>>>>>>>>>>>>>>>#                        
+#                        #             >>>>>>>>>>#
+

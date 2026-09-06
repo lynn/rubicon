@@ -1,0 +1,37 @@
+* Title:4-bit converter
+* Designer:immibis
+* Type:Other
+* Follows:
+* Physics:2
+                                                  
+                                                  
+                  g                               
+                  :                               
+               F|)g /=============x=\             
+                 g==            |    \            
+            , ===K   /========= , x   =====\      
+                    /                       \  A ,
+,            ,MMMM>=     = = = <  x          \  ) 
+           (      |      x x x x x            g/= 
+ ===========M>>>>>|     W W W     x         /==   
+            M           W W W              /      
+           |M,  ,       W W W     x       /       
+           |   )      , W W W=>>W      /=F        
+           |=<M=      F        +W x   /           
+              M        =W=W=\     g  /            
+              M         W W +W.MW=.+=.+           
+              M           W                       
+              M         /+W.M>>=>>==>==W          
+              M        W                          
+              M        W.M>>=          W          
+1             M                        W          
+0             M        >>=             W          
+1             M                        W          
+010101010 0101 |                                  
+>>>>>>>>>>>>>>=                        >TTTT      
+                                        555a      
+                                        ====      
+                                                  
+                                                  
+                                                  
+

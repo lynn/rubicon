@@ -1,0 +1,37 @@
+* Title:Pinhole Camera 2 solved
+* Designer:jf
+* Type:Solution
+* Follows:defuned
+* Physics:2
+#       0000000000       .        ( xi           1
+# W<<<<<<<<<<<<<<<       ~,       =  K=         ,T
+# Wgggggggggggggggggggg| :                        
+# Wgggggggggggggggggggg| # \( /========VVVVVVVVV>2
+# Wgggggggggggggggggggg| #  =M                   T
+#+W>>>>>>>>>>>>>>>>>>gg  #   M                    
+a                 v  gg  #   M                 >>3
+#+W<<<<<<<<<<<<<<<<  gg  #   M                   T
+9                 v  gg  #   M                    
+#+W<<<<<<<<<<<<<<<<  gg  #   M                >>>4
+8                 v  gg  #   M                   T
+#+W<<<<<<<<<<<<<<<<  gg  #   M                    
+7                 v  gg  #   M               >>>>5
+#+W<<<<<<<<<<<<<<<<  gg F#   M                   T
+6                 v  gg      M                    
+#+W<<<<<<<<<<<<<<<<  >>>M#   M              >>>>>6
+5                 v     M#   M                   T
+#+W<<<<<<<<<<<<<<<<     M#   M                    
+4                 v     M#   M             >>>>>>7
+#+W<<<<<<<<<<<<<<<<     M#   M                   T
+3                 v     M#   M                    
+#+W<<<<<<<<<<<<<<<<     M#   M            >>>>>>>8
+2                 v     M#   M                   T
+#+W<<<<<<<<<<<<<<<<     M#   M                    
+1                 v  =i M#   M           >>>>>>>>9
+#=W<<<<<<<<<<<<<<<<   K M#   M                   T
+# gggggggggggggggg)      #   M                    
+#F>>>>>>>>>>>>>>>>>>>>>> #   M          >>>>>>>>>a
+#                   |    #   M                   T
+#                   |   <#    =                   
+#                   |  = #>>>=         >>>>>>>>>>#
+

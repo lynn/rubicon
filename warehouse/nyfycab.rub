@@ -1,0 +1,37 @@
+* Title:Solution to Even-Odd Partition hard
+* Designer:Rene
+* Type:Solution
+* Follows:tutusop
+* Physics:2
+                        C         +-:             
+                        C         ~.~             
+                        C         S~              
+                        C                         
+                        C                         
+                        C                         
+                        C                         
+    ,  ,                C           ,  ,          
+      (                 C             )           
+     =M>>>>>>>>>>>>>    C    <<<<<<<<M=           
+ | |  M|vv|  |pq|| ,  , C ,  ,   | !|M            
+ |g|  M|ks|  |pq||   )  C  (     | v|M            
+ |v|  M|vv|  |pq|| /:ZZZZZZZ:\   | i|M            
+ |v|  M|sg|  |pq||WZ$$$$x$$$$Z\  | v|M            
+ |g|  M|vv|  |pq||WC>TTTCTTT<C   | g|M            
+ |v|  M|g!|  |pq |WZZ210C0feZZ   | v|M            
+ |v|  M|vv|  |pK |WIZZZZZZ,ZZJ,  ,h!|M            
+ |!|   |ks ox g  |    C$$$1     )|vv|M            
+ ,v|  M|\vKK >K>W|\  ,C$<<<<<<<M=|gg|M            
+  g  )   k            C$-$C    M |vv|M            
+=W======W===W=W>W<xMW C$$$C    M |\!|M            
+ W        F  x | x    CQ.$C     x hv|             
+ W      <   KFW|W |M< CQ1$C,   MFKK!|M         ,  
+            ! W|W |M  ,SQ$C    (   v              
+ >>>>>>>>>>>= W|W |   $$$$C====M====FM===F========
+                  |=<<<<<<C     xv    xu  xv      
+  ,          <<<<     ,Q+Q,    M K<  M K<M K< ,   
+     (                $$$$$          tu (         
+>>>>>>>>>>>>>===>>>>>>>Q.>>>>>>>>>>>>>>>>==<<<<<<<
+                       Q1Q                        
+ghijkghijkghijkghijkghijkghijkghijkghijkghijkghijk
+

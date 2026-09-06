@@ -1,0 +1,37 @@
+* Title:Recycled Decrement
+* Designer:Rene
+* Type:Solution
+* Follows:razufic
+* Physics:2
+                  g                               
+ ZZZZZZZZZ        g                     ZZZZZZZZZ 
+ Z$$x4x$$Z        g                     Z$$x3x$$Z 
+ Z$x$$$x$Z        g                     Z$x$$$x$Z 
+ Z$$$$$$$Z        g                     Z$$$$$$$Z 
+ Z$x$$$x$Z        g                     Z$x$$$x$Z 
+ Z$$$$$$$Z        g                     Z$$$$$$$Z 
+ Z$x$$$x$Z        g                     Z$x$$$x$Z 
+ Z$$x$x$$Z                              Z$$x$x$$Z 
+$ZZZZ$ZZZZ                              ZZZZ$ZZZZ$
+$  $Z$Z$$$                              $$SZ$Z   $
+$$$$Z$Z$$$              /1\             $$$Z$Z$$$$
+$ $$ $                 /ZxZ\               F$F$$ $
+$ $$ $                /!hijk\               $ $$ $
+$ $$ $               /Zl~.~mZ\              $ $$ $
+$$$$$$<<<<<<<<<<<<<  1xn(+)ox1              $$$$$$
+$ $$ $               IZp~:~qZJ              $ $$ $
+$ $$>$x>>>>>>>>>>>>\  IrstuvJ               $ $$ $
+$ $$ $              \  IZxZJ  />>>>>>>>>>>>>$ $$ $
+$$$$Z$Z$$$           \  I1J  /          $$$Z$Z$$$$
+$  $Z$Z$$$            \     /           $$$Z$Z   $
+$ZZZZ$ZZZZ             >>>>V            ZZZZ$ZZZZ$
+ Z$$x$x$$Z                              Z$$x$x$$Z 
+ Z$x$$$x$Z                              Z$x$$$x$Z 
+ Z$$$$$$$Z                              Z$$$$$$$Z 
+ Z$x$$$x$Z                              Z$x$T$x$Z 
+ Z$$$$$$$Z                              Z$$$4$$$Z 
+ Z$x$$$x$Z                              Z$x$Z$x$Z 
+ Z$$x$x$$Z                              Z$$x$x$$Z 
+ ZZZZZZZZZ                              ZZZZZZZZZ 
+                                                  
+

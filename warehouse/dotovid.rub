@@ -1,0 +1,37 @@
+* Title:Diabolical Arithmetic
+* Designer:ais523
+* Type:Solution
+* Follows:tohogir
+* Physics:2
+ + + + +                                          
+ r g g g                                          
+MM=M=M=M>>>>>>>>                                  
+ s   g g                                          
+MM M M M                                          
+ s     g                                          
+MM M M M  , A  /=================W===             
+ r     M      /                  W                
+M= M MgM   =\g                                    
+M  M,M)M     =W\                ,W  ,             
+M     h         \                )                
+M  M MK===,== > ,\           W<<<===              
+M  M M        ) | \          W                    
+M  M MF<<<<VVVMW|  \         W  ,   ,             
+M  M M ,  ,         \             (               
+M  M     ) WWWW<     \       W<<<M==              
+   M =<<M= WWW        \    ,   ,                  
+M, M,  ,M  WWW         \     (   M                
+   )  ) M  WWW          \   ===o M    ,           
+<<M=<M==M  WWW>>         \         )              
+ pM tM vM  WWW #W#########M#VVVV#M#===            
+ pM tM vM  WWW #W6543210##$#$$$$#$#               
+ pM tM hM  WWW #W7<<<<<<<#M#$$$$#M#               
+ pM hM h   WWW #W89abcde##$#\$$/h$#               
+ hM hMFK=  WWW #W>>>>>>WF#M#g\$#:M#               
+ hM h       WW #W#####$f$#M#:$$$$$#               
+ hMFK= =<<<<WW #W#####WK##$$$$K>F##               
+ h           W #W#####W$###<F<?####               
+FK= =<<<<<<<<W #W#####WM######T#:##               
+               #$$$$$$$$$$$$$$$#~##               
+ =<<<<<<<<<<<< #>>>>>>>>>>>>>>##.##               
+

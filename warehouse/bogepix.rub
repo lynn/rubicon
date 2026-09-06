@@ -1,0 +1,36 @@
+* Title:Solution to Cistern - dyxycoh
+* Designer:Rene
+* Type:Solution
+* Physics:2
+gggg gggggg|gg  B  gg            B   |    ggggg gg
+ggg\ggggggg|gg  B  KK            B   | \  \ggggg/g
+ggWF<<<<<<< gg  B            v   B      \  >>>>>FW
+gg          KKBBBB>M>>>      K> BBBBW<K F\       g
+gg>M             B M          g B      g  <<<<<<M<
+gWFM       >MMBVV  M   K>>>> =K  VVB=<M\ gggggggM 
+gg          MMB                    B  M x<<<<<<<M 
+g>MM        MMB>>>>>>>>=>> <V<<<<<<B  M g   g   M 
+WFMM        MMBBB                BBB  M K   K   M 
+           |MM  B                B    M       ggM 
+>MMM>>>>>>WFMM  B                B g  M<<<<<M ggM 
+ MMM         M  B         g      B g  M     M ggM 
+ MMM   V<<K MM  B         g      B K  M       g/M 
+ MMM    v    M  B        ?g      B          M WFM 
+ MMM <KWK>M>=M  B        T<      B>M>>>>      g M 
+ MMM     g   M  B                B M        M gMM 
+ MMM <W< KA  M  B       >=       B M              
+ MMM  g         B                B M        M >MM 
+ MMM >K>>>M>>=  B                B M            M 
+ MMM   g  M     B                B M    >>>>>  MM 
+ MMM>WFK  M     B                B M        gg  M 
+ MMM      M     B                B M     <<<KK MM 
+ MMM K M  M     B                B M            M 
+ MMM g   gM     B                B M   v>>>>MM>MM 
+ MMM>=>= gM     B              g B M   vvvv MM  M 
+ MMM   gggM     B              K B M   vvvv MM MM 
+ MMM   gggM     B                B M   vvvv MM  M 
+ MM c egggM     B <<<<<<<<<>>>>> B M   vvvv1 3 MM 
+=M  68agg<M     B B            B B M   >vvv579  M=
+=   024g<         BNNNNNNN:.NNNB        >vvbdf   =
+====BBB<  <<<<<<B<BNN(~)NN-~+NNB>B>>>>>> >>BBB====
+

@@ -1,0 +1,37 @@
+* Title:Solution to Pinhole Camera
+* Designer:jnz
+* Type:Solution
+* Follows:hymipyb
+* Physics:2
+#|                      0.                       #
+# VVVVVVV\              :~                       #
+#+        \              #            g          1
+7          <<<<<<<<<<<<<<#            K          T
+#=K                      #                        
+# g                      #           >M>>>>>>>>>>#
+#+=                      #            M g        2
+6                        #            M K        T
+#=KK                     #            M           
+# gg                     #            M>M>>>>>>>>#
+#+==                     #            M M g      3
+5                        #            M M K      T
+#=KKK                    #            M M         
+# ggg                    #            M M>M>>>>>>#
+#+===                ,  ,#            M M M g    4
+4                     (               M M M K    T
+#=KKKK                =M>#            M M M       
+# gggg                 M #            M M M>M>>>>#
+#+====                 M #            M M M M g  5
+3                      M #            M M M M K  T
+#=KKKKK                M #            M M M M     
+# ggggg                M #            M M M M>M>>#
+#+=====                M #            M M M M M g6
+2                      M #            M M M M M KT
+#=KKKKKK               M #            M M M M M   
+# gggggg              nM #            M M M M M>M#
+#+======              KM #            M M M M M M7
+1                       |#            M M M M M MT
+#=KKKKKKK>>>>>>>>>>>>>>> #                        
+# ggggggg                #>>>>>>>>>>>>>>>>>>>>>>>#
+# =======                #                       #
+

@@ -1,0 +1,35 @@
+* Title:solution to 6 trains
+* Designer:20eight
+* Physics:1
+                           g                      
+               F   ,+ <<<KKK  F   F               
+                  = g        )               =    
+               A   =x<WWWMMMx=A===AMMM,===== =    
+    =           g  (        g    g           =    
+##### ==========x=====MMMMMM=====x=====      #####
+(123                g MMMMMM g                def)
+xTTT#<===========WWWM MMMMMM MWWW===========>#TTTx
+#abc#            WWWM=MMMMMM=MWWW            #456#
+#####            WWWM MMMMMM MWWW            #####
+(                WWWM MMMMMM MWWW                )
+=====x=MMM       WWWM MMMMMM MWWW       MMM=x=====
+                 WWWM MMMMMM MWWW                 
+#####x=AAA     , WWWM MMMMMM MWWW ,     AAA=x#####
+(987 g           WWWM MMMMMM MWWW           g 789)
+xTTT#= ===> ===  WWWM MMMMMM MWWW  === <=== =#TTTx
+#789#========    WWWM MMMMMM MWWW    ========#987#
+#####    (       WWWM MMMMMM MWWW       )    #####
+         ===xMMM WWWM MMMMMM MWWW MMMx===         
+                 WWWg        gWWW                 
+           =xAAA WWWx=AAAAAA=xWWW AAAx=           
+#####  ||   g        )      (        g   ||  #####
+(456   || / ====>=====AAAAAA=====<==== \ ||   abc)
+xTTT#\              g        g              /#TTTx
+#def# >==<=========== MM==MM ===========>==< #123#
+#####                :MM  MM:                #####
+                      MM  MM                      
+                                                  
+                      AA  AA                      
+                        ==                        
+                     >>>><<<<                     
+

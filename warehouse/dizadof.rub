@@ -1,0 +1,37 @@
+* Title:Moving Boxes
+* Designer:Rene
+* Type:Solution
+* Follows:nacazex
+* Physics:1
+    C                  C        C                 
+    C(                 C        C                 
+    C                  C        C                 
+   ###.##              C        C                 
+   #(? ##              C        C                 
+   ##+T##              C        C                 
+   #   ##              C        C                 
+   #M.?x#              C        C                 
+   #M  ##              C        C                 
+   #MW<##              C        C                 
+    M   Y              C        C                 
+    M   Y             )C        C                 
+    M   Y              C        C                 
+    M   Y         ###.##        C                 
+    M   Y         #(? ##        C                 
+    M   Y         ##+T##        C                 
+   -M   Y         #   ##        C                 
+       FY         #M.?x#F F)    C                 
+  MM= A x ,       #M  ## gx                       
+        g         #MW<## K                        
+========x<        Y                               
+        g         Y=>>>V=M==                      
+        x         Y      M      )C                
+        Y         YF     M       C   g            
+        Y       , x A    M  |    C   x            
+        Y         g     -M  |W=M=C   Y            
+        Y        >x>>>      |   \C   Y            
+        Y         g   >=====| /.##   Y            
+        Y         x         |T# ?)+  Y            
+        Y         Y         /   x? g Y     Y      
+        Y         Y        /#MW< #:<\Y    xgx     
+

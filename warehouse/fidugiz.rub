@@ -1,0 +1,37 @@
+* Title:Coffee Table solution
+* Designer:immibis
+* Type:Solution
+* Follows:
+* Physics:2
+                                      C        C  
+ (~)      ,          /\               C        C  
+ .~:                /  \              C        C  
+ +~- (    /\     /\g    \             C        C  
+ZZZZZZ======FWW<x===\    ============ C        C  
+             W       \                C        C  
+             WW x     \               C        C  
+             W x       \              C        C  
+             W          \             C        C  
+             W           \            BBBBBBBBBB  
+             W            \                       
+             W             \         =BMBBBBBBBB  
+             W              \         B02468aceB  
+                             \        B<<<<<<<<B  
+             >>>>>>           \       BBBBBBBBBB  
+ __________________            \                  
+                                \     BBBBBBBBBB  
+  TTTTTTTTTTTTTTTT<<             \    B%%%%%%%%B  
+ B0123456789abcdefB               \   B%%%%%%%%B  
+ BBBBBBBBBBBBBBBBBB                \  BBBBBBBBBB ,
+ Y                Y                 \             
+ Y                Y                  =BMBBBBBBBB< 
+ Y                Y                   B13579bdfB  
+ Y                Y                   B<<<<<<<<B  
+ Y                Y                   BBBBBBBBBB  
+ Y                Y                               
+ Y                Y                   BBBBBBBBBB  
+ Y                Y                   Y        Y  
+ Y                Y                   Y        Y  
+ Y                Y                   Y        Y  
+ Y                Y                   Y        Y  
+

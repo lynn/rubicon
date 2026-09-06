@@ -1,0 +1,37 @@
+* Title:Rubiks Rectangle solved
+* Designer:jf
+* Type:Solution
+* Follows:xycusud
+* Physics:2
+                       g              nn          
+            <<<<<<<<<<<KF             ::+         
+                     nn  x\             g         
+                     ::M   n<<<<<<<<<<<<=W        
+                      nn=x :+            W        
+                     >>     g            W        
+                       \ x /=>>>>>>>>>>  W        
+                       F   F             W        
+              ZZZZZZZZZZxxxZZZZZZZZ      W        
+              ZZZZZZZZ x   x ZZZZZZ      W        
+              ZZZZZZZZxZZMZZxZZZZZZ n    W        
+              ZZZ(     ZZ ZZ   )ZZZ n v  W        
+            n ZZZZxZ,ZZZ,AZZ,ZxZZZZ K K  W        
+            n $!Z$nx$1)$$$(3$xo Z!$      W        
+            K>ZWZ>KZWTMZZMMTWZK<ZWZ<M M  W        
+              Z$$$$ZW1MZZ M3WZ$$$$Z M M  W        
+            M Z>>>FZWZMZZAMZWZF<<<Z M M  W        
+            M ZZZZZZW2MZZ M4WZZZZZZ M M  W        
+            M ZZZZZZWTMZZ.MTWZ,ZZZZ M M  W        
+            M ZZ,)$$$2$$$$$4$$ZZZZZ M M  W        
+            M ZZZ$/W>MZZZZZM<WZZZZZ M M  W        
+            M ZZZxZ$$$ZZZZZ$$$ZZZZZ M M  W        
+            M ZZ$nZ>>ZZZZZZZ<<ZZZZZ M M  W        
+            M ZZ>KZZZZZ,!Z,ZZZZZZZZ M M  W        
+            M ZZZ$$$$$$$$)ZZZZZZZZZ      W        
+            M ZZZF<<<<<<MZZZZZZZZZZ <<<< W        
+            M ZZZZZZZZZZMZZZZZZZZZZ      W        
+            M            nnnnnnnnnnnnnnnn         
+            M           =================<        
+                                                  
+           >>                                     
+

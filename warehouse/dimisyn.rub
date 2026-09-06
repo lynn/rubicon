@@ -1,0 +1,37 @@
+* Title:Solution to Cistern
+* Designer:sluutthefeared
+* Type:Solution
+* Follows:dyxycoh
+* Physics:2
+ggggg     | ggggB                Bgggg |     ggggg
+ggggg     | <<<<B                B>>>> |     ggggg
+g<<<<     | xv  B                B  gx |     >>>>g
+WF        |  KBBBB              BBBBK  |        FW
+g         |     |B              B|     |         g
+gM        |>>MBVV                VVBM<<|        Mg
+g            MB                    BM            g
+>M>>>>>>>>>> MB>>>>>>>>>>\   /<<<<<BM <<<<<<<<<<M<
+|Mgggg        BBBhglkjihgs\ /    BBBM           M|
+|M>>>>>>x>M>W=  Bghmnopqrt|W|    B  M           M|
+|M       x xv   Bhg>>>>>>u|W|    B  M           M|
+|M      ==M=W   Bgh|     v W|    B  M           M|
+|M      F   v   Bhg|    VKFW|    B              M|
+|M      ===<KF  Bgh|     ? W|    B  =KF         M|
+|M       v      Bhg|    WT W|    B              M|
+|M       vvvM   Bgh|        |    B   Mvvv       M|
+|M      vvvvM   Bhg|W<<<<=<<|    B   Mvvvv      M|
+|M      v   M   B>h W            B   M   v      M|
+|M      v   M   B g              B   M   v      M|
+|M      v   M   BWK> >>>>>>>W    B   M   v      M|
+|M      v   M   B g         W    B   M   v      M|
+|M      v   M   B>=>FW      W    B   M   v      M|
+|M      v   M   B    W      W    B   M   v      M|
+|M          M   B    W      W    B   M          M|
+|M     v    M   B v  W      W  g B   M    v     M|
+|M     v    M   B K  W      W  K B   M    v     M|
+|M     v    M   B                B   M    v     M|
+|   c ev    M   B <<<<      >>>> B   M    v1 3   |
+|\  68av <<<M   B B            B B   M>>> v579  /|
+| \ 024v<         BNNNNNNN:.NNNB         >vbdf / |
+|  >BBB<    <<<<B<BNN(~)NN-~+NNB>B>>>>    >BBB>  |
+

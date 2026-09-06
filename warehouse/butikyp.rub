@@ -1,0 +1,37 @@
+* Title:Solution to Even-Odd Partition medium
+* Designer:Rene
+* Type:Solution
+* Follows:sodices
+* Physics:2
+                        C         +-:             
+                        C         ~.~             
+                        C         S~              
+                        C                         
+                        C                         
+                        C                         
+                        C                         
+   ,   ,                C           ,   ,         
+      (                 C             )           
+    ==M>>>>>>>>>>>>>    C    <<<<<<<<M==          
+ g|   M vsg| |pq||,   , C ,   ,  |tt M |tt |      
+ v|   M gvv| |pq|| )    C  (     |!! M |!! |      
+ v|   M vss| |pq|| Z:ZZZCZZZ:Z   |uv M |tt |      
+vg|   Mvsvv| |pq||WC$$$$ $$$$C\  |!! M |!! |      
+g!|   Mgvkk| |pq||WZ>TTTCTTT<Z   |tt M |tu |      
+vv|   Mvgvv| |pq |WZZ012C0feZZ   |!! M |!! |      
+vv|   Mkv!/| |pK |W ZZZZZZ,ZZ ,  ,tv M |utt|      
+\v|    v!/ ox g  |    C$$$1     )|!! M |!!!|      
+,!|   M\v|KK >K>W|\  ,C$<<<<<<<M=|uttM |ttt|      
+ v   )  s             C$-$C    M |!!!M |!!!|      
+W======W====W=W=W=xMW C$$$C    M |tvtM |tut|      
+W      W  F  x | x    CQ.$C      |!!!  |!!!|      
+W      W    KFW|W |M< CQ1$C,   M |\t/M |\t/|    , 
+              W|W |M  ,SQ$C     (t !   t !        
+>>>>>>>>>>>>= W|W |   $$$$C====MFMW=FMFMW=F=======
+                  |=<<<<<<C     xt    xt   xv     
+ ,           <<<<     ,Q+Q,    M K<  M K< M K< ,  
+   (                  $$$$$          tu (         
+>>>>>>>>>>>>>===>>>>>>>Q.>>>>>>>>>>>>>>>>>==<<<<<<
+                       Q1Q                        
+ghijkghijkghijkghijkghijkghijkghijkghijkghijkghijk
+

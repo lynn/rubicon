@@ -1,0 +1,37 @@
+* Title:1-up
+* Designer:ais523
+* Type:Puzzle (4)
+* Follows:
+* Physics:2
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+W_Y                     YMY                    Y_W
+  Y                     Y Y                    Y  
+T_Y_____________________YAY____________________Y_T
+ ?Y                     Y Y                    Y? 
+:<Y                     YMY                    Y>:
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+

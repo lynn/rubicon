@@ -1,0 +1,36 @@
+* Title:Vault
+* Designer:jf
+* Type:Puzzle (4)
+* Physics:2
+BBBBBBBBBBBBBBBBBBBBBBBBBB                        
+BBBBBBBBBBBBBBBBBBBBBBBBBB                        
+BBBBBBBBBBBBBBBBBBBBBBBBBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BxB                        
+BBB                     g                         
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB                    BBB                        
+BBB        0123        BBB                        
+BBB        4567        BBB                        
+BBB        89ab        BBB                        
+BBB        cdef        BBB                        
+BBBBBBBBBBBBBBBBBBBBBBBBBB            T         : 
+BBBBBBBBBBBBBBBBBBBBBBBBBB            ?         ~+
+BBBBBBBBBBBBBBBBBBBBBBBBBB            #         .-
+

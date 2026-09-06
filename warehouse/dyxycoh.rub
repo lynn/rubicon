@@ -1,0 +1,36 @@
+* Title:Cistern
+* Designer:jf
+* Type:Puzzle (5)
+* Physics:2
+                B                B                
+                B                B                
+                B                B                
+              BBBB              BBBB              
+                 B              B                 
+              BVV                VVB              
+              B                    B              
+              B                    B              
+              BBB                BBB              
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B        ?       B                
+                B        T       B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+                B                B                
+    c e         B                B         1 3    
+    68a         B B            B B         579    
+    024           BNNNNNNN:.NNNB           bdf    
+    BBB         B BNN(~)NN-~+NNB B         BBB    
+

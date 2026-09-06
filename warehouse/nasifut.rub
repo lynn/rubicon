@@ -1,0 +1,37 @@
+* Title:Warehouse
+* Designer:Werbad
+* Type:Puzzle (4)
+* Follows:
+* Physics:2
+~.(                        PQQQP             ?   P
+:OOOJ                      PFxFP            IOJ  P
+                           $$!$$                 P
+                           PFxFP                 P
+                           PQQQP             3   P
+                           PQQQP            IOJ  P
+                           PQQQP                 P
+                           PQQQP                 P
+                           PQQQP             a   P
+                           PQQQP            IOJ  P
+                           PQ$$$                 P
+                           PQV<<                 P
+                           PQ$QP             8   P
+                           $$$QP            IOJ  P
+            /K\            <<<QP                 P
+            O?O            PQQQP                 P
+            ITJ            PQQQP             1   P
+                           PQ$$$            IOJ  P
+                           PQV<<                 P
+                           PQ$QP                 P
+                           $$$QP             c   P
+                           <<<QP            IOJ  P
+                           PQQQP                 P
+                           PQQQP                 P
+                           PQQQP             4   P
+                           PQQQP            IOJ  P
+                           PQQQP                 P
+                           PFxFP                 P
+                           $$!$$             ?   P
+(OOO\                      PFxFP            IOJ  P
+~)                         PQQQP                 P
+

@@ -1,0 +1,33 @@
+* Count boxes of each type*Daniel Nilsson
+   v                                           ?  
+   :     +  /<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\  ,: ,
+    0    h     -              -             \   ) 
+ - K+   :B<KW                                BBBBB
+ g  g      gW M.>>>>>>>\     M.>>>>>>>\           
+BZ<vZ<<<<  BW Mm  v    I\    Ml  v    I\          
+   :          MB  :     +\   MB  :     +\         
+    1  /<<<<KWM    6    h    M    b    h          
+ - K+   -   iWM - K+   :B<KW M - K+   :B<KW       
+ g  g K     BWM g  g      gW M g  g      gW       
+BZ<vZ<hB.W     BZ<vZ<<<<  BW MBZ<vZ<<<<  BW       
+   :  B hW /<KB   :          M   :                
+    2   BW - l     7  /<<<<KWM    c  /<<<<KW      
+ - K+        B  - K+   -   iWM - K+   -   iW      
+ g  g /<<<B.W   g  g K     BWM g  g K     BW      
+BZ<vZ<J    jW  BZ<vZ<hB.W     BZ<vZ<hB.W          
+   :      +BW     :  B hW /<KB   :  B hW /<<      
+    3     h        8   BW - k     d   BW -        
+ - K+    :B<KW  - K+        B  - K+               
+ g  g       gW  g  g /<<<B.W   g  g /<<<B.W       
+BZ<vZ<<<<<  BW BZ<vZ<J    jW  BZ<vZ<J    jW       
+   :              :      +BW     :      +BW       
+    4  /<<<<<<     9     h        e     h         
+ - K+   -       - K+    :B<KW  - K+    :B<KW      
+ g  g K         g  g       gW  g  g       gW      
+BZ<vZ<hB.W     BZ<vZ<<<<<  BW BZ<vZ<<<<<  BW      
+   :  B hW        :              :                
+    5   BW         a   /<<<<<     f   /<<<<<      
+ - K+           - K+  /J       - K+  /J           
+ g  g /<<<      g  g /J        g  g /J            
+BZ<BZ<J        BZ<BZ<J        BZ<BZ<J             
+

@@ -1,0 +1,37 @@
+* Title:sample finite state machine
+* Designer:Bucky
+* Type:Other
+* Follows:
+* Physics:1
+                      g         g        !        
+                      :       +<\h       :        
+                    g         g  \g               
+                   W,<K      :x<, \g    WKF       
+              g    WF         g)   \h   Wh        
+              :F    +======:====    \h ,W=        
+                    g        h       \h (        ,
+              >M>>>>=        :+      ,<<======\   
+               M                                /F
+               M   W<K     >>==KW     =F....=xFx  
+               M     i +       uW       gggg      
+               M W<KW= g       =W       ==== x x  
+               M   hW ,x<  ,    W                 
+               MWKW=W      )    W            x x  
+               MWgW  + F..>>    W             x   
+               MW=W  g  ij      W                 
+               MW W ,x< =,      W                 
+               MW W      )      W                 
+               MW W+ F..>>>>    W                 
+               MW  g  hj        W                 
+               MW ,x< =,                          
+               MW      )                          
+               MW+ F..>>>>>>                      
+               M g  gi      W                     
+               M,x< =,      W                     
+               M     )                            
+               M F..>>>>>>>>W                     
+               M  gh        W                     
+               M  ==        W                     
+                                                  
+               :<<<<<<<<<<<<F<<<<<<               
+

@@ -1,0 +1,35 @@
+* Title:Solution to Synchronization
+* Designer:Daniel Nilsson
+* Physics:2
+                                 ,  ,             
+                                   (              
+                     <<<<<<<<<<<<=M=              
+                                                  
+                                  M               
+                                                  
+                    >>>>>>>>>>>>  M               
+                               G G G              
+                               Y YMY              
+                               Y Y Y              
+                               Y YMY              
+  G  G                         Y Y Y              
+  Y  Y                         Y YMY              
+  Y  Y                         Y Y Y              
+  Y  Y                         Y YMY              
+  Y  Y                         Y Y Y              
+  Y  Y                         Y YMY        U  U  
+HHHHHHHH                      HH H HHHHHHHHHHHHHHH
+,BB,+BBB                      BB BMBBBBBBBBBBB,BB,
+B($$$$$B                      BB$$$$$$$$$$$$$$$$)B
+BL.LLK$B   /  /  /  /  /  /  /BB$LLLLLLLLLL,LL,MLB
+B?!BBu$B  /B /B /B /B /B /B /BBB$BB$$$$$$$$$$)BMBB
+B:LBBL$,B),B),B),B),B),B),B),BBB$,B$,LLLLLLLMLBMBB
+$$$B(+$B($$($$($$($$($$($$($$BBB$$($$$$$$$$$MBBMBB
+FK$xg$$BLM$LM$LM$LM$LM$LM$LM$B,B$,LLTTTTTTTFMBBMBB
+Bg$BLL<BBM$$M$$M$$M$$M$$M$$M$$$($$$$$$$$$$$$MBBMBB
+,LW,BBBBBM$$M$$M$$M$$M$$M$$M$LLLLLLLLLLLLLLLMBBMBB
+B($$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$BBMBB
+BL,L:,LLLL>LL>LL>LL>LL>LL>LL>LLLLLLLLLLLLLLLLBBMBB
+BB$($$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$BB
+BBBLLL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>BB
+

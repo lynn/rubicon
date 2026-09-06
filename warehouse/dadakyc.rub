@@ -1,0 +1,37 @@
+* Title:4x4
+* Designer:Werbad
+* Type:Solution
+* Follows:rabagot
+* Physics:2
+KB  + + + + IB  - - - - IB + + + + +IB  - -     IB
+~B 1         B 1         B 1         B 1         B
+BB :M:M:.=.\ B :M=M=M=M\ BM::M:M=M=MWB :.=.>>\   B
+BB          WB  M M M M WB     M   MWB        \  B
+BB >=>=>>>= WB :M M M M WB=<>: M A MWB >>>>    \ B
+BB           B         | B           B           B
+BB          TB >>>>>>>= TB   >>>>>>>TB          TB
+BBBBBBBBBBBBcBBBBBBBBBBBdBBBBBBBBBBBeBBBBBBBBBBBfB
+BB  + + +   IB  + + + + IB + - - - -IB + + + + +IB
+BB 1         B 1         B 1         B 1         B
+BB :M:M:M\   B :M:M:M=M\ BM::M=M=M=MWBM::M:M=M=M B
+BB        \  B  M     M  B     M M MWB       M M B
+BB >=>=>>  \ B  M>=>= M  B=< . M M MWB:<>:>= M M B
+BB           B           B           B           B
+BB          TB >>>>>>>= TB  >>>>>>>>TB>=>>>>>>>>TB
+BBBBBBBBBBBB8BBBBBBBBBBB9BBBBBBBBBBBaBBBBBBBBBBBbB
+BB  + +     IB  + + +   IB  + + +   IB  + + + - IB
+BB 1         B 1         B 1         B 1         B
+BB :M:M>\    B :M:M=M\   B :M:M=M\   B :M:M:M=M\ B
+BB       \   B  M   M \  B    M M \  B  M     M WB
+BB >=>=   \  B  M>= M  \ B >= M M  \ B  M>=>= M WB
+BB         \ B           B           B           B
+BB          TB >>>>>=   TB   >>>=   TB >>>>>>>= TB
+BBBBBBBBBBBB4BBBBBBBBBBB5BBBBBBBBBBB6BBBBBBBBBBB7B
+BB -        IB          IB +        IB  + +     IB
+BB 1         B 1         B 1         B 1         B
+BBM:>>>>>\   B >>>>>>\   BM:>>>>>\   B :.=.>>\   B
+BB        \  B        \  B        \  B        \  B
+BB=<       \ B         \ B=<       \ B >>>>    \ B
+BB          TB          TB          TB          TB
+BBBBBBBBBBBB0BBBBBBBBBBB1BBBBBBBBBBB2BBBBBBBBBBB3B
+

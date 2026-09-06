@@ -1,0 +1,35 @@
+* Title:Solution to I Traffic Warden 3 - tudugys
+* Designer:Rene
+* Physics:2
+-~:BBBBBBBBBBBB7BBBBBBBBggBBBBBBBB5BBBBBBBBBBBBBBB
++~.BBBBBBBBBBBB:BBBBBBBB::BBBBBBBBTBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBB$BBBBBBBB$$BBBBBBBF$FBBBBBBBBBBBBBB
+BBB                     FF        M            BBB
+BBB                               M            BBB
+BBB                               M            BBB
+BaB             <<<< \            M            Baa
+BTB                   \           M            B::
+B$$           > >>     \          M            $$$
+BF<<<\                  \         M    < <<<<<<<<<
+BBB   \         < <<<    \        M            BBB
+BBB    \                  \       M       F    BBB
+BBB     <<<<<<< <<         \      M            BBB
+ggB                         \     M < < < M\   Bgg
+::B                          \            M \  B::
+$$$F                          \   << < <<<M  \ $$$
+>>>                            \          M   <<<<
+BBB                             <<<<<<<   M    BBB
+BBB      / >>>>                           M    BBB
+BBB     /                 />>>>>>>>> >    M    BBB
+ddB    /     << <        /        F       M    BdB
+::B   /                 /                 M    BTB
+$$$  /    >>> >        /         /M > > > M    $$B
+>>>>>                 /         / M           />FB
+BBB          >> >>>>>>  /\     /  M>>> > >>  / BBB
+BBB                    /gg\   /   M         /  BBB
+BBB                     ::   /    M   >>>>>>   BBB
+BBB                         /     M            B55
+BBBHHHHHHHHHHHF$FHHHHHHH>>HHHHHHHHMHHHHHHHHHHHHB::
+BBBBBBBBBBBBBBBTBBBBBBBBBBHBBBBBBB$$$$$$$$$$$$$$$$
+BBBBBBBBBBBBBBB7BBBBBBBBBBBBBBBBBB<<<<<<<<<<<<<<<<
+

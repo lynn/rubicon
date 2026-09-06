@@ -1,0 +1,37 @@
+* Title:Solution to Pinhole Camera 2
+* Designer:jnz
+* Type:Solution
+* Follows:defuned
+* Physics:2
+#       0000000000       .                       1
+#       WWWWWWWWWW       ~,  ,                   T
+#       WWWWWWWWWW       : (                      
+#       WWWWWWWWWW       # =M>>>>>>>>>>>VVVVVVVVV2
+#       WWWWWWWWWW       #  M                    T
+#+       WWWWWWWWW       #  M                     
+a         WWWWWWWW       #  M                   >3
+#+KKKKKKW<WWWWWWWW       #  M                    T
+9          WWWWWWW       #  M                     
+#+KKKKKKW<<WWWWWWW       #  M                  >>4
+8           WWWWWW       #  M                    T
+#+KKKKKKW<<<WWWWWW  v    #  M                     
+7            WWWWW  v    #  M                 >>>5
+#+KKKKKKW<<<<WWWWW  v,  ,#  M                    T
+6             WWWW  v (                           
+#+KKKKKKW<<<<<WWWW  v =M>#>>>                >>>>6
+5              WWW  v  M #                       T
+#+KKKKKKW<<<<<<WWW  v  M #                        
+4               WW  v  M #                  >>>>>7
+#+KKKKKKW<<<<<<<WW  v  M #                       T
+3                W  v  M #                        
+#+KKKKKKW<<<<<<<<W  K  M #                 >>>>>>8
+2                 |i   M #                       T
+#+KKKKKKW<<<<<<<<< K=  M #                        
+1                       |#                >>>>>>>9
+#KKKKKKKK>>>>>>>>>>>>>>> #                       T
+#gggggggg                #                        
+#========                #               >>>>>>>>a
+#                        #                       T
+#                        #                        
+#                        #              >>>>>>>>>#
+

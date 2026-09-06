@@ -1,0 +1,35 @@
+* Title:Effects priority
+* Designer:Magilvia
+* Physics:2
+          g g                                     
+        gx                       . |   A |        
+ h,i    F  x              op,q  (g |  (g |        
+ ===      ===             ====  ====  ====        
+                                                  
+                                                  
+        gFggFg                  (g h) (g h        
+         g :g:                  == == == <<       
+ i,jk       :             q,rs   | |   | |        
+ ====                     ====   | |   | |        
+        ======                   | |   | |        
+                                 ===   ===        
+                                                  
+         M M                     h g)  h g        
+ jk,l    g g              rs,t  >> == >> <<       
+ ====    :                ====   | |   | |        
+                                 | |   | |        
+         ===                     ===   ===        
+                                                  
+         M M                                      
+ l,mn    g g              t,u     g     h         
+ ====    V W              ===    =K=   =K=        
+                                  g     g         
+         F =                      >=    >=        
+         F                                        
+                                   g    g         
+ mn,op . A . A                    +x   -x         
+ ===== g g g g            u,v    hhh  igh         
+       V V W W            ===    ==K= ==K=        
+                                   g    g         
+                                   =    =         
+

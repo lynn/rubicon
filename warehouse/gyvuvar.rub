@@ -1,0 +1,37 @@
+* Title:Solution for Slot Machine 3
+* Designer:jf
+* Type:Solution
+* Follows:mesadaz
+* Physics:2
+,(????     g      g      g      g         (=      
+    /===VW=V===VW=V===VW=V===VW=V==\    vx        
+ =MM  F  W   F  W   F  W   F  W   F \  =K =====   
+         g      g      g      g      \         ,  
+  MM   V<K > =V<K > =V<K > =V<K > =   =====\gg    
+  hh                                     )  MM=   
+  MM= =W=MW+W=W=MW+W=W=MW+W=W=MW+W======x=,=hh    
+  ii W                             ggggg(   MM=   
+  MM   >>==xK=>>==xK=>>==xK=>>==xK=======x  ii    
+  jj      = vvvvvv vvvvvv vvvvvv vvvvvvv )  MM    
+ vMM      ,x#,#K#,x#,#K#,x#,#K#,x#,#K###x=  jj    
+ vkk      #(4567$#(4567$#(4567$#(4567$##g   MMv   
+ uMM      ##M>##W##M>##W##M>##W##M>##W##g   kkv   
+ ull  =   ##Mba98##Mba98##Mba98##Mba98##g   MMu   
+ tMM      ##MW##<##MW##<##MW##<##MW##<##g   llu   
+ tmm      ##Mcdef##Mcdef##Mcdef##Mcdef##g   MMt   
+ sMM      ##M>#,W#,M>#,W#,M>#,W#,M>#,W#,g   mmt   
+ snn      ##3210$)#3210$)#3210$)#3210$)#g   MMs   
+ rMM      ###T<<####T<<####T<<####T<<###g   nns   
+ roo                                    g   MMr   
+ qMM         M      M      M      M     g   oor   
+ qpp=                                   g   MMq   
+ >== >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     g  =ppq   
+                                        g   ==<  ,
+                                        g         
+                                        ========= 
+                                                  
+                                                  
+:                                                 
+~                                                 
+.                                                 
+

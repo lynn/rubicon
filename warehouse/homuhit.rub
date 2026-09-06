@@ -1,0 +1,37 @@
+* Title:Combination Lock 4 Solution
+* Designer:Humbugger
+* Type:Solution
+* Follows:camydyb
+* Physics:2
+   (                                             |
+====x==M==xgM==xgM==xgM==xgM==xgM==xgM==xgM==xg= |
+    v  MqmjhMqmjhMqmjhMqmjhMqmjhMqmjhMqmjhMqmjh  |
+    K  MrnkiMrnkiMrnkiMrnkiMrnkiMrnkiMrnkiMrnki  |
+  vl F Msol/Msol/Msol/Msol/Msol/Msol/Msol/Msol/  |
+  ukM  Mtp/ Mtp/ Mtp/ Mtp/ Mtp/ Mtp/ Mtp/ Mtp/   |
+  tjMM Mu/  Mu/  Mu/  Mu/  Mu/  Mu/  Mu/  Mu/    |
+  siM   v    v    v    v    v    v    v    v     |
+  rhM<<<K>F<<K>F<<K>F<<K>F<<K>F<<K>F<<K>F<<KF    |
+  qgM   ?    ?    ?    ?    ?    ?    ?    ?     |
+ !pgM##+T###+T###+T###+T###+T###+T###+T###+T##   |
+ !ogM#  43#  43#  43#  43#  43#  43#  43#  43#   |
+ !ngM#.M>W#.M>W#.M>W#.M>W#.M>W#.M>W#.M>W#.M>W#   |
+ \mgM#5012#5012#5012#5012#5012#5012#5012#5012#   |
+  \gM##KKK##KKK##KKK##KKK##KKK##KKK##KKK##KKK#,  |
+  ,gM                                            |
+   g g(v/W\ v/W\ v/W\ v/W\ v/W\ v/W\ v/W\ v/W=   |
+ =Wx===M  ==M  ==M  ==M  ==M  ==M  ==M  ==M      |
+  W    M    M    M    M    M    M    M    M      |
+  W   x    x    x    x    x    x    x    x       |
+  W  M <<<M <<<M <<<M <<<M <<<M <<<M <<<M <<<    |
+  W   x    x    x    x    x    x    x    x       ,
+  W  M x  M x  M x  M x  M x  M x  M x  M x      |
+  W                                              |
+  W==M==W=M==W=M==W=M==W=M==W=M==W=M==W=M==W==M=<|
+  W      |    |    |    |    |    |    |    |     
+  W  <<<K <<<K <<<K <<<K <<<K <<<K <<<K <<<K      
+                                                  
+: >   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+~                                                 
+.  \ /                                            
+

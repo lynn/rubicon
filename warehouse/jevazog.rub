@@ -1,0 +1,37 @@
+* Title:Tetris Solution
+* Designer:Xindaris
+* Type:Solution
+* Follows:garudox
+* Physics:2
+            g |gg g) vvgggg     ggg            .~D
+    0  1  22g 3 4===5>>>>>>>    >>> 9  aa bb   -:+
+   000 11 22g33 444 5 666 777 888 999|aa   bb     
+W<<<<<  1 / g3 >>>> 5 \ 6  7  8   >>  W<< >>>     
+W  ccc  <    >Wg    5  >>W<<<W<<<   W W      >>>>W
+W   c      /  W     >>W( W   W   >  W W          W
+W  <<<    /   W       W g    W      W W ffff     W
+W             W    >> W g>>>WW      W W >>>>>>>  W
+W <         < Wd      W g   WW  e   W W          W
+W             Wdd /   W     WW ee   W         |  W
+W>         >  Wd /    W <   WW Fe   W >>>>>>>W   W
+W             W>>     W     W       W        W   W
+W <         <         W>    W\    <          W   W
+W            >>>>W    W       \     >WWWW    W   W
+W>         >          W <   K  W     WWWW    W   W
+W            WWWW<<<  W    WmW WW<   WWWW    W   W
+W <         <WWWW          W|W WW    WWWW    W   W
+W            WWWWWWWW<>>>  W W WW    WWWW    W   W
+W>         > WWWWWWWW      W W       WWWW    W   W
+W            WWWWWWWWWWWW< W W >>WWWWWWWW    W < W
+W <      <<<<WWWWWWWWWWWW        WWWWWWWW        W
+W            WWWWWWWWWWWW        WWWWWWWWWWWW<<  W
+W>           WWWWWWWWWWWW        WWWWWWWWWWWW    W
+W            WWWWWWWWWWWW        WWWWWWWWWWWW    W
+W >>    >WWWWWWWWWWWWWWWW ,   ,  WWWWWWWWWWWW    W
+W    <<< WWWWWWWWWWWWWWWW        WWWWWWWWWWWW    W
+W        WWWWWWWWWWWWWWWWVVVVVVVVWWWWWWWWWWWW    W
+W   >WWWWWWWWWWWWWWWWWWWW        WWWWWWWWWWWW    W
+                                                  
+>TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT<
+/0000111122223333444455556666777788889999aaaabbbb\
+

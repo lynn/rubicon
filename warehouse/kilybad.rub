@@ -1,0 +1,37 @@
+* Title:Magic Square Solved
+* Designer:Werbad
+* Type:Puzzle (4)
+* Follows:gaxilud
+* Physics:2
+                    vvvvvvvvvvv           !!!     
+                    \vvvvvvvvv/           !!!     
+                     \vvvvvvv/            !!!     
+                      \vvvvv/             !!!     
+                       \vvv/              !!!     
+                        \v/               \!!     
+                         g |            gx !/     
+                      , >KW            >K xW,     
+                                      (           
+                       =WM>===W=x=W=x===M===W     
+                        WM  g  x   x !!!M         
+                        WMW<K W +FW!!!!!M   /     
+                     HHHWMWH      W!g!!!M  /      
+                     B.$$$WBM >KW W!h!!/M W       
+                     :~TKHWBM g W W!i!/ M W       
+                     B?$?$$BM ><W W\j/  M W       
+                     B:+H<<BMg x  W g   M W       
+                     B??$$BBM>< > W>KW  M W       
+                     BBM>WBB         W  M W       
+                         W  <<<<<<>> W  M W       
+                       M W           W  M W       
+                    ! x     <<<<<<<<<W  M W       
+                   ,>< M, << ,       W  M W       
+                     )    )          W  M W       
+                    ==MW<K===        W  M W       
+                      MW vutsrqponmlk   M W       
+                      MWF============<  M W       
+                    , MW ,              M W       
+                   xj)                    W       
+                 (xFK==K=>>>>>>>>>>>>>>>>,W      ,
+                       utsrqponmlkjihg!!!!      ) 
+

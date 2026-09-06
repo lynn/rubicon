@@ -1,0 +1,37 @@
+* Title:Slithering Snake IV
+* Designer:Rene
+* Type:Solution
+* Follows:hutitin
+* Physics:2
+                                                h)
+                                                  
+                                                  
+====V==============:===========================M==
+                                               M  
+                   W             g             M  
+                   W             :+            M  
+                   W            hg s|          M  
+                   W            :x=K           M  
+      h                           F            M  
+      :                         >M+.           M  
+      hhhhhhhhhhhhh hhhhhhhhhhhhh              M  
+    W>K:===========V=============KWKF          M  
+                                F Wr           M  
+    >:FK+                        .W=           M  
+                                  g x          M  
+     >MKW<                       ><W M         M  
+      M W h                        W  ggx      M  
+      MAW :                        W +KK M     M  
+      MgW|h hhhhhhh hhhhhhhhhhhhhhh      M     M  
+      M=W-K>=======:===============F.=KF M     M  
+      M                             h r  M        
+      M x.F        V                = =##M#####.##
+      M                                #$M#$0$$$?#
+      M AM                             #AM##:+#T<#
+###   M g                              #gg#$$$$$$#
+#?#   M =<<<<<<<<<<<                   #:x##+.>#F#
+#:#                                    F$$)0$$$$$#
+$$$###.#################################M###M<####
+FK$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+>g>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>F
+

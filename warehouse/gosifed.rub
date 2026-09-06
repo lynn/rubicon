@@ -1,0 +1,37 @@
+* Title:Solution to Rubik's Rectangle
+* Designer:jnz
+* Type:Solution
+* Follows:xycusud
+* Physics:2
+                                                  
+          ,                            ,          
+  (                )      gggggggggggg |       )  
+, ======== ============== ============V ======== ,
+                         x                        
+ ===================== ,   , =========W========== 
+                         x            W           
+                       x   x          W           
+              ZZZZZZZZZZxxxZZZZZZZZ   W           
+              ZZZZZZZZ x   x ZZZZZZ   W           
+              ZZZZZZZZxZZMZZxZZZZZZ   W           
+              ZZZ(     ZZ ZZ   )ZZZ   W           
+           ,  ZZZZxZ,ZZZ,AZZ,ZxZZZZ  ,W           
+             n$!Z$nx$1)$$$(3$xo Z!$n  W           
+            ==ZWZ>KZWTMZZMMTWZK<ZWZ== W           
+              Z$$$$ZW1MZZ M3WZ$$$$Z   W           
+              Z>>>FZWZMZZAMZWZF<<<Z   W           
+              ZZZZZZW2MZZ M4WZZZZZZ   W           
+              ZZZZZZWTMZZ.MTWZ,ZZZZ   W           
+              ZZ,)$$$2$$$$$4$$ZZZZZ   W           
+              ZZZ$/W>MZZZZZM<WZZZZZ   W           
+              ZZZxZ$$$ZZZZZ$$$ZZZZZ   W           
+              ZZ$nZ>>ZZZZZZZ<<ZZZZZ   W           
+              ZZ>KZZZZZ,!Z,ZZZZZZZZ   W           
+              ZZZ$$$$$$$$)ZZZZZZZZZ   W           
+              ZZZF<<<<<<MZZZZZZZZZZ   W           
+              ZZZZZZZZZZMZZZZZZZZZZ   W           
+                       | ngggggggggggg            
+                        ==============<           
+                                                  
+                                                  
+

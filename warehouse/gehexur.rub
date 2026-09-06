@@ -1,0 +1,37 @@
+* Title:Firewall
+* Designer:Bucky
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+1                                 YF        K--  x
+:                                 YF        xKKx- 
+                                  YF       - - K  
+                                  YF          x - 
+                                  YF      -  - xK 
+                                  YF          Kx  
+                                  YF         -  -K
+                                  YF     -    xK x
+                                  YF       K Kx - 
+                                  YF       x - -  
+                                  YF        -   - 
+                                  YF           - -
+                                  YF      -    Kx 
+                                  YF          Kx -
+                        YFYTKOOOOOYF          - - 
+                        YFY$?               -K    
+                        YFYOK                xx K 
+                        YFY              - -  K xK
+                        YFY                 x -- -
+                        YFY                - xK --
+                        YFY                 -K x  
+                        YFY                    K-K
+                        YFY               - Kx - x
+                        YFY                     - 
+                        YFY ?                 --  
+                        YFYTKOOOOOYF         xK xK
+F                                 YF         K--  
+ZZ                                YF        -   - 
+.Z                                YF         xK x 
+~Z                                YF      -       
+:Z                                YF              
+

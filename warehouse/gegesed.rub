@@ -1,0 +1,35 @@
+* Title:solution to dozebon
+* Designer:SM
+* Physics:2
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB                BBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBB                  BBBBBBBBBBBBBBBB
+C  C   C   BBBB                    BBBB C   C  C  
+C  C   C   BBB                      BBB C   C  C  
+C  C   C   BB                        BB F   C  C  
+C  C   C   B     ,  ,                 B C   C  F  
+C  C   C   B      (                   B F   C     
+C  F   C   B      =M==>               B C   C     
+C      C   B       M                  B C   C     
+C      C   B       M                  B C   C     
+C      C   B       M                  B C   C     
+C      C   B       M                  B C   F    F
+C      C   B       M                  B C        L
+C      C   B       M                  B F        L
+C      F   B       M                  B C        L
+F          B       M                  B C        L
+           B       M                  B C        L
+           B       M                  B C        L
+           B       M                  B C    F   L
+   F       B       M,   ,             B F    L   L
+   L       BB      M  )             FBB      L   L
+   L   F   BBBBBBBBM,BBB,TTTTTBBBBBBBBB      L   L
+B  L   L  BBBBBBB BMB )????????BBBBBBBBB     L   B
+BB L   L BBBBBB B BMBBBMBBBBBBWBBBBBBBBBB    L  BB
+BBBL   LBBBBB B B BMB B        BBBBBBBBBBB   L BBB
+BBBB   BBBB B B B BMB B:<<<<<<<BBBBBBBBBBBB  LBBBB
+BBBBB BBB               BBBBBBBBBBBBBBBBBBBB BBBBB
+BBBBBBBBB BBBBBBBBBBBBB<BBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+

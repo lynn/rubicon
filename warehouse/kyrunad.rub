@@ -1,0 +1,37 @@
+* Title:Gates for Rubik
+* Designer:jnz
+* Type:Solution
+* Follows:bagabug
+* Physics:2
+       v|                  F(|       ,  ,     ,$$,
+       :+W=\                g          )(|    $$)$
+            \               K ,  <<<<<M=l    <<ME$
+       =:KW(,\                      g,M K    ,EME$
+   | qrg u g  ==============M= WK>> :|       |EME$
+   | rsq KWK                M   hl    M=====< EME$
+   | srq       + + + + + + +M  WKK WK M      EEME$
+   | vvv =K=  t                  l          EE+ME$
+   | rsr  g   =M=M=.=M=.=.=.=MM> = K>>>     E$$$EE
+   | qsg  =                      r g        EM.EFE
+   | ggg       <<<<<<<<<<<<<<<<<<: =        EMgE$g
+   , ======                         ,       EMEEM:
+   |                       /===W<F<         E$$$$$
+   NWNNNNNNNNNNN=========\g     t   |       EE<KM<
+  NEWFEEtEEtEEsE          =====<===<        EF$uME
+ NE$$$FE:EE:EE:EN      NNNNNNNNNNNNNNNNN NN###M:ME
+ E$$Kg$$tE$tEEs$E NNN NE)$$$)$$$)$$$$E,E E!#4$$$$E
+EE$<t:MWKEWKEEKWEEEFEEE,$EEEEEEEEEE\$(EEEE:#1<M<.E
+E$$$E$$$$$$$$$$$$$$$$$$$$($$$($$$((($/OOO$$$23$$$$
+EFK$E>MK>>>>>>>>>>>.>>>>>WWW>>>>WWWWWEOROFK>>>#>>$
+EEp$EEMqEEEEEEEEEEEgE$$$EWWWEEEEWWWWWEOOOEu####$$$
+EEg$$$$EEEEEEEEEDEEE$$\$$WWWEEEEWWWWWEEZZZZZZEE$<<
+,E:KW$.E$$$$$$$EEDE$$$$\$$$$$$EEWWWWWEEZ$$$$$$$$$E
+E$)$$$$$$/EE$\$$EEE$FK$$EMMM\$$EWWWWWEEZTTTT<<<KFE
+%FEFEEE\$$$$$$\$$E$$Eg>$EMMM%\$$$$$$$$$$$$$$ZEEuE%
+I%EEOOOEW\$$,$E\$$A$###$EMMM$$g/\$$$$E$ZZZZZZEEE%J
+ I%EOROEW%\$E$,E\$$1234$$$$$$/%EE%\$$$,EEEEEEEE%J 
+  I%OOOEWEEE$$E$$g/####<EEEEEEEEEE%\$$EEEEEEEE%J  
+   I%EE$g$$$$E$$/%EEEEEEEEDEEEEEEEEEEEEEGEGEE%J   
+    I%,$EEEEE$$/%EEEEEEEEEEDEEEEEEEGEGEEEEEE%J    
+     IF$$$$$$$/%EEEEEEEEEEEEEEEEEEEEEEEEEEE%J     
+

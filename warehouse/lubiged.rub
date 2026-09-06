@@ -1,0 +1,37 @@
+* Title:Logic circuit
+* Designer:Rene
+* Type:Other
+* Follows:
+* Physics:1
+$        ZZZZ                      ZZZZZ          
+h j l n  g  Z                      Zg  Z          
+>>>>>>>>>ZW+Z                      Z:  Z          
+hi k  n  $ g$                      Zgggggggggggggg
+>>>>>>>>>>F.>>>>>>>>F              Z>W+Z>>>>>>>>>F
+         Z gZ              hi k  n $ g $          
+         ZZZZ              >>>>>>>>>>=>>>>>>>>>>>F
+                                   ZZZZZ          
+         ZZZ                                      
+h j l n  g Z                     ZZZZZZZZ         
+>>>>>>>>>ZWZ            ii ihhh h$gggg  Z         
+hi k  n  $ $           >>>>>>>>>>>:===>WZ         
+>>>>>>>>>>F>>>>>>>>>F            Zgggggg$         
+         ZZZ                     Z>W+==W>>>>>>>>>F
+                       ggggg     $ g   gh         
+         ZZZZ          >>>>>>>>>>>>=>>>FZ>>>>>>>>F
+         Zg Z                    ZZZZZZZZ         
+         Z:+Z                                     
+         Zg $                  ZZZZZZZZZZ         
+         Z=.>>>>>>>>F   gg g   $gg      Z         
+hi k  n  $  g          >>>>>>>>>:+>W    Z         
+>>>>>>>>>>>>Z>>>>>>>F          Zg       Z         
+         ZZZZ                  Z=.>WW+  Z         
+                       h hhh   $     g h$         
+         ZZZZ          >>>>>>>>>>>>WFM>g>>>>>>>>>F
+         Z+FZ                  Z   W M :Z         
+h    h   $  Z                  $   gggggZ         
+>>>>>>>>>>:+Z          F<<<<<<<<<<<F=.<<Z         
+         Z g$                  Z     g  Z         
+         Z=.>>>>>>>>F          ZZZZZZZZZZ         
+         ZZgZ                                     
+

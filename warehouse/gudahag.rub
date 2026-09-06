@@ -1,0 +1,37 @@
+* Title:Level 001
+* Designer:jwanders
+* Type:Puzzle (1)
+* Follows:
+* Physics:2
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                             T                    
+                                                  
+                             C                    
+               7             C                    
+           BBBBBBB|BBBBBBB   C                    
+                  |__________C    7               
+                  |    BB|   BBBBBBB|BB           
+                  |    BB|          |             
+                ) |    BB|       7) |             
+           BB|BBBBB    BBBBBBBB|BBBTBBB           
+             |                 |                  
+             |           )     |                  
+           BBBBBBBBB|BBBBBBBBBB|B                 
+                    |          |                  
+                  7 |__________|   7              
+               |BBBBBB         BBBBBBB|           
+               |         (  7         |           
+           BBBBBBBBBBBBBBBBBBBBBBBBBBTB           
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+

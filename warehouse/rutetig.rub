@@ -1,0 +1,35 @@
+* Title:Solution to Swapping
+* Designer:Daniel Nilsson
+* Physics:2
+          C0C      C1C      C2C      C3C          
+        , I:J,   , I:J,    ,I:J ,   ,I:J ,        
+          (         (          (       )          
+         F===WF   F===WF  FW===F   FW===F         
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+             W        W    W        W             
+      ,      W        W    W        W  ,          
+                       (                          
+       ====,=W,======,W=,,=W,==========F          
+             (  F  F   (  )   F                   
+LLLLLL    , ==W      W==  ==W              ,LLLLLL
+ghijkz                                (     zlmnop
+L~L~LL    F=========,W=,==,=W,============= LL~L~L
+q.r:sz            F   (    (   F            zt+u-v
+LLLLLL   ,          W==    ==W            , LLLLLL
+$333$z                               (      z$000$
+LTTTLL   F=================,=W,===========  LLTTTL
+$$$$$$                       )  F           $$$$$$
+FLLLLL<,                    ==W         ,  >LLLLLF
+$$$$$$                   (                  $$$$$$
+LTTTLL<<================================F >>LLTTTL
+$222$z                                      z$111$
+LLLLLL                                      LLLLLL
+

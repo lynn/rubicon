@@ -1,0 +1,35 @@
+* Title:Solution to Pillbox 2 - lasegug
+* Designer:jnz
+* Physics:2
+      - +                                         
+                                                  
+     MM=M  +                                      
+                                                  
+ - - .. .>.:KF                                    
+            u                                     
+MM=M>>>>>>= =                             F       
+MM M                       |               g      
+MM M       >>>>>>>>>>>>>>>               MM:      
+MM M                   |                          
+MM M                     <KFW<<<<<<<<<<<<<M<      
+MM M                                 |gg  M       
+MM M                      M           g<  M       
+MM M                     |      + + + K   M       
+MM M                      <<<       g     M       
+M                      g       M.:.:=K>== M       
+M. .                           hg g  u    M       
+                            |  M=W=W =    M       
+<<<<<<<<<<<<<<<<<<<<<<M<>>>   |    W      M       
+                     #M####T#  <<< W      M       
+                     #M#(?  #       + +   M       
+                     #M###:##         g   M       
+                     # ###  x x x x .::<  M       
+                     #.+#+KK#    x  g     M       
+                     #    ! F     x x W  /M       
+                     #M.::<M#         W /-M       
+                     #10  +M#         W  g        
+                     #M#W   #         W .M=       
+                     #   #.##                     
+                     #<<<#h##      F >F>>=        
+                     ########                     
+

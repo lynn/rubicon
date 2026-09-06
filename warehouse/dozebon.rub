@@ -1,0 +1,35 @@
+* Title:Timing Belt
+* Designer:SM
+* Physics:2
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBB                BBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBB                  BBBBBBBBBBBBBBBB
+C  C   C   BBBB                    BBBB C   C  C  
+C  C   C   BBB                      BBB C   C  C  
+C  C   C   BB                        BB F   C  C  
+C  C   C   B                          B C   C  F  
+C  C   C   B                          B F   C     
+C  F   C   B                          B C   C     
+C      C   B                          B C   C     
+C      C   B                          B C   C     
+C      C   B                          B C   C     
+C      C   B                          B C   F    F
+C      C   B                          B C        L
+C      C   B                          B F        L
+C      F   B                          B C        L
+F          B                          B C        L
+           B                          B C        L
+           B                          B C        L
+           B                          B C    F   L
+   F       B                          B F    L   L
+   L       BB                        BB      L   L
+   L   F   BBBBBBBB  BBB TTTTTBBBBBBBBB      L   L
+B  L   L  BBBBBBB B B  ????????BBBBBBBBB     L   B
+BB L   L BBBBBB B B BBB BBBBBB BBBBBBBBBB    L  BB
+BBBL   LBBBBB B B B B B        BBBBBBBBBBB   L BBB
+BBBB   BBBB B B B B B B        BBBBBBBBBBBB  LBBBB
+BBBBB BBB               BBBBBBBBBBBBBBBBBBBB BBBBB
+BBBBBBBBB BBBBBBBBBBBBB BBBBBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+

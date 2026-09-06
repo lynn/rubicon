@@ -1,0 +1,37 @@
+* Title:Eight Sum 3 solved
+* Designer:jf
+* Type:Solution
+* Follows:goryvyn
+* Physics:2
+#####$$$?g# F        0123456789abcdef   =         
+#####$<:<<#          >>>>>>>>>>>>>>>>>>           
+###0x$#$+## Mtsrqponmlkjih)                       
+#:#0x$#$g$$ Mu=============                       
+#~#0x$###>>  v                                    
+#.#0x$### , =K                                    
+###0x$###      vvijklnopq |                       
+###0x$###  >>= vvijkmnopq |           ,           
+###0x$###      vvijlmnopq |      ,                
+#000x$###      vviklmnopq |        )/M>W>>>>      
+#0+<+T###v     vvhijklmno |       x= M  x         
+#0$$0$###v     vvhijklmnp |       h  M   M        
+##M##K###v     vvhijklmop |       K< M Wh         
+  M =vvvvv     vvhijklnop |        g M  K=        
+  M  g<<<<     vvhijkmnop |       >K M      W     
+  M  g         vvhijlmnop |       h  M >>>>       
+  M  g         vvhiklmnop |       K< M            
+  M  g         vvhjklmnop |        g M <<<<<      
+  M  g         vvijklmnop |       >K M            
+  M  g         vvijklmnoq |       h  M            
+  M  g         vvijklmnpq |       K< M            
+  M  g         vvijklmopq |        gx             
+  M  g         =========, |       >K ,K           
+  M  g        = x x x x x      /\                 
+  M  g         M    gggggW====M  >===>=F          
+  M  g         M    >>>>g                         
+  M  g         M        g     M                   
+  MF g                  g      =                  
+  M  K         ========<K>>>>>>                   
+                                                  
+  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<     
+

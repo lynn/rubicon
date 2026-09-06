@@ -1,0 +1,37 @@
+* Title:Fibonacci Puzzle
+* Designer:immibis
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+  ,    ,    ,  , |               1                
+gg   (       (   |                                
+::F===M>     =M:F|                                
+    |  |         |                                
+>>M   M|      M  |                                
+f  K   |       >W|                                
+:+.g  M|     +. W|                                
+f  =   |  gx01  W|                                
+=A<   M| >K MM>WW|                                
+       |WF  1  WW|                                
+ .    M|  M M. WW|                                
+?      |        W|                                
+>T==>>=|>>===<<<W=                                
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+

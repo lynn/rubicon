@@ -1,0 +1,37 @@
+* Title:Interesting door keys
+* Designer:immibis
+* Type:Other
+* Follows:
+* Physics:2
+              g gggg              g               
+              g >>>>>>>           :        F      
+              g        g                          
+              g        g          >>>>>>>>        
+              g     x  g  x               g       
+              g    x x g x x              g  x x  
+ x x x x x x x      x xgx x               g x x x 
+x x x x   x          x   x                gx x x  
+                       F                  g x x x 
+x x x x   x       g                       g  x x  
+       x x        g   x                  Fg       
+x x x     x       g  x x           g              
+     x x x    F   g x   x          :       F      
+x x       x       gx x   x                        
+   x x x x          x x x          >>>>>>>        
+x         x          x x                  g       
+ x x x x x       F    x                   g  x x  
+                                          g x x x 
+                             g            gx x x  
+                             g  x         g x x x 
+g        g        g          g x x        g  x x  
+g   x    g   x    g   x      gx   x      Fg       
+g  x x   g  x x   g  x x       x x                
+g x   x  g x x x  g x   x       x  g              
+gx     x gx x x x gx x x x         g  x           
+  x   x    x x x    x   x          g x x          
+   x x      x x      x x           gx x x         
+    x        x        x              x x          
+                                      x           
+                                                  
+F        F        F          F     F              
+

@@ -1,0 +1,37 @@
+* Title:Remainder
+* Designer:Bucky
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+                                                  
+HHHHHHHHHHHHHHHHHHHHHHHHHH                        
+BBB                                               
+B(B <<<<<<<<<<<<<<<<<<<<<<<                       
+B$BTLLLLLLLLLL-LLLLLL+LLBBB                       
+B$B$UUUUUUUUUf$$UUUUg$$UBBB                       
+B$B.LLL-LLLLLLMWLLLLxMLLBBB                       
+B$$$$$f$$$$$$$$$$v$$$$$_BBB                       
+BBL.LLLMVLLLfLLWLLW+LM$,BBB                       
+B(?$$$$$$$C_:-_W__$$$$$$BBB                       
+BBL:LfLLWLC$$$$$$SM.$MUUBBB                       
+BB$$_:-_W_C$-M>W$$Mh$MUUBBB                       
+BB$/$$$$$$C$$$$$$$M,$MSUBBB                       
+B$$$L-M>WLCM.UWK>WM$$$$$BBB                       
+BFKW$$$$$$$M5$$a#WM$WMM$B,B                       
+BBuWM.UWK>WMGW<-#WM$$$$$$$B                       
+BBBWM3$$c$WMPW$$$WM,$MM>>$$                       
+BBBWMGW<-$WMPW.MWW$$$$$$B>>                       
+BBBWM$W$$$WMPWfMWWU<KUM$BBB                       
+BBBWM$W.MWWMPWGMWW$$k$M$BBB                       
+BBBWM$WfMWWMP$$$WW$-G$M$BBB                       
+BBBWM$WGMWWMP>>UWWf$$$$$BBB                       
+BBBWM$$$$WW$$$$$$WGM>>M$,BB                       
+BBBWM$>>UWWU<<<<<$$$$$$$BBB                       
+BBBW$$$$$$WS-LLLL>>>,$LLB,B                       
+BBBWU<<<<<Wf$$$$$$$$$$$$$$B                       
+BBBWLLLLLLWLM>>>>>>>>>M>>$$                       
+BBB$UUUUUU$$$UUUUUUUUU$UB>>                       
+BBBWLLLLLL>>>LLLLLLLLLMLBBB                       
+BBB$$$$$$$$$$$$$$$$$$$$$BBB                       
+BBB>>>>>>>>>>>>>>>>>>>U$BBB                       
+

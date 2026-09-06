@@ -1,0 +1,37 @@
+* Title:80-hex digit counter
+* Designer:Bucky
+* Type:Other
+* Follows:hepabal
+* Physics:1
+   1  1  1  1  1  1  1  1  1  1  1  1  1  1  1  1 
+   :  :  :  :  :  :  :  :  :  :  :  :  :  :  :  : 
+ 1                                                
+ :+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW
+  g  g  v  v  v  v  v  v  v  v  v  v  v  v  v  v W
+  =< =< =< =< =< =< =< =< =< =< =< =< =< =< =< =<W
+  11111111111111111111111111111111111111111111111 
+ W=:==:==:==:==:==:==:==:==:==:==:==:==:==:==:==:<
+ W                                                
+ W+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW
+  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v W
+  =< =< =< =< =< =< =< =< =< =< =< =< =< =< =< =<W
+  11111111111111111111111111111111111111111111111 
+ W=:==:==:==:==:==:==:==:==:==:==:==:==:==:==:==:<
+ W                                                
+ W+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW
+  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v W
+  =< =< =< =< =< =< =< =< =< =< =< =< =< =< =< =<W
+  11111111111111111111111111111111111111111111111 
+ W=:==:==:==:==:==:==:==:==:==:==:==:==:==:==:==:<
+ W                                                
+ W+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW
+  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v W
+  =< =< =< =< =< =< =< =< =< =< =< =< =< =< =< =<W
+  11111111111111111111111111111111111111111111111 
+ W=:==:==:==:==:==:==:==:==:==:==:==:==:==:==:==:<
+ W                                                
+ W+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW+KW
+  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v  v W
+  =< =< =< =< =< =< =< =< =< =< =< =< =< =< =< =<W
+                                                F 
+

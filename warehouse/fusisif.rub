@@ -1,0 +1,35 @@
+* Title:Solution to Peep Hole - tehysof
+* Designer:jnz
+* Physics:2
+$$$(????????$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+$RNRNNNNNNNNR:RNNNNNNNNRNRNRNNNNNNNNR.RNNNNNNNRNR$
+$Y/J    C         C    I\Y/J    C         C   I\Y$
+$PJ    /A\       /A\    IPJ    /^\       /^\   IP$
+$Y      F         F      Y      0         1g    Y$
+$Y                       Y    <<V<<<<<<<<<<<    Y$
+$Y            (|         Y                      Y$
+$Y            (|         Y                      Y$
+$Y            (|         Y                      Y$
+$Y            (|         Y                      Y$
+$Y            (|         Y                      Y$
+$Y   <<<<<<<<<(|         Y                      Y$
+$Y    +       (|         Y     +                Y$
+$Y     g      (          Y                      Y$
+$Y FW.:<    + =x+======/ Y \  .:<               Y$
+$Pg  v         g       F   F                    P$
+$Y:M =>>>>>=.>W.MF     I=Y J >=                 Y$
+$Y            WgM        Y                      Y$
+$Y>M>========FW=M        Y=====F=VVVVVVVV       Y$
+$Y M            M        Y                      Y$
+$Y M            M        Y                      Y$
+$Y              M        Y                      Y$
+$Y :<<<<<<<<<<KFM        Y                      Y$
+$Y            g M        Y                      Y$
+$Y W          = M        Y                      Y$
+$Y                       Y                      Y$
+$Y >>>>>>>>>>>>>>        Y                      Y$
+$Y                       Y                      Y$
+$YDDDDDDDDDDDDDDDDDDDDDDDYDDDDDDDTTTTTTTTDDDDDDDY$
+$DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD$$$$$$$$$$$$$$$$$
+>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<
+

@@ -1,0 +1,37 @@
+* Title:Doubling Chamber solution
+* Designer:jf
+* Type:Solution
+* Follows:pagoxet
+* Physics:2
+ QQQQ  C        C         C     QQQC            QQ
+ QQQQ  C        C QQQ     C        C            QQ
+ QQQQ  C        C QQQ     C        C            QQ
+       C        C QQQ     C        C            QQ
+       C        C         C        C              
+       C        C         C        C              
+       C        C         C        C  QQQ         
+       C        C         C        C  QQQ         
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHQQ         
+   BJ                                SB           
+   B                                  B           
+   B     F  +                         B     QQQQ  
+   B      x                           B     QQQQ  
+   B    +M ..F    - +                 B     QQQQ  
+   B     1 !                          B     QQQQ  
+Q  B  ,..: K<,   .M=M>>>>>>>>>>       B           
+Q  B         )     =M                 B           
+Q  B   ============ M    < < < <      B           
+Q  B                M  #T#T#T#T#      B           
+Q  B  >>>>>>VVVVVVVVM  #8#4#2#1#      B   ^       
+   B                M  #########      B   z       
+   B                 =  Y     Y       B  /#\      
+   B        >>>>>>>>>   Y     Y       Byy#Z#      
+   B                    Y     Y       B  #%#      
+   B                    Y     Y       Byy#Z#      
+   B                    Y     Y       B  I#J      
+   B                    Y     Y       B           
+   BHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHB QQQ       
+   QQQ                                  QQQ       
+                    QQQQ                QQQ       
+                    QQQQ                          
+

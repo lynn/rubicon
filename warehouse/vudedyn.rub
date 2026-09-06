@@ -1,0 +1,36 @@
+* Title:Solution to Magical Lunatic - fasunod
+* Designer:jnz
+* Type:Solution
+* Physics:1
+                   +                              
+  0  0                                            
+     W           +..W                      0 0    
+     W              W                             
+     W         +..>>W                             
+     W              W                             
+     W       +..>>F W                             
+     W              W                             
+     W     +..>>F   W                             
+     W              W                             
+     W   +..>>F     W                             
+     W              W      ##                     
+     W +..>>F       W  ##############             
+     W               ###0#0#0##ZZZZZ#             
+     W..>>F         : ,+T+T+T+#Z+FFZ#             
+                        0 0 0 $$$$FZ#             
+     >>>F           >>T.F.F.F.>T.FFZ#             
+                     #00000000Z0gZZZ#             
+                     ##ZZZZZZZZ######             
+                      ##########                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+

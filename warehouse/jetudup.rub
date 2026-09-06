@@ -1,0 +1,37 @@
+* Title:Gates of Fire Opened
+* Designer:hatkirby
+* Type:Solution
+* Follows:jefokis
+* Physics:2
+#NNNNNNNNNNNNNN#NNNNNNNNNNNNNNNN#NNNNNNNNNNNNNNNN#
+N              N               FFF               N
+N 1            N                                 N
+N :            N               FFF               N
+N     />>>T    N               GGG             ggN
+N >>>>         N     gg         N             F::N
+N      W<<=<   N     ::F        N                N
+N      W       N                N W<<<<<<<<<<TM<<N
+N      W       N     >>M>>T     N W          1M  N
+N      W       N       M        N W          :M  N
+N      W       N       M <=<    N W              N
+N      W       N       M        N W          >=  N
+N      W       N       M        N W              N
+N    GFWFG     N     GFMFG      NFWFG            N
+#NNNNGFWFGNNNNN#NNNNNGFMFGNNNNNN#FWFGNNNNNNNNNNNN#
+N    GFWFG     N     GFMFG      NFWFG            N
+N      W       N       M gg     N W              N
+N      W       N       MF::     NMW              N
+N      W       N                NMW              N
+N      W      GGG      =M<<     NMW              N
+N      W      FFF       M       NMW              N
+N      W                M       NMW              N
+N      W      FFF       M       NMW              N
+N      W    />GGG       M       NMW              N
+N          /   N    gg      1   NMW              N
+N  T<<<<  /    N    ::F .F  :   NM               N
+N        /     N                NM>>>>>>>>>>T    N
+N >=>>>>>      N    >>M>T=      N                N
+N              N                N=<<<<<<<<<<=<   N
+N              N      =<=<<<<   N                N
+NNNNNNNNNNNNNNN#NNNNNNNNNNNNNNNN#NNNNNNNNNNNNNNNN#
+

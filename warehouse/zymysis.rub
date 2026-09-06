@@ -1,0 +1,37 @@
+* Title:Passed two gates
+* Designer:Rene
+* Type:Solution
+* Follows:lozabur
+* Physics:2
+ g+               z                               
+ 1g               z                            !1 
+ K==              z                           F:: 
+                  z                               
+>M>>>>>>>>>>>>> >>z<< <<<<<< <<<<<   <<<<<<<<<M<< 
+ M         HHHHTHHHHHTHHHHHHTHHHHHTHHHH       M   
+ M         B(?$$BB(?$$BBBBBB$$?)BB$$?)B       M   
+ M       BBBBB:BBBBB:BBBBBBBB:BBBBB:BBBBB   !!M   
+ M       B                              B     M   
+ M       B          \                   B     M   
+ M       B           \                  B     M   
+ M       B            \                 B     M   
+ M       B             \                B     M   
+ M       B    W         \               B     M   
+ M       B    W          \              B     M   
+ M       B    W           \  \          B     M   
+ M       B    W            \  \         B     M   
+ M       B    W        !!   \  \        B     M   
+ M       B    W              \  \       B     M   
+ M  !!   B    W               \  \      B     M   
+ M       B    W                \        B     M   
+ M       B    W                 \       B     M   
+ M    BBBBBBB W                  WWW BBBBBBB  M   
+ M    B$x$x$B W     !!           WWW B$x$x$B  M   
+ MMM  BxBxBxB W     :: ::        WWW BxBBBxB  M   
+      $$$$$$$         |              $$$$$$       
+>>>>>>BxBxBxB<<<<<<<<<>>>>>>>>>>>>>>>BxB:BxB<<<<<<
+ggggggB$x$x$B                        B$x$x$B      
+======BBBxBBB                        BBBBBBB      
+     >>Bgg$B                            B         
+       B>>FB                            B         
+

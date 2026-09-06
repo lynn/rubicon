@@ -1,0 +1,37 @@
+* Title:Solution for Yet Another Glass Floor
+* Designer:Timbo
+* Type:Solution
+* Follows:logahod
+* Physics:2
+     +              -                 (    -  -   
+ 1                                    ====      1 
+   +.M:            MM:                    MM:..=  
+                 |                                
+  .M>=>VVVVV>>>>V  <<<<VVV <<<<<VV<V<<<<<V<<<<<<<=
+                                                  
+ >>=   WWWWW              :+   +  +  +            
+       WWWWW    >                                 
+       WWWWW             :+M >==>==>==:-   /      
+       WWWWW                              /  /    
+       WWWWW            :+M:>>==========>V    F   
+       WWWWW                                 M    
+       WWWWW           :+M:>>>>>>>>>>>>>W         
+       WWWWW                            W>:+>:    
+       WWWWW        ,  ,M:>========W    W         
+       WWWWW          )            W    W =M>>,  ,
+       WWWWW         FM==>>===     W    W  M    ) 
+       WWW W    , :,M M            W    W  M   == 
+       WWW W     )    M        !   W   !   M      
+       WWW W+  , =,>: M      , :,     ,: , M, <==<
+         W      (             (         ) (       
+        /W>,=:, =M>>>==      W=!       !=W=M >=== 
+       / W  (    M        !! W :  FWF  : W M      
+      /- W- ==   M       F::     x   x     M    :<
+                               > FM MF <   M  !!  
+     >==>==>>: :F=<<<<<<<M<< W    M M    WFM F::  
+            |   |        M                      W 
+  ^          KWK         M   >====KWK====< =<M<<  
+ /?\        F                    F               F
+, :,<<<<<<<<<<K>>>>>>>>>><<<<<<<<<<K>>>>>>>>>>==TF
+ )??????????????????????????????????????????????  
+

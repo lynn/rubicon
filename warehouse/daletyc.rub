@@ -1,0 +1,33 @@
+* Turing Machine Tape version 1*Daniel Nilsson
+                Z8Z                               
+               ,%?%                 ,             
+               F(9                  F             
+               ,#Z###:#######:######,             
+               F                   )F             
+               #####,W#,###,#W,######             
+                     (       )                    
+                    W#x+ ###x+>W                  
+                      g     g  W                  
+                    \ .MF   .MFW                  
+                     WgM h  gM W                  
+                     W#M :  #M W                  
+               ZgZ   W   h     W                  
+         ,     %!%   W <<K>>>>,W                  
+         F     (h              W                  
+          ######Z##,,W#,#W#### W                  
+                     )   W                        
+               \d   #W,  W F,  /  c/              
+                \c     )      /  d/               
+                 \b ,  ,MWM,  , e/                
+                  \a )   W   ( f/                 
+                   W<###MWM###>W                  
+                 , W,   MWM   ,W ,                
+                   (     W     )                  
+                  x+>>>>>W<<<<<#x+                
+                  g   ,  W  ,   g                 
+                  .MF  (        .MF               
+                  g    ##W##    g                 
+                  #M            #M                
+                         K                        
+                   <<<<<<g>>>>>>>>                
+

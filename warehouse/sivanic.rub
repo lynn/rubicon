@@ -1,0 +1,37 @@
+* Title:Flip flop logic circuit
+* Designer:Rene
+* Type:Other
+* Follows:
+* Physics:1
+        +                     ZZZZ                
+     g                        g  Z  ZZZZ          
+     :F..W  />>>>>>>>>>>>>>>>>ZW+Z  Z+ Z          
+           /   +              $ g    g            
+     >M>>>=                  /ZF.>>>ZM>Z>>>>>>>>F 
+      M       M.>>>>>>>>>>>>= Z gZ  ZM!Z          
+      M       Mg              ZZZZ  ZM:Z          
+   h  M       M=                     ggZ          
+   :  M       M W<<<<<<<<<<<<<<<<<<<Z=<Z          
+ h h  M       M W                   ZZZZ          
+ :+K  M       M W                                 
+  g   M       M W                         g       
+ =MW  M       M WZZZZZZZZZ               F:       
+      M       M WZ!                               
+ ==<  M       M WZ:+ W<<<Z<<<<<<<<<<<<<<<M<       
+      M       MgWZg      Z               M        
+   << M       M:WZ=.>WW+ Z               M        
+   +  M       M                          M        
+   g  M       M>FZ=>>WFM>Z>>W            M        
+  =:< M       M  Z   W MgZ  W            M        
+      M       M  Z   W M:Z  W            M        
+      M                 gZ  W            M        
+  <K> M       <<<Z<<<F==<Z  W       ZZZZZM        
+   n             ZZZZZZZZZ gW       Z!  ZM        
+FK =FK>                    :W ZZZZ  Z:  ZM        
+ k   s  +                     g  Z  Zg            
+ =   =                     >F>ZW+Z  Z>W+Z>        
+       ..W                    $ g                 
+                             /ZF.>>>Z==>>>>>>>>>F 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>= Z gZ  ZZZZZ         
+                              ZZZZ                
+

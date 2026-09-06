@@ -1,0 +1,37 @@
+* Title:Gates of Fire 2
+* Designer:Sly
+* Type:Puzzle (3)
+* Follows:
+* Physics:2
+  (?                                             F
+NNN#:#NNN#:#NNN#NNNNNNNNN#:#NNNN#NNNNNNNNNNN#:#NN#
+       ) N N   N         N N    N           N N  N
+ #N#:#NNN# N   N         #T#    N           N N  N
+ N       #T#   N                N        1  N N  N
+ N             N  1             N           N N  N
+ N             N                N           N N  N
+ N             N                G           #T#  N
+ N             N               FFF               N
+ N             N                                 N
+ N             N               FFF               N
+ N             N      #NNNNNNNNNG                N
+ N     F       N      N F       N  F             N
+ N             N      N         N                N
+ #NNNGF FGNNNNN#      NF FN     ,GF FGNNNNNNNNNNN#
+ N             N          N     F                N
+ N     F       N          N     N  F             N
+ N             NNNNNNNNNNN#     N                N
+ N             N                N                N
+ N             G                N                N
+ N            FFF               N                N
+ N                              N                N
+ N            FFF               N                N
+ N             G                N                N
+ N       1     N                N                N
+ N             N              1 N                N
+ ##T#          N        #T#     N          #T#   N
+ NN N          N        N N     N  1       N N   N
+ ##.#NNNNNNNNNN#NNNNNNNN#.#NNNNN#NNNNNNNNNN#.#NNN#
+                                                 F
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+

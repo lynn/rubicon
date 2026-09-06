@@ -1,0 +1,37 @@
+* Title:maze 2 Solution
+* Designer:Hyenas Here
+* Type:Solution
+* Follows:xipakyf
+* Physics:1
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB,
+B(1                   !        B          (      B
+BBBBB=B=BBBBBBBBBBBBBBWBBBBBB=WB BBBBBBBBBBBBBBBBB
+B    $B               $$$$$$$BWB B               B
+BBBBB$ BBBBBBBBBBBBBBBBBBBBBBBWB B BBBBBBBBBBBBB B
+B    B                           B B           B B
+B W\   BBBBBBBBBBBBBBBBBBBBBBBBBBB BBBBBBBBBBB B B
+, WB<<<B         !                             B B
+B        /BBBBBBBW,BBBBBBBBBBBWBBBBBBBBBBBBBBBB, B
+BBBBBBBBB        $B                         )  B B
+BBBBBBBB BBBBBBBBB,BBBBBBBBBBBBBBB,BBBBBBBBBBBWB B
+B,,       )       B               B    (  ,B   B B
+B$$$$$$/KBBBBBBMBBBBBBBBBBBBBBBBBBBWBBB\   BW<<B B
+BBWMWMWBiBhijkBMBB  ,BBBBBBBBBBBBBBW , BMB BWB B B
+BBWMWMWBBBlmnoBMBB             )       BMB BWB B B
+BBWMWMWB$$$$$$BMBB <<<<<<<<<<<<<<<<<<W BMB BWB B B
+BBWMWMWB$$$$$$BMB, BBBBBBBBBBBBBBBBBBW ,MBBBWBB, B
+BBWMWMWB$$x$x$BMBB                )    B    )  B B
+BBW$$$$B$x$$$$BMB,BBBBBBBBBBWBBBBBBBBBB,BBBBBBBB B
+BBW<<<<B$g$$$$BMB                 )    BBB     B B
+BBWBBBB $K$$$$,MBWBBBBBBBBBB,B=BBBBBBBBB B BBB B B
+B             B          (  B              B$B B B
+B,>>>>>>>>>>> ,BBBBBBBBBBBBBBBBBBBBBBBBBBBB+$B B B
+B  (!         $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$B B B
+B WBWBBBBBB.BWF$$$/>>>>>>>>>>>>>>>>>>>>>>>>>$B B B
+B WB  K~: B$$$$$$/J$$$$$$$$$$$$$$$$$$$$$$$$$$B B B
+B WBBBBBBWB:<<$$/J$$<<<<<+<<<<<<+<<<<<+<<<<<<B B B
+B WB  .~- B$$$$/J\$$$$$$$$$$$$$$$$$$$$$$$$$$$$$B 1
+, WBWBBBBBB>>>>JIJ>>>>>>>B>>>>>>B>>>>>B>>>>>\$$,$T
+B                             )                   
+BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB>BBBB
+

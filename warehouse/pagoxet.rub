@@ -1,0 +1,37 @@
+* Title:The doubling chamber
+* Designer:TTTPPP
+* Type:Puzzle (1)
+* Follows:
+* Physics:2
+ QQQQ  C        C         C     QQQC            QQ
+ QQQQ  C        C QQQ     C        C            QQ
+ QQQQ  C        C QQQ     C        C            QQ
+       C        C QQQ     C        C            QQ
+       C        C         C        C              
+       C        C         C        C              
+       C        C         C        C  QQQ         
+       C        C         C        C  QQQ         
+   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHQQ         
+   BJ                                SB           
+   B                                  B           
+   B                                  B     QQQQ  
+   B                                  B     QQQQ  
+   B                                  B     QQQQ  
+   B     1                            B     QQQQ  
+Q  B                                  B           
+Q  B                                  B           
+Q  B                                  B           
+Q  B                   #T#T#T#T#      B           
+Q  B                   #8#4#2#1#      B   ^       
+   B                   #########      B   z       
+   B                    Y     Y       B  /#\      
+   B                    Y     Y       Byy#Z#      
+   B                    Y     Y       B  #%#      
+   B                    Y     Y       Byy#Z#      
+   B                    Y     Y       B  I#J      
+   B                    Y     Y       B           
+   BHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHB QQQ       
+   QQQ                                  QQQ       
+                    QQQQ                QQQ       
+                    QQQQ                          
+
