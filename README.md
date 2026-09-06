@@ -5,6 +5,9 @@
 applet. It's an expanded version of Chris Pressey's ASCII
 [RUBE](http://catseye.tc/projects/rube/) language.
 
+**▶ Play it: https://lynn.github.io/rubicon/** · **Browse the archive:
+https://lynn.github.io/rubicon/browse.html**
+
 This repo does three things:
 
 1. **Runs the original locally** as a desktop Java app — `./run.sh`.
@@ -15,6 +18,8 @@ This repo does three things:
 
 | Path | What |
 | --- | --- |
+| `index.html` | The game |
+| `browse.html` | The warehouse level browser |
 | `web/` | The JS + canvas port |
 | `warehouse/` | Mirror of community levels scraped from kevan.org |
 | `original/` | Untouched downloads: `rubicon.jar`, `core.jar`, applet host pages |
@@ -48,8 +53,12 @@ That fragility is the argument for the port.
 
 ## 2. The JS port
 
-Serve the repo root over HTTP (`python3 -m http.server`) and open `web/index.html`.
-Modules, no build step, no dependencies.
+Live at **https://lynn.github.io/rubicon/**. To run it locally, serve the repo root over
+HTTP (`python3 -m http.server`) and open `index.html` — ES modules, no build step, no
+dependencies, no server-side anything.
+
+Assets resolve against `import.meta.url` rather than the page URL, so the HTML can sit at
+the repo root (which is what makes the Pages URL clean) while the modules live in `web/`.
 
 | File | Role |
 | --- | --- |
@@ -61,6 +70,7 @@ Modules, no build step, no dependencies.
 | `web/render.js` | HiDPI canvas renderer |
 | `web/share.js` | `?level=` encoding, clipboard |
 | `web/main.js` | Glue, input, controls |
+| `web/browse.js` | Level browser: filtering, lazy thumbnails |
 | `web/selftest.html` | In-browser smoke test |
 
 ### High-DPI, from the start
@@ -126,6 +136,18 @@ kevan.org sends **no `Access-Control-Allow-Origin` header**, so a browser cannot
 They can't be confused — a compressed level never deflates to seven lowercase letters.
 Compression uses the platform `CompressionStream`, so there's no library to bundle. "Copy
 share link" puts an inline URL on the clipboard; no server, no accounts, nothing to expire.
+
+### The level browser
+
+`browse.html` lists the whole archive with filters for type, difficulty and physics model,
+and search over title, designer and code.
+
+Thumbnails are rendered lazily. `warehouse/index.json` is a single request carrying metadata
+for every level; a level's actual grid is fetched only when its card scrolls into view, so
+opening the browser doesn't pull thousands of files. Each thumbnail draws into a full-size
+offscreen buffer and is then downscaled with **smoothing on** — the one place in this
+project where that's right, since nearest-neighbour at a 4:1 ratio drops whole rows of tiles
+and misrepresents the shape of a machine.
 
 ### Verified against the original
 
