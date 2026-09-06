@@ -48,8 +48,6 @@ let doSingleStep = false;
 let fastForward = false;
 
 let unstarted = null;     // grid as it was before Play, restored by Stop
-let sourceText = null;    // the level as loaded, for Clear/reload
-let sourcePhysics = null;
 let mouse = null;         // last screen-pixel position, for the paste ghost
 let keyHeld = false;      // the original suppresses painting while a key is down
 let waitForRelease = false; // ...and painting after a click in the toolbox
@@ -77,9 +75,6 @@ function applyLevel(text, physicsOverride = null) {
   sim = new Sim();
   sim.grid.set(parsed.grid);
   sim.physicsVersion = parsed.physicsVersion;
-  sourceText = text;
-  sourcePhysics = physicsOverride;
-
   mode = "design";
   setGameplay(true);
   unstarted = sim.grid.slice();
@@ -106,6 +101,7 @@ async function loadBase(n) {
   applyLevel(text, 2);
   level = n;
   playingLevels = true;
+  el("levelPick").value = String(n);
   setStatus(`Level ${n + 1} of ${PASSWORDS.length}. Password: ${PASSWORDS[n]}`);
 }
 
@@ -113,6 +109,7 @@ async function loadSandbox() {
   applyLevel(await (await fetch(asset("data/level0.rub"))).text(), 2);
   playingLevels = false;
   setGameplay(false);
+  el("levelPick").value = "sandbox";
   setStatus("Sandbox: every component unlocked, nothing to solve.");
 }
 
@@ -298,7 +295,7 @@ function onKeyDown(e) {
   if (k === " ") {
     // Space starts and stops, the one binding the applet never had and wants.
     if (mode === "running") stopRunning();
-    else if (mode === "design") { startRunning(); singleStepping = false; }
+    else if (mode === "design") { startRunning(); singleStepping = false; fastForward = false; }
     e.preventDefault();
     return;
   }
@@ -427,7 +424,7 @@ async function boot() {
   canvas.addEventListener("contextmenu", (e) => e.preventDefault());
   canvas.addEventListener("pointerdown", onPointerDown);
   canvas.addEventListener("pointermove", onPointerMove);
-  canvas.addEventListener("pointerup", () => { waitForRelease = false; });
+  addEventListener("pointerup", () => { waitForRelease = false; });
   canvas.addEventListener("pointerleave", () => { mouse = null; });
   addEventListener("keydown", onKeyDown);
   addEventListener("keyup", () => { keyHeld = false; });
